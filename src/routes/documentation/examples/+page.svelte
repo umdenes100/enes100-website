@@ -38,60 +38,63 @@
         <summary>makrdwon content</summary>
         <div>
             <MarkdownContent>
-                *beanus*
-                beanus
-                more beanus
+                ```
+img
+    some more code
+some more here
+
+```
             </MarkdownContent>
         </div>
     </details>
     <details>
         <summary>Why are my pointers not working in the simulator?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my OTV not turning to the direction I want it to?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>How do I get my servo motor to stop jittering?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my OTV just driving in a circle in the arena?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my sensor or motor not responding to my code?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my sensor working but not being triggered by the expected action?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why isn't my WiFi module working?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>How do I check for shorts in my circuit?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my soldering iron not working/why can I not solder?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why is my laser cut not working/the wrong size?</summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>Why are my servos, motors, and or other linear actions (components which run continuously) not working even though enough voltage is being applied?
         </summary>
-        the answer is beans
+        <div></div>
     </details>
     <details>
         <summary>When I try to use pinMode() on the Tx and Rx pins, why does the wifi module does not work?</summary>
-        the answer is beans cause beans
+        <div></div>
     </details>
 
 </div>

@@ -7,8 +7,7 @@
     onMount(async () => {
         const elem = document.getElementById('markdownElement');
         if (!elem) return;
-        const text = elem.innerText;
-        console.log(text)
+        const text = elem.innerHTML;
         markdownContent = await marked(text);
     });
 
@@ -47,6 +46,11 @@
     }
     :global(.MarkdownContent img) {
         max-width: 100%;
+    }
+
+    :global(.MarkdownContent pre) {
+        background: lightgrey;
+        padding: 10px;
     }
 
 </style>
