@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Interstate';
+    font-style: bold;
+    font-weight: 500;
+    src: url("/src/static/Interstate-Bold.otf") format('otf');
+}

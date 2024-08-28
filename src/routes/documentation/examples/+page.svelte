@@ -3,7 +3,6 @@
 </script>
 
 <style>
-
     details {
         margin-bottom: 20px;
     }

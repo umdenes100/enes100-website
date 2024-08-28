@@ -42,7 +42,7 @@
         margin-top: 20px; /* margin: 20px was off */
         margin-left: 40px;
         float: left;
-        height: 80px;
+        height: 50px;
         width: auto; /* correct proportions to specified height */
     }
 
@@ -101,15 +101,16 @@
         transition: all 0.1s linear;
     }
 </style>
+<!-- <umd-utility-header style="padding: 3.75px;"></umd-utility-header> -->
 <header>
     <nav>
-        <a href="/"><img id="logo" src="https://eng.umd.edu/sites/clark.umd.edu/files/UMD_ENG_Ctr_Color_W.png" alt="UMD_ENG_Ctr_Color_W.png"></a>
+        <a href="/"><img id="logo" src="/src/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>
         <ul>
             <li>
                 <div class="dropdown">
                     <button class="dropbtn">Student Tools</button>
                     <div class="dropdown-content">
-                        <a href="machine_learning.html">Machine Learning</a>
+                        <a href="/tools/machinelearning">Machine Learning</a>
                         <a href="/tools/simulator">Simulator</a>
                         <a href="/tools/visionsystem">Vision System</a>
                     </div>
