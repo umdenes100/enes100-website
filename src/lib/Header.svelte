@@ -1,3 +1,7 @@
+<script lang="ts">
+    import '@universityofmaryland/utilityheader';
+</script>
+
 <style>
     nav {
         width: 100%;
@@ -44,6 +48,8 @@
         float: left;
         height: 50px;
         width: auto; /* correct proportions to specified height */
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     /* Dropdown Button */
@@ -101,7 +107,7 @@
         transition: all 0.1s linear;
     }
 </style>
-<!-- <umd-utility-header style="padding: 3.75px;"></umd-utility-header> -->
+<umd-utility-header style="padding: 3.75px;"></umd-utility-header>
 <header>
     <nav>
         <a href="/"><img id="logo" src="/src/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>

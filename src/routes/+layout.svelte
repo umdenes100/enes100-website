@@ -2,7 +2,6 @@
     import Header from '../lib/Header.svelte';
     import '../lib/global.css'
     import Footer from "$lib/Footer.svelte";
-    // import '@universityofmaryland/utilityheader';
 </script>
 
 <svelte:head>
