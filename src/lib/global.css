@@ -36,6 +36,29 @@ iframe {
     border: none;
 }
 
+details {
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #3C3C3C;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    font-size: 18px;
+}
+
+summary:hover {
+    background-color: #555555;
+}
+
+details div {
+    border-top: 2px solid rgba(226, 24, 51, 1.00);
+    padding: 18px;
+    background-color: #FFFFFF;
+    color: rgb(18, 27, 33);
+}
+
 /* All our scrollbars should look consistent */
 ::-webkit-scrollbar {
     position: absolute;

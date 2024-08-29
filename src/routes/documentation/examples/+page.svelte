@@ -2,36 +2,7 @@
     import MarkdownContent from "$lib/MarkdownContent.svelte";
 </script>
 
-<style>
-    details {
-        margin-bottom: 20px;
-    }
-
-    summary {
-        background-color: #3C3C3C;
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        font-size: 18px;
-        /*margin-bottom: 10px;*/
-    }
-
-    summary:hover {
-        background-color: #555555;
-    }
-
-    details div {
-        border-top: 2px solid rgba(226, 24, 51, 1.00);
-        /*margin-top: -10px;*/
-        padding: 18px;
-        /*overflow: hidden;*/
-        background-color: #FFFFFF;
-        color: rgb(18, 27, 33);
-    }
-</style>
 <div class="text">
-
-
     <h1>Examples</h1>
     <details>
         <summary>makrdwon content</summary>
