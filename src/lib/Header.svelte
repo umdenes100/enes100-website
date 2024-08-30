@@ -1,6 +1,6 @@
-<script lang="ts">
+<!-- <script lang="ts">
     import '@universityofmaryland/utilityheader';
-</script>
+</script> -->
 
 <style>
     nav {
@@ -107,7 +107,7 @@
         transition: all 0.1s linear;
     }
 </style>
-<umd-utility-header style="padding: 3.75px;"></umd-utility-header>
+<!-- <umd-utility-header style="padding: 3.75px;"></umd-utility-header> -->
 <header>
     <nav>
         <a href="/"><img id="logo" src="/src/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>
