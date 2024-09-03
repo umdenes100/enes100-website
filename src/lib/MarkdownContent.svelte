@@ -51,6 +51,7 @@
     :global(.MarkdownContent pre) {
         background: lightgrey;
         padding: 10px;
+        color: black;
     }
 
 </style>

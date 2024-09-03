@@ -6,13 +6,13 @@ import MarkdownContent from "$lib/MarkdownContent.svelte";
 
 <SidebarPage>
 <div slot="sidebar">
-<a href="#wifi_mod">Download and Installation</a>
-<a href="#ultrasonic">Setup</a>
+<a href="#download">Download and Installation</a>
+<a href="#setup">Setup</a>
 <a href="#drivef">Variables</a>
-<a href="#rotate">Enes100.begin()</a>
-<a href="#rotate">Enes100.getX() and similar</a>
-<a href="#rotate">Enes100.isConnected()</a>
-<a href="#rotate">Enes100.print()</a>
+<a href="#begin">Enes100.begin()</a>
+<a href="#update">Enes100.getX() and similar</a>
+<a href="#isConnected">Enes100.isConnected()</a>
+<a href="#print">Enes100.print()</a>
 <a href="#rotate">Enes100.println()</a>
 <a href="#rotate">Enes100.mission()</a>
 <a href="#rotate">Enes100.MLGetPrediction()</a>
