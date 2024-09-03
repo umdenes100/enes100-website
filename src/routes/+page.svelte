@@ -13,20 +13,27 @@
 .home_boxes .row {
 	flex-direction: row;
 	display: flex;
+	background-color: #f1f1f1;
 }
 .home_boxes .row .row_image {
-	background-image: url("/src/img/gogi.svg");
 	background-size: 100%;
 	flex-basis: 34%;
 	text-align: center;
 	color: #121B21;
+	overflow: hidden;
 	aspect-ratio: 1 / 1;
 }
 .home_boxes .row .row_text {
 	background-color: #f1f1f1;
 	flex-basis: 34%;
-	text-align: center;
+	text-align: left;
 	color: black;
+	margin: auto;
+}
+p {
+	padding: 20px 50px;
+	font-size: 30px;
+	line-height: 45px;
 }
 .home_content {
 	display: flex;
@@ -168,18 +175,18 @@
 </div>
 <div class="home_boxes">
     <div class="row">
-        <div class="row_image"></div>
-        <div class="row_text">hello</div>
-        <div class="row_image"></div>
+        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_text"><p>"With a group of people I've never met before, I was able to increase my knowledge on the basic things I would need to succeed as an engineer. I am very grateful for this course."</p></div>
+        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
     </div>
     <div class="row">
-        <div class="row_text">hello</div>
-        <div class="row_image"></div>
-        <div class="row_text">hello</div>
+        <div class="row_text"><p>"This course was very challenging and required a large amount of hard work, but it was a good way to see what engineering is and what is required of a student who wants to become an engineer."</p></div>
+        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_text"><p>"I learned a LOT from this course and my teammates and I formed extremely strong bonds."</p></div>
     </div>
 	<div class="row">
-        <div class="row_image"></div>
-        <div class="row_text">hello</div>
-        <div class="row_image"></div>
+        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_text"><p>"ENES100 was a great way to dip my toe into engineering and helped me figure out what I wanted to study. I love being an engineer, and this class was the start for me."</p></div>
+        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
     </div>
 </div>
