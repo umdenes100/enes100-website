@@ -175,18 +175,18 @@ p {
 </div>
 <div class="home_boxes">
     <div class="row">
-        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_image"><img src="/src/img/grid_1.jpg" alt="kitty cat" height=100%></div>
         <div class="row_text"><p>"With a group of people I've never met before, I was able to increase my knowledge on the basic things I would need to succeed as an engineer. I am very grateful for this course."</p></div>
-        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_image"><img src="/src/img/grid_2.jpg" alt="kitty cat" height=100%></div>
     </div>
     <div class="row">
         <div class="row_text"><p>"This course was very challenging and required a large amount of hard work, but it was a good way to see what engineering is and what is required of a student who wants to become an engineer."</p></div>
-        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_image"><img src="/src/img/grid_3.jpg" alt="kitty cat" height=100%></div>
         <div class="row_text"><p>"I learned a LOT from this course and my teammates and I formed extremely strong bonds."</p></div>
     </div>
 	<div class="row">
-        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_image"><img src="/src/img/grid_4.jpg" alt="kitty cat" height=100%></div>
         <div class="row_text"><p>"ENES100 was a great way to dip my toe into engineering and helped me figure out what I wanted to study. I love being an engineer, and this class was the start for me."</p></div>
-        <div class="row_image"><img src="/src/img/gogi.svg" alt="kitty cat"></div>
+        <div class="row_image"><img src="/src/img/grid_5.jpg" alt="kitty cat" height=100%></div>
     </div>
 </div>
