@@ -45,7 +45,7 @@
         font-weight: bold;
     }
     img {
-        outline: 2px solid #989898;
+        outline: 2px solid white;
         outline-offset: 20px;
     }
 </style>
@@ -59,11 +59,11 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestias, provident inventore iure aliquid corrupti eligendi sint officiis, fuga dignissimos magni explicabo consequuntur, cum deleniti qui reprehenderit? Repellendus, provident perspiciatis.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestias, provident inventore iure aliquid corrupti eligendi sint officiis, fuga dignissimos magni explicabo consequuntur, cum deleniti qui reprehenderit? Repellendus, provident perspiciatis.
         </div>
-        <img src="/src/img/gogi.svg" alt="kitty cat" width="50%">
+        <img src="/src/img/about_1.jpg" alt="kitty cat" width="40%">
     </div>
     <h3>Interlude text... maybe some fun piece of info can go here owo</h3>
     <div class="split_box">
-        <img src="/src/img/gogi.svg" alt="kitty cat" width="50%">
+        <img src="/src/img/about_2.jpg" alt="kitty cat" width="40%">
         <div class="box_split_right">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestias, provident inventore iure aliquid corrupti eligendi sint officiis, fuga dignissimos magni explicabo consequuntur, cum deleniti qui reprehenderit? Repellendus, provident perspiciatis.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestias, provident inventore iure aliquid corrupti eligendi sint officiis, fuga dignissimos magni explicabo consequuntur, cum deleniti qui reprehenderit? Repellendus, provident perspiciatis.

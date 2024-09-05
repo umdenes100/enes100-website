@@ -8,7 +8,7 @@
 	flex-direction: column;
 	background-color: black;
 	font-family: "Interstate";
-    border-top: 20px solid rgba(226,24,51,1.00);
+    border-top: 5px solid rgba(226,24,51,1.00);
 }
 .home_boxes .row {
 	flex-direction: row;

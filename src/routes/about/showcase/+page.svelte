@@ -1,113 +1,92 @@
-<div class="blocky_one">
-    <h1>
-        See what our students can <u>do.</u>
-    </h1>
-    <h4>
-        Every semester we challenge our new engineers to build a working autonomous vehicle in one semester. 
-        After a quick engineering design crash course we encourage them to get creative in how they 
-        approach their unique missions. 
-    
-    </h4>
-</div>
-<div class="blocky">
-    <div class="box">
-        <div class="mission">
-            <h2><u>The Water Tribe</u></h2>
-            <h3>Spring 2024</h3>
-            <p><b>Mission: Water Sampling<br>Instructor: Mr. Professor<br>
-                Team Members: Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff</b>
-                <br>This team had a unique approach and did something cool and fun. They won the award for having the most fun.</p>
-        </div>
-    </div>
-    <div class="otv">
-        <img src="/src/img/gogi.svg" alt="kitty cat" height=100% />
-    </div>
-    <div class="otv">
-        <img src="/src/img/gogi.svg" alt="kitty cat" height="100%" />
-    </div>
-    <div class="box">
-        <div class="mission">
-            <h2><u>The Water Tribe</u></h2>
-            <h3>Spring 2024</h3>
-            <p><b>Mission: Water Sampling<br>Instructor: Mr. Professor<br>
-                Team Members: Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff</b>
-                <br>This team had a unique approach and did something cool and fun. They won the award for having the most fun.</p>
-        </div>
-    </div>
-    <div class="box">
-        <div class="mission">
-            <h2><u>The Water Tribe</u></h2>
-            <h3>Spring 2024</h3>
-            <p><b>Mission: Water Sampling<br>Instructor: Mr. Professor<br>
-                Team Members: Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff, Gogi Wharff</b>
-                <br>This team had a unique approach and did something cool and fun. They won the award for having the most fun.</p>
-        </div>
-    </div>
-    <div class="otv">
-        <img src="/src/img/gogi.svg" alt="kitty cat" height="100%" />
-    </div>
-</div>
-
 <style>
-    .blocky_one {
-        width: 80%;
+    .split_box {
         margin: auto;
-    }
-    .blocky {
+        width: 90%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 80%;
-        margin: auto;
-        margin-top: 80px;
-    }
-    .box {
-        width: 40%;
-        aspect-ratio: 1/1;
-        background-color: white;
-        margin-bottom: 120px;
-        outline: 2px solid white;
-        outline-offset: 30px;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 30px;
         color: black;
     }
-    .otv {
-        width: 40%;
+    .box_split {
+        width: 43%;
         aspect-ratio: 1/1;
         background-color: white;
-        margin-bottom: 120px;
         outline: 2px solid white;
-        outline-offset: 30px;
-        overflow: hidden;
+        outline-offset: 20px;
     }
-    .mission {
-        padding: 10px 60px;
+    .text {
+        padding-top: 35px;
+        padding-bottom: 50px;
+        padding-right: 90px;
+        padding-left: 90px;
     }
     h1 {
         font-size: 50px;
-        text-align: left;
-        padding-top: 20px;
     }
     h2 {
-        font-size: 40px;
+        font-weight: normal;
+        font-size: 30px;
     }
     h3 {
-        font-size: 30px;
-        margin-top: -20px;
-    }
-    h4 {
-        font-size: 30px;
         font-weight: normal;
-        margin-top: -10px;
+        text-align: center;
+        font-size: 30px;
+        color: #ffd200;
     }
     p {
-        font-size: 18px;
-        margin-top: -20px;
-        line-height: 25px;
+        font-weight: lighter;
+        margin: auto;
+        font-size: 20px;
+        line-height: 40px;
     }
-    u {
-        text-decoration: underline 2px #E21833;
+    h1 span {
+        color: #ffd200;
     }
-    br {
-        line-height: 35px;
+    h2 span {
+        text-decoration: 2px underline #ffd200;
+        font-weight: bold;
+    }
+    .textbox {
+        padding: 60px;
     }
 </style>
+
+<div class="text">
+    <h1>See what our students can <span>do.</span></h1>
+    <h2>Every semester we challenge our new engineers to build a working autonomous vehicle in <span>one semester</span>. 
+        After a quick engineering design crash course we encourage them to get creative in how they 
+        approach their unique missions.</h2>
+    <div class="split_box">
+        <div class="box_split">
+            <div class="textbox">
+                shmello
+            </div>
+        </div>
+        <div class="box_split">
+            <img src="/src/img/otv_elephant.jpg" alt="elephant otv" height=100%>
+        </div>
+    </div>
+    <h3>Interlude text... maybe some fun piece of info can go here owo</h3>
+    <div class="split_box">
+        <div class="box_split">
+            <img src="/src/img/otv_fire.jpg" alt="elephant otv" height=100%>
+        </div>
+        <div class="box_split">
+            <div class="textbox">
+                shmello
+            </div>        
+        </div>
+    </div>
+    <h3>Interlude text... maybe some fun piece of info can go here owo</h3>
+    <div class="split_box">
+        <div class="box_split">
+            <div class="textbox">
+                shmello
+            </div>        
+        </div>
+        <div class="box_split">
+            <img src="/src/img/otv_data.jpg" alt="elephant otv" height=100%>
+        </div>
+    </div>
+</div>

@@ -36,7 +36,7 @@
         padding: 10px;
     }
     img {
-        width: auto;
+        width: 100%;
         border: 2px solid rgb(152, 152, 152);
     }
 </style>
@@ -46,165 +46,165 @@
     <h2>Instructors</h2>
     <div class="split_box">
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
     </div>
     <h2>Undergraduate Teaching Fellows</h2>
     <div class="split_box">
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
     </div>
     <h2>Labratory Teaching Fellows</h2>
     <div class="split_box">
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
         <div class="person">
-            <img src="/src/img/gogi.svg" alt="kitty cat">
+            <img src="/src/img/frown.jpg" alt=":(">
             <div class="bio">Mr professor<br>Major<br>email</div>
         </div>
     </div>
