@@ -138,7 +138,7 @@ p {
     <div class="home_content">
         <div class="lab_status">
             <div class="header">
-                LAB STATUS - Coming Soon
+                LAB STATUS - Coming Soon!
             </div>
             <div class="lab_content">
                 <div class="lab">
@@ -160,14 +160,20 @@ p {
                 <li>
                     <a href="/tools/visionsystem">Vision System</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/tools/machinelearning">Machine Learning</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="/documentation/tank_guide">Tank Guide</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/about/team">Instructional Team</a>
+                </li> -->
+				<li>
+                    <a href="/documentation/enes100/">Enes100 Library</a>
+                </li>
+				<li>
+                    <a href="/documentation/faq/">Frequently Asked Questions</a>
                 </li>
             </ul>
         </div>

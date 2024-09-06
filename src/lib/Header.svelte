@@ -106,9 +106,25 @@
         color: #FFD200;
         transition: all 0.1s linear;
     }
+    .red_head {
+        background-color: rgba(226,24,51,1.00);
+        text-align: center;
+        padding: 12px;
+    }
+    .red_head a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+    }
 </style>
 <!-- <umd-utility-header style="padding: 3.75px;"></umd-utility-header> -->
 <header>
+    <div class="red_head">
+        <a href="umd.edu">UNIVERSITY OF MARYLAND</a>
+    </div>
     <nav>
         <a href="/"><img id="logo" src="/src/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>
         <ul>
@@ -116,7 +132,7 @@
                 <div class="dropdown">
                     <button class="dropbtn">Student Tools</button>
                     <div class="dropdown-content">
-                        <a href="/tools/machinelearning">Machine Learning</a>
+                        <!-- <a href="/tools/machinelearning">Machine Learning</a> -->
                         <a href="/tools/simulator">Simulator</a>
                         <a href="/tools/visionsystem">Vision System</a>
                     </div>
@@ -127,9 +143,9 @@
                     <button class="dropbtn">Labs</button>
                     <div class="dropdown-content">
                         <a href="/labs/schedule">Schedule</a>
-                        <a href="/labs/store">School Store</a>
-                        <a href="/labs/toolcheck">Tool Check</a>
-                        <a href="/labs/maintenance">Maintenance Form</a>
+                        <!-- <a href="/labs/store">School Store</a> -->
+                        <!-- <a href="/labs/toolcheck">Tool Check</a> -->
+                        <!-- <a href="/labs/maintenance">Maintenance Form</a> -->
                     </div>
                 </div>
             </li>
@@ -148,7 +164,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <div class="dropdown">
                     <button class="dropbtn">About Us</button>
                     <div class="dropdown-content">
@@ -157,7 +173,7 @@
                         <a href="/about/showcase">Student Showcase</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
         </ul>
     </nav>
 </header>
