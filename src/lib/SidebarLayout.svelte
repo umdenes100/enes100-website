@@ -2,11 +2,13 @@
     .sidebar {
         width: 200px;
         background-color: rgba(226, 24, 51, 0.5);
-        border: 1px solid white;
+        border: 2px solid white;
         border-top: 0;
         padding: 5px 20px 20px;
         margin-left: 80px;
         color: white;
+        position: sticky;
+        top: 15px;
     }
 
     .sidebar h1 {
@@ -30,7 +32,7 @@
 
     .main {
         margin: 40px 80px;
-        border: 1px solid white;
+        border: 2px solid white;
         height: 100%;
         background-color: #121B21;
         padding: 10px 40px 20px 40px;
@@ -40,12 +42,11 @@
 
 <div style="display: flex; flex: 1">
     <div>
-    <div class="sidebar">
-        <h1>Page Index</h1>
-        <slot name="sidebar"></slot>
+        <div class="sidebar">
+            <h1>Page Index</h1>
+            <slot name="sidebar"></slot>
+        </div>
     </div>
-    </div>
-
     <div class="main">
         <slot></slot>
     </div>

@@ -14,6 +14,7 @@
         background-color: white;
         outline: 2px solid white;
         outline-offset: 20px;
+        overflow: hidden;
     }
     .text {
         padding-top: 35px;
@@ -60,7 +61,7 @@
     <div class="split_box">
         <div class="box_split">
             <div class="textbox">
-                shmello
+                <p>hello</p>
             </div>
         </div>
         <div class="box_split">
@@ -74,7 +75,7 @@
         </div>
         <div class="box_split">
             <div class="textbox">
-                shmello
+                <p>hello</p>
             </div>        
         </div>
     </div>
@@ -82,7 +83,7 @@
     <div class="split_box">
         <div class="box_split">
             <div class="textbox">
-                shmello
+                <p>hello</p>
             </div>        
         </div>
         <div class="box_split">

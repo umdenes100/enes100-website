@@ -13,7 +13,7 @@
         padding-right: 90px;
         padding-left: 90px;
     }
-    h2 {
+    h3 {
         font-weight: normal;
         font-size: 30px;
         margin: auto;
@@ -21,8 +21,7 @@
         text-decoration: underline 2px white;
     }
     h1 {
-        font-weight: normal;
-        font-size: 40px;
+        font-size: 50px;
     }
     .person {
         width: 15%;
@@ -39,11 +38,16 @@
         width: 100%;
         border: 2px solid rgb(152, 152, 152);
     }
+    h2 {
+        font-weight: normal;
+        font-size: 30px;
+    }
 </style>
 
 <div class="text">
-    <h1>Meet the team behind the best class anyone has ever taken at any University in the world.</h1>
-    <h2>Instructors</h2>
+    <h1>Meet our team.</h1>
+    <h2>Maybe a subheading... I have not decided if I want one here, but if I do it will be epic and descriptive.</h2>
+    <h3>Instructors</h3>
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
@@ -98,7 +102,7 @@
             <div class="bio">Mr professor<br>Job Title<br>Section(s): 0101, 0201, 0301<br>email</div>
         </div>
     </div>
-    <h2>Undergraduate Teaching Fellows</h2>
+    <h3>Undergraduate Teaching Fellows</h3>
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
@@ -169,7 +173,7 @@
             <div class="bio">Mr professor<br>Major<br>Section: 0101<br>email</div>
         </div>
     </div>
-    <h2>Labratory Teaching Fellows</h2>
+    <h3>Laboratory Teaching Fellows</h3>
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
