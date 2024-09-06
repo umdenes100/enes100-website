@@ -138,16 +138,16 @@ p {
     <div class="home_content">
         <div class="lab_status">
             <div class="header">
-                LAB STATUS - 08/20/2024 2:55 PM
+                LAB STATUS - Coming Soon
             </div>
             <div class="lab_content">
                 <div class="lab">
                     <h4>JMP 1116</h4>
-                    <h5>Current Hour: Open Lab<br>Next Hour: Class</h5>
+                    <h5>Current Hour: N/A<br>Next Hour: N/A</h5>
                 </div>
                 <div class="lab">
                     <h4>JMP 1120</h4>
-                    <h5>Current Hour: Closed<br>Next Hour: Closed</h5>
+                    <h5>Current Hour: N/A<br>Next Hour: N/A</h5>
                 </div>
             </div>
         </div>
