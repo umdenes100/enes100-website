@@ -1,7 +1,3 @@
-<!-- <script lang="ts">
-    import '@universityofmaryland/utilityheader';
-</script> -->
-
 <style>
     nav {
         width: 100%;

@@ -4,20 +4,12 @@
 </script>
 <SidebarPage>
     <div slot="sidebar">
-        <a href="#wifi_mod">Download and Installation</a>
-        <a href="#ultrasonic">Setup</a>
-        <a href="#drivef">Variables</a>
-        <a href="#rotate">Enes100.begin()</a>
-        <a href="#rotate">Enes100.getX() and similar</a>
-        <a href="#rotate">Enes100.isConnected()</a>
-        <a href="#rotate">Enes100.print()</a>
-        <a href="#rotate">Enes100.println()</a>
-        <a href="#rotate">Enes100.mission()</a>
-        <a href="#rotate">Enes100.MLGetPrediction()</a>
-        <a href="#rotate">Example Code and Debugging</a>
-        <a href="#rotate">Product Demonstration</a>
+        <a href="#download">Download and Installation</a>
+        <a href="#usage">Usage</a>
+        <a href="#simulator">Simulator Functions</a>
+        <a href="#physical_func">Physical Tank Functions</a>
+        <a href="#physical_tanks">Physical Tanks</a>
     </div>
-
     <MarkdownContent>
 # Tank Arduino Library
 
@@ -29,9 +21,9 @@ As the name suggests, the Tanks serve two purposes in ENES100:
 
 The Tank Arduino library is used to control both the simulator Tanks and the physical Tanks. Using the library, you can control the Tank's motors and pull data from it's sensors.
 
-## Download and Installation
+## Download and Installation <a id="download"> </a>
 
-To download this library, click on the blue **Download** button on the right. Make sure the file is unzipped and move it to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The most current version of Arduino IDE can be downloaded from the [Arduino website](https://www.arduino.cc/en/Main/Software).
+To download this library, click <a href="https://github.com/umdenes100/TankArduinoLibrary/archive/master.zip">here</a>. Make sure the file is unzipped and move it to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The most current version of Arduino IDE can be downloaded from the [Arduino website](https://www.arduino.cc/en/Main/Software).
 
 * If this does not work, you can extract the library inside the Arduino IDE (Sketch->Include Library->Add .ZIP Library...).
 
@@ -39,7 +31,7 @@ To download this library, click on the blue **Download** button on the right. Ma
 
 **If you have an older version of the library on your computer, you _must_ delete it before adding a newer version.** Failure to do this may cause file conflicts and it is not guaranteed that the library will work properly.
 
-## Usage
+## Usage <a id="usage"> </a>
 
 To use the library, you have to direct the compiler to include it in your code. Go to **Sketch > Include Library > Tank** , or add it manually by typing `#include "Tank.h"` at the top of your sketch.
 
@@ -47,7 +39,7 @@ To use the library, call `Tank.begin();` in the setup portion of the code.
 
 If uploading your code to a physical Tank, be sure to set the board as an Arduino Mega. **Tools > Board > Arduino Mega or Mega 2560**
 
-## Simulator Functions
+## Simulator Functions <a id="simulator"> </a>
 
 The following functions are available in the Tank library on the simulator:
 
@@ -67,7 +59,7 @@ sets the right motor pwms to the specified pwm speed (pwm: -255 to 255).
 reads and returns distance in meters (maximum of 1) from specified ultrasonic distance sensor. It will only give distances to obstacles (white blocks) and not walls!
 You must enable the sensor by clicking on it in top down view of the OTV. It will become less transparent when it is enabled. Ultrasonic 1 is already enabled.
 
-## Physical Tank Functions
+## Physical Tank Functions <a id="physical_func"> </a>
 
 The following functions are available in the Tank library on the physical tanks:
 
@@ -95,7 +87,7 @@ reads and returns the state of the specified infrared sensor (only valid for sen
 `Tank.readBumpSensor(int sensorId)`
 reads and returns the state of the specified infrared sensor (only valid for sensorIds 1 or 7).
 
-# Physical Tanks
+# Physical Tanks <a id="physical_tanks"> </a>
 
 Once you have your code working on the simulator using the Tank library, you can test the same code on a physical tank. These are modular, Arduino Mega controlled vehicles that can function the same as the simulator Tanks, plus some extra.
 

@@ -1,33 +1,32 @@
 <script>
-import SidebarPage from "$lib/SidebarLayout.svelte";
-import MarkdownContent from "$lib/MarkdownContent.svelte";
+    import SidebarPage from "$lib/SidebarLayout.svelte";
+    import MarkdownContent from "$lib/MarkdownContent.svelte";
 </script>
 
 
 <SidebarPage>
-<div slot="sidebar">
-<a href="#download">Download and Installation</a>
-<a href="#setup">Setup</a>
-<a href="#drivef">Variables</a>
-<a href="#begin">Enes100.begin()</a>
-<a href="#update">Enes100.getX() and similar</a>
-<a href="#isConnected">Enes100.isConnected()</a>
-<a href="#print">Enes100.print()</a>
-<a href="#rotate">Enes100.println()</a>
-<a href="#rotate">Enes100.mission()</a>
-<a href="#rotate">Enes100.MLGetPrediction()</a>
-<a href="#rotate">Example Code and Debugging</a>
-<a href="#rotate">Product Demonstration</a>
-</div>
-<MarkdownContent>
+    <div slot="sidebar">
+        <a href="#download">Download and Installation</a>
+        <a href="#setup">Setup</a>
+        <a href="#begin">Enes100.begin()</a>
+        <a href="#update">Enes100.getX() and similar</a>
+        <a href="#isConnected">Enes100.isConnected()</a>
+        <a href="#print">Enes100.print()</a>
+        <a href="#println">Enes100.println()</a>
+        <a href="#mission">Enes100.mission()</a>
+        <a href="#ml_pred">Enes100.MLGetPrediction()</a>
+        <a href="#example">Example Code and Debugging</a>
+        <a href="#demo">Product Demonstration</a>
+    </div>
+    <MarkdownContent>
 # Enes100ArduinoLibrary
 
 An Arduino library for use in the ENES100 course to allow Arduino boards to communicate with the ENES100 Vision System
 via ESP8266 Wi-Fi modules.
 
-## Download and Installation <a id="download"></a>
+## Download and Installation <a id="download"> </a>
 
-To download this library, click on the blue **Download** button on the right. Make sure the file is unzipped and move it
+To download this library, click <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/master.zip">here</a>. Make sure the file is unzipped and move it
 to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The
 most current version of Arduino IDE can be downloaded from
 the [Arduino website](https://www.arduino.cc/en/Main/Software).
@@ -35,18 +34,18 @@ the [Arduino website](https://www.arduino.cc/en/Main/Software).
 **If you have an older version of the library on your computer, you _must_ delete it before adding a newer version.**
 Failure to do this may cause file conflicts, and it is not guaranteed that the library will work properly.
 
-## Setup<a id="setup"></a>
+## Setup <a id="setup"> </a>
 
 Communication with the Vision System is done using ESP8266 WiFi-enabled microcontrollers. Wi-Fi modules are available
 for
 checkout through a Teaching Fellow. The Wi-Fi module has 4 pins:
 
-| Pin | Description     | Connect to...       |
+| Pin | Description | Connect to... |
 |-----|-----------------|---------------------|
-| GND | Ground          | Common ground       |
-| VCC | Voltage supply  | +5 V                |
-| TX  | Serial transmit | Arduino digital pin |
-| RX  | Serial receive  | Arduino digital pin |
+| GND | Ground | Common ground |
+| VCC | Voltage supply | +5 V |
+| TX | Serial transmit | Arduino digital pin |
+| RX | Serial receive | Arduino digital pin |
 
 Boards have limitations around what pins can be connected to Wi-Fi module TX.
 Allowed Pins:
@@ -66,7 +65,7 @@ To use the library, you have to direct the compiler to include it in your code. 
 ENES100**, or add it manually by typing
 `#include "Enes100.h"` at the very top of your file.
 
-### <span >Enes100.begin<a id="begin"></a></span>
+### Enes100.begin <a id="begin"> </a>
 
 Format:
 
@@ -80,7 +79,7 @@ __Wi-Fi module__.
 
 * teamName: Name of the team that will show up in the Vision System
 * teamType: Type of mission your team is running.
-* Valid Mission Types:  `CRASH_SITE`, `DATA`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
+* Valid Mission Types: `CRASH_SITE`, `DATA`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
 * markerID: ID of your Aruco Marker
 * wifiModuleTX: Digital Pin that will be connected to the __Tx pin on the Wi-Fi module__.
 * wifiModuleRX: Digital Pin that will be connected to the __Rx pin on the Wi-Fi module__.
@@ -120,7 +119,7 @@ Enes100.begin("It's lit", FIRE, 3, 8, 9);
 }
 ```
 
-### <span >Enes100.getX() and similar<a id="update"></a></span>
+### Enes100.getX() and similar<a id="update"> </a>
 
 The Aruco Marker has 4 values
 
@@ -141,7 +140,7 @@ getX is
 called, X, Y, theta and visibility are queried and cached. Subsequent calls return from the cache, so there
 is no performance gain to saving the function response to a variable.
 
-### <span >Enes100.isConnected()<a id="isConnected"></a></span>
+### Enes100.isConnected()<a id="isConnected"> </a>
 
 `Enes100.isConnected()`
 
@@ -151,7 +150,7 @@ Note: Enes100.begin will not return until this function is true.
 See my warning above about calling Enes100.begin multiple times - if you plan on using isConnecting in that fashion I
 would discourage it.
 
-### <span >Enes100.print(Type message)<a id="print"></a></span>
+### Enes100.print(Type message)<a id="print"> </a>
 
 Sends a message to the vision system. Note that any 'print' or 'println' called after will begin their message on the
 same line.
@@ -161,27 +160,27 @@ for that for specifics on types.
 
 ```arduino
 These two lines will output "Hello World!Hello World!"
-Enes100.print("Hello World!")
-Enes100.print("Hello World!")
+Enes100.print("Hello World!");
+Enes100.print("Hello World!");
 ```
 
-### <span >Enes100.println(Type message)<a id="println"></a></span>
+### Enes100.println(Type message)<a id="println"> </a>
 
 Sends a message to the vision system with a new line. Any messages sent after will be printed in a new line below the '
 println'
 
 ```arduino
 //These two lines will output
-//   "Hello World!
-//    Hello World!"
-Enes100.println("Hello World!")
-Enes100.println("Hello World!")
+// "Hello World!
+// Hello World!"
+Enes100.println("Hello World!");
+Enes100.println("Hello World!");
 ```
 
 The function can accept most types. It uses the arduino SoftwareSerial print under the hood, so check out documentation
 for that for specifics on types.
 
-### <span >Enes100.mission(int type, int message)<a id="mission"></a></span>
+### Enes100.mission(int type, int message)<a id="mission"> </a>
 
 Sends value for a mission objective.
 
@@ -246,60 +245,27 @@ or
 
 ### About
 
-The ESPCAM will be mounted to your OTV and act as your wifi module, with the added capabilities of camera vision. Note, this is not the overhead vision system above the arena - this is a development board provided that has a camera on it that will put on your otv.
+The ESPCAM will be mounted to your OTV and act as your wifi module, with the added capabilities of camera vision. Note, this is not the overhead vision system above the arena - this is a
+development board provided that has a camera on it that will put on your otv.
 
-### <span>int Enes100.MLGetPrediction()<a id="ml_pred"></a></span>
+### int Enes100.MLGetPrediction()<a id="ml_pred"> </a>
 
-Sends current image from the ESPCAM to the Vision System to get processed by your team's machine learning model. Models must have been uploaded to the [ENES100 Model Uploader](https://enes100.umd.edu/uploadmodel) beforehand to use this function. The function uses your team name (from the Enes100.begin() statement) to find your model. As such, **make sure your team name matches the model name exactly**.
+Sends current image from the ESPCAM to the Vision System to get processed by your team's machine learning model. Models must have been uploaded to the [ENES100 Model
+Uploader](https://enes100.umd.edu/uploadmodel) beforehand to use this function. The function uses your team name (from the Enes100.begin() statement) to find your model. As such, **make sure
+your team name matches the model name exactly**.
 
 Example:
 If your ML model contained the categories: **Thumbs Up**, **Thumbs Down**, **Thumb Sideways** in an array in that order,
 calling `Enes100.MLGetPrediction()` would return `0` if **Thumbs Up** is predicted, `1` if **Thumbs Down** is predicted, and `2` if **Thumb Sideways** is predicted.
 
-## Example Code and Debugging<a id="ex"></a>
+## Example Code and Debugging<a id="example"> </a>
 
-Example code for each type of mission is included with the library. To view examples, open Arduino IDE and go to *
-*File > Examples > ENES100**. (You must restart the IDE after installing the library for the examples to show.)
+Example code for each type of mission is included with the library. To view examples, open Arduino IDE and go to
+**File > Examples > ENES100**. (You must restart the IDE after installing the library for the examples to show.)
 
-## Product Demonstration Procedures<a id="prod"></a>
+## Product Demonstration Procedures<a id="demo"> </a>
 
 During the product demonstration, messages sent using `print()` and `println()` will not be shown on the Vision System
-console. The console will only print out the values that you send using `mission()`.
-
-## For Simulator
-
-The function calls to get the Aurco values are a little bit different than what they will be when you code for your otv
-but they are functionally the same.
-
-```arduino
-void setup() {'{'}
-    // Your begin statement with arbitrary values
-    Enes100.begin("It's lit", FIRE, 3, 8, 9);
-}
-```
-Once this is called you will use the function
-
-`Enes100.updateLocation()`
-
-Calling this will allow you to access the values of aurco marker by writing
-the following
-
-* `Enes100.location.x`
-* `Enes100.location.y`
-* `Enes100.location.theta`
-
-```arduino
-void loop() {'{'}
-    // This code will continuously print out the x cordinate
-    Enes100.updateLocation();
-    Enes100.println(Enes100.location.x);
-    setBothMotors(25);
-
-}
-```
-#### **Common Issues**:
-
-If you get an error **AxiosError: Network Error** remove the 's' from the
-https link in url and reload the simulator
-</MarkdownContent>
+console. You should use the mission calls to send results.
+    </MarkdownContent>
 </SidebarPage>

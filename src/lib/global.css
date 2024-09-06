@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Interstate';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Interstate'), url("/src/img/Interstate-Bold.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Interstate';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Interstate'), url("/src/img/Interstate-Regular.otf") format('opentype');
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -7,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-color: #121B21;
     color: white;
-    font-family: "Interstate", sans-serif;
+    font-family: 'Interstate', monospace;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }

@@ -4,10 +4,10 @@
 
 <style>
 .home_boxes {
-	display: flex; 
+	display: flex;
 	flex-direction: column;
 	background-color: black;
-	font-family: "Interstate";
+
     border-top: 5px solid rgba(226,24,51,1.00);
 }
 .home_boxes .row {
@@ -49,7 +49,7 @@ p {
 	padding-top: 10px;
 }
 .home_content .quick_links h1 {
-	font-family: "Interstate";
+
     color: black;
 }
 .home_content .quick_links ul {
@@ -59,13 +59,13 @@ p {
 	padding: 5px;
 }
 .home_content .quick_links a {
-	font-family: "Interstate";
+
 	color: black;
 	text-decoration: none;
 	font-size: 20px;
 }
 .home_content .quick_links a:hover {
-	font-family: "Interstate";
+
 	color: black;
 	text-decoration: underline;
 }
@@ -81,7 +81,7 @@ p {
 	justify-content: space-around;
 	width: 70%;
 	color: white;
-	font-family: "Interstate";
+
 	margin: auto;
 }
 .home_content .lab_status .lab_content .lab {
@@ -105,7 +105,7 @@ p {
 .home_content .lab_status .header {
 	background-color: rgba(255,210,0,1.00);
 	color: rgba(18,27,33,1.00);
-	font-family: "Interstate";
+
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 20px;
@@ -116,7 +116,7 @@ p {
 	padding-right: 500px;
     padding-bottom: 80px;
 	color: white;
-	font-family: "Interstate";
+
 	font-weight: bold;
 }
 .page_title h1 {
