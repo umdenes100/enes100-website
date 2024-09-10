@@ -116,7 +116,6 @@
         letter-spacing: 1px;
     }
 </style>
-<!-- <umd-utility-header style="padding: 3.75px;"></umd-utility-header> -->
 <header>
     <div class="red_head">
         <a href="umd.edu">UNIVERSITY OF MARYLAND</a>
