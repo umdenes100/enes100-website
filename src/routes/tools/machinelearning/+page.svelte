@@ -1,16 +1,17 @@
 <script>
-    import HeaderBar from "$lib/HeaderBar.svelte";
     import MarkdownContent from "$lib/MarkdownContent.svelte";
+    import HeaderBar from "$lib/HeaderBar.svelte";
 </script>
 
-<HeaderBar></HeaderBar>
+
 <div class="main_content">
+    <HeaderBar></HeaderBar>
     <slot>
         <div class="text">
-            <MarkdownContent>
-# ML Page currently under construction
-            </MarkdownContent>
-        </div>
+        <MarkdownContent>
+# ML page under construction
+        </MarkdownContent>
+    </div>
     </slot>
 </div>
 
