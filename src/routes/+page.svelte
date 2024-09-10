@@ -143,80 +143,84 @@ p {
             <div class="lab_content">
                 <div class="lab">
                     <h4>JMP 1116</h4>
-                    <h5>Current Hour: <span id="1116_current"></span><br>Next Hour: <span id="1116_next"></span></h5>
+                    <h5>Current Hour: <span id="current_1116"></span><br>Next Hour: <span id="next_1116"></span></h5>
                 </div>
                 <div class="lab">
                     <h4>JMP 1120</h4>
-                    <h5>Current Hour: <span id="1120_current"></span><br>Next Hour: <span id="1120_next"></span></h5>
+                    <h5>Current Hour: <span id="current_1120"></span><br>Next Hour: <span id="next_1120"></span></h5>
                 </div>
             </div>
 			<script>
 				var d = new Date();
-				var t = document.getElementById("time");
-				t.innerHTML = d.toLocaleString();
-			</script>
-			<script>
-				var c = document.getElementById("1116_current");
-				var n = document.getElementById("1116_next");
-				var w = d.getDay();
-				var weekdays = [//M  1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
-					["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-					["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
-					["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
-					["Wednesday", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
-					["Thursday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
-					["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
-					["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-				];
-				var day = weekdays[w];
-				var time = d.getHours();
-			
-				if (day[time] == 2) {
-					c.innerHTML = "open";
-				} else if (day[time] == 1) {
-					c.innerHTML = "class";
-				} else {
-					c.innerHTML = "closed";
-				}
+				function lab_1116() {
+					var c = document.getElementById("current_1116");
+					var n = document.getElementById("next_1116");
+					var w = d.getDay();
+					var weekdays = [//M  1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
+						["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+						["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
+						["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
+						["Wednesday", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
+						["Thursday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
+						["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+						["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+					];
+					var day = weekdays[w];
+					var time = d.getHours();
 
-				if (day[time + 1] == 2) {
-					n.innerHTML = "open";
-				} else if (day[time + 1] == 1) {
-					n.innerHTML = "class";
-				} else {
-					n.innerHTML = "closed";
+					if (day[time] == 2) {
+						c.innerHTML = "open";
+					} else if (day[time] == 1) {
+						c.innerHTML = "class";
+					} else {
+						c.innerHTML = "closed";
+					}
+
+					if (day[time + 1] == 2) {
+						n.innerHTML = "open";
+					} else if (day[time + 1] == 1) {
+						n.innerHTML = "class";
+					} else {
+						n.innerHTML = "closed";
+					}
 				}
-			</script>
-			<script>
-				var c = document.getElementById("1120_current");
-				var n = document.getElementById("1120_next");
-				var w = d.getDay();
-				var weekdays = [//M  1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
-					["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-					["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
-					["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
-					["Wednesday", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
-					["Thursday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
-					["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
-					["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-				];
-				var day = weekdays[w];
-				var time = d.getHours();
-			
-				if (day[time] == 2) {
-					c.innerHTML = "open";
-				} else if (day[time] == 1) {
-					c.innerHTML = "class";
-				} else {
-					c.innerHTML = "closed";
+				function lab_1120() {
+					var c = document.getElementById("current_1120");
+					var n = document.getElementById("next_1120");
+					var w = d.getDay();
+					var weekdays = [//M  1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
+						["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+						["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
+						["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
+						["Wednesday", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
+						["Thursday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 0],
+						["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+						["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+					];
+					var day = weekdays[w];
+					var time = d.getHours();
+
+					if (day[time] == 2) {
+						c.innerHTML = "open";
+					} else if (day[time] == 1) {
+						c.innerHTML = "class";
+					} else {
+						c.innerHTML = "closed";
+					}
+
+					if (day[time + 1] == 2) {
+						n.innerHTML = "open";
+					} else if (day[time + 1] == 1) {
+						n.innerHTML = "class";
+					} else {
+						n.innerHTML = "closed";
+					}
 				}
-			
-				if (day[time + 1] == 2) {
-					n.innerHTML = "open";
-				} else if (day[time + 1] == 1) {
-					n.innerHTML = "class";
-				} else {
-					n.innerHTML = "closed";
+				window.onload = function() {
+					var t = document.getElementById("time");
+					t.innerHTML = d.toLocaleString();
+					lab_1116();
+					lab_1120();
 				}
 			</script>
         </div>
