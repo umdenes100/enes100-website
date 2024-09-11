@@ -69,27 +69,28 @@
         <summary>Why isn't my WiFi module working?</summary>
         <div>
             Use pins 50, 51, 52, or 53 for Arduino Megas. Do not use pins 0 and
-            1 on your Arduino. <br><br>There could be many reasons why. First check to
-            see if there is a red light on the wifi module. If there is, that
-            means it is getting power (not necessarily the correct amount). If
-            the red light is very dim, check to make sure that you’re giving the
-            WiFi module 5V power (not 3.3V). If it’s still dim, your Arduino may
-            be supplying too much current to other devices on your OTV so they
-            should be powered from your battery instead. <br><br>If there isn’t a red
-            light, check your circuit to see if any wires are disconnected or
-            placed incorrectly. If that is corrected and there is still no red
-            light, then use a multimeter to check to see if the wifi module is
-            actually receiving the correct voltage of 5V. <br><br>Turn the multimeter to
-            20V (this is because the wifi module requires 5V and the voltage of
-            the multimeter should be higher than that) and then put one probe on
-            the ground source (the wire or port which the wifi module is
-            connected to) for the wifi module and the other on the power source.
-            Make sure the battery is connected, the kill switch is on, and the
-            Arduino is not connected to a computer or power source other than
-            the battery. The reading on the multimeter should be ~5V. If it is
-            not, the wifi module is not receiving the correct amount of power.
-            This means an error in the circuit. <br><br>If there isn’t a blue light,
-            that means that the WiFi module is not communicating with the vision
+            1 on your Arduino. <br /><br />There could be many reasons why.
+            First check to see if there is a red light on the wifi module. If
+            there is, that means it is getting power (not necessarily the
+            correct amount). If the red light is very dim, check to make sure
+            that you’re giving the WiFi module 5V power (not 3.3V). If it’s
+            still dim, your Arduino may be supplying too much current to other
+            devices on your OTV so they should be powered from your battery
+            instead. <br /><br />If there isn’t a red light, check your circuit
+            to see if any wires are disconnected or placed incorrectly. If that
+            is corrected and there is still no red light, then use a multimeter
+            to check to see if the wifi module is actually receiving the correct
+            voltage of 5V. <br /><br />Turn the multimeter to 20V (this is
+            because the wifi module requires 5V and the voltage of the
+            multimeter should be higher than that) and then put one probe on the
+            ground source (the wire or port which the wifi module is connected
+            to) for the wifi module and the other on the power source. Make sure
+            the battery is connected, the kill switch is on, and the Arduino is
+            not connected to a computer or power source other than the battery.
+            The reading on the multimeter should be ~5V. If it is not, the wifi
+            module is not receiving the correct amount of power. This means an
+            error in the circuit. <br /><br />If there isn’t a blue light, that
+            means that the WiFi module is not communicating with the vision
             system. First, do not use pins 0 or 1 (despite them being labeled TX
             and RX); on most microcontrollers, any digital pin except 0 and 1
             should work. If you are using an Arduino Mega, check to see that TX
@@ -105,17 +106,64 @@
     </details>
     <details>
         <summary>How do I check for shorts in my circuit?</summary>
-        <div>Grab a multimeter, from one of the cabinets in the lab, and turn the dial to “continuity”.<br><br>Place one probe on a power component of the circuit and one on a ground component of the circuit. Both probes must touch the metal part of the component. If the multimeter beeps, the power and ground must be touching somewhere. <br><br>Repeat the process on different power and ground wires until you locate the exact location of the short.</div>
+        <div>
+            Grab a multimeter, from one of the cabinets in the lab, and turn the
+            dial to “continuity”.<br /><br />Place one probe on a power
+            component of the circuit and one on a ground component of the
+            circuit. Both probes must touch the metal part of the component. If
+            the multimeter beeps, the power and ground must be touching
+            somewhere. <br /><br />Repeat the process on different power and
+            ground wires until you locate the exact location of the short.
+        </div>
     </details>
     <details>
-        <summary>Why is my soldering iron not working/why can I not solder?</summary>
-        <div>Step 0: Check the condition of the tip of the iron. If it is very black, replace the tip (an example of a bad tip is pictured below). This is done by unscrewing the black grip of the soldering iron and removing the tip. Select a new one and insert it back into the iron. Screw the grip back into place over it. Do NOT do this with the iron plugged in or if the iron is hot!<br><br>Step 1: Turn the soldering iron on to 450 F and wait until you see that the small number (green arrow) matches the larger one (red arrow)<br><br>Step 2: Make sure that the sponge under the iron is wet and that the fan for your iron is on<br><br>Step 3: Make sure your wire is set up correctly. Both wires you are soldering should have the ends stripped about 0.5 inches.<br><br>Step 4: Plunge the soldering iron tip into the tip tinner (pictured below). The tip tinner should bead up along the tip. After this, shove the entire tip into the steel wool (pictured below) and rotate it around. To remove any beads of solder but keep a thin layer behind. Then, use a brush to paint the flux onto your wires.<br><br>
+        <summary
+            >Why is my soldering iron not working/why can I not solder?</summary
+        >
+        <div>
+            Step 0: Check the condition of the tip of the iron. If it is very
+            black, replace the tip (an example of a bad tip is pictured below).
+            This is done by unscrewing the black grip of the soldering iron and
+            removing the tip. Select a new one and insert it back into the iron.
+            Screw the grip back into place over it. Do NOT do this with the iron
+            plugged in or if the iron is hot!<br /><br />Step 1: Turn the
+            soldering iron on to 450 F and wait until you see that the small
+            number (green arrow) matches the larger one (red arrow)<br /><br
+            />Step 2: Make sure that the sponge under the iron is wet and that
+            the fan for your iron is on<br /><br />Step 3: Make sure your wire
+            is set up correctly. Both wires you are soldering should have the
+            ends stripped about 0.5 inches.<br /><br />Step 4: Plunge the
+            soldering iron tip into the tip tinner (pictured below). The tip
+            tinner should bead up along the tip. After this, shove the entire
+            tip into the steel wool (pictured below) and rotate it around. To
+            remove any beads of solder but keep a thin layer behind. Then, use a
+            brush to paint the flux onto your wires.<br /><br />
 
-            Step 5: To help ensure a strong solder connection, heat up the wires before begining soldering. To do this, touch the soldering iron tip to the wires and hold it there. It should take a few second for the wire to heat up. This will take longer for thicker gauge wire.<br><br>Once the wires are hot, unwind the solder (pictured below) and feed the solder into the section which you just preheated. If your wires have been preheated and you have both the solder and the iron in contact with the wire, the solder should melt, flow along twisted wires, and then cool.<br><br>Alternatively, for larger connections, after melting some solder onto the iron tip, touch the end of the solder to the wire connection and touch the iron to the same connection. Heating up the connection will melt the solder directly onto the connection.<br><br>Step 6: To test to see if the soldering job was done correctly: pull the wires apart. If they separate, try again. You can also check for connectivity with the multimeter (view Q: How do I find shorts in my circuit).<br><br></div>
+            Step 5: To help ensure a strong solder connection, heat up the wires
+            before begining soldering. To do this, touch the soldering iron tip
+            to the wires and hold it there. It should take a few second for the
+            wire to heat up. This will take longer for thicker gauge wire.<br
+            /><br />Once the wires are hot, unwind the solder (pictured below)
+            and feed the solder into the section which you just preheated. If
+            your wires have been preheated and you have both the solder and the
+            iron in contact with the wire, the solder should melt, flow along
+            twisted wires, and then cool.<br /><br />Alternatively, for larger
+            connections, after melting some solder onto the iron tip, touch the
+            end of the solder to the wire connection and touch the iron to the
+            same connection. Heating up the connection will melt the solder
+            directly onto the connection.<br /><br />Step 6: To test to see if
+            the soldering job was done correctly: pull the wires apart. If they
+            separate, try again. You can also check for connectivity with the
+            multimeter (view Q: How do I find shorts in my circuit).<br /><br />
+        </div>
     </details>
     <details>
         <summary>Why is my laser cut not working/the wrong size?</summary>
-        <div>For if it’s the wrong size, make sure the dimensions are 1:1 when exporting from Fusion360. You should also make sure that the style in Fusion360 is “line”</div>
+        <div>
+            For if it’s the wrong size, make sure the dimensions are 1:1 when
+            exporting from Fusion360. You should also make sure that the style
+            in Fusion360 is “line”
+        </div>
     </details>
     <details>
         <summary
@@ -123,13 +171,21 @@
             which run continuously) not working even though enough voltage is
             being applied?
         </summary>
-        the answer is beans
+        <div>
+            Check for common ground! The H-Bridge and Arduino should be commonly
+            grounded. If two components that have ground terminals aren't
+            connected, they will be "communicating" at different voltage levels
+            and will most likely not work.
+        </div>
     </details>
     <details>
         <summary
             >When I try to use pinMode() on the Tx and Rx pins, why does the
             wifi module does not work?</summary
         >
-        the answer is beans cause beans
+        <div>
+            pinMode() is already done within the ENES100 library. Doing
+            pinMode() on the pins again can cause conflicts within the code.
+        </div>
     </details>
 </div>

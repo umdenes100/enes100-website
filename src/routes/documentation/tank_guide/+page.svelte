@@ -4,30 +4,34 @@
 </script>
 <SidebarPage>
     <div slot="sidebar">
-        <a href="#todo">TODO</a>
+        <a href="#tank">Tank V3</a>
+        <a href="#prereqs">Prerequisites</a>
+        <a href="#programming">Programming the tank</a>
+        <a href="#exercise">Practice Exercise</a>
+        <a href="#pins">Pin Diagram</a>
     </div>
 
     <MarkdownContent>
-# Tank V3
+# Tank V3 <a id="tank"> </a>
 
 Navigational tanks created to supplement student coding curriculum in ENES100.
 
-![Image of Assembled Tank](/src/img/tank.jpg)
+<img src="/src/img/tank.jpg" alt="tank" width=50%>
 
 The tank has swappable propulsion modules, including a few seen here:
 
-![Image of several different Tank undercarriage modules including Mecanum wheels, regular wheels, and caster whees](/src/img/tankswheels.jpg)
+<img src="/src/img/tankswheels.jpg" alt="tank wheels" width=50%>
 
 In order to remove the propulsion modules, remove the wheels by turning counter clockwise and then slide the module out.
 
 
-## Prerequesites
+## Prerequesites <a id="prereqs"> </a>
 
 1. Have Arduino installed on your computer. The download link can be found [here](https://www.arduino.cc/en/software)
 2. Download the ENES 100 library [here](https://enes100.umd.edu/libraries/enes100)
 3. Download the Tank library [here](https://enes100.umd.edu/libraries/tank)
 
-## Programming the Tank
+## Programming the Tank <a id="programming"> </a>
 
 **Please read more information on the Tank library (applicable to both the simulator and tanks) on Libraries->Tank.**
 The front of the tank is marked by the forward facing arrow.
@@ -83,7 +87,7 @@ Enes100.println("Sucessfully connected to the Vision System"); // print some tex
 }
 ```
 
-## Coordinates and Movement Challenge:
+## Coordinates and Movement Challenge: <a id="exercise"> </a>
 
 - Write an arduino program to get the coordinates of the aruco marker from the vision system.
 - Print it to the vision system.
@@ -91,7 +95,7 @@ Enes100.println("Sucessfully connected to the Vision System"); // print some tex
 - Use the location data from the vision system to find your way past the log or the limbo to the end.
 - You can choose to do this however you like!
 
-## Pin Diagram
+## Pin Diagram <a id="pins"> </a>
 
 In case you would like to write your own functions, here are the pinouts for the tanks:
 
