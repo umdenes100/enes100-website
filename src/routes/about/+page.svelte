@@ -52,7 +52,7 @@
 
 <div class="text">
     <h1>Building the next generation of <span>Engineers.</span></h1>
-    <h2>Talking about <span>ENES100</span> yeah in this block of text we talk about the class. For sure much talking about the class. Talking about ENES100 yeah in this block of text we talk about the <span>class</span>. For sure much talking about the class. In this house we really love this class and want to support it <span>monetarily</span>.</h2>
+    <h2>Engineering design is the <span>foundation</span> of all engineering. Medical devices, suspension bridges, and everything in between all use the engineering design process. When our students enroll in ENES100 they start to lay <span>their own foundation</span>, one that will last a lifetime. By fostering creative design and solution-oriented thinking we encourage students to face challenges head on, with the confidence of <span>future engineers</span>. </h2>
     <div class="split_box">
         <div class="box_split_left">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestias, provident inventore iure aliquid corrupti eligendi sint officiis, fuga dignissimos magni explicabo consequuntur, cum deleniti qui reprehenderit? Repellendus, provident perspiciatis.
