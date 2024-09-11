@@ -127,7 +127,7 @@
                 <div class="dropdown">
                     <button class="dropbtn">Student Tools</button>
                     <div class="dropdown-content">
-                        <!-- <a href="/tools/machinelearning">Machine Learning</a> -->
+                        <a href="/tools/machinelearning">Machine Learning</a>
                         <a href="/tools/simulator">Simulator</a>
                         <a href="/tools/visionsystem">Vision System</a>
                     </div>
