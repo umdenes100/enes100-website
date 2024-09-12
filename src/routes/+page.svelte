@@ -9,12 +9,12 @@
 	background-image: url("/src/img/home_bkg.jpg");
 	background-size: 150%;
 	background-repeat: no-repeat;
-	padding: 40px 100px;
+	padding: 40px 120px;
 	border-top: 5px solid #e21833;
 }
 .home_boxes h2 {
 	text-align: center;
-	font-size: 28px;
+	font-size: 25px;
 }
 .home_boxes .row {
 	flex-direction: row;
@@ -145,12 +145,13 @@ p {
 }
 .page_title h1 {
 	border: none;
-	font-size: 65px;
+	font-size: 70px;
 }
 .page_title h2 {
 	border: none;
 	margin-top: -40px;
-	font-size: 35px;
+	margin-bottom: -10px;
+	font-size: 40px;
 }
 </style>
 

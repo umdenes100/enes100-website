@@ -3,6 +3,8 @@
         display: flex;
         padding-top: 25px;
         padding-bottom: 30px;
+        align-items: center;
+        justify-content: space-around;
     }
     .box_split_left {
         width: 50%;
@@ -10,7 +12,7 @@
     }
     .box_split_right {
         width: 50%;
-        padding-left: 60px;
+        padding-left: 80px;
     }
     .text {
         padding-top: 35px;
@@ -47,6 +49,7 @@
     img {
         outline: 2px solid white;
         outline-offset: 20px;
+        margin: 0px 20px;
     }
 </style>
 
