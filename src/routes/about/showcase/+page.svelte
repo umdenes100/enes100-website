@@ -1,4 +1,66 @@
+<div class="text">
+    <h1>See what our students can <span>do.</span></h1>
+    <h2>
+        Every semester we challenge our new engineers to build a working
+        autonomous vehicle in <span>one semester</span>. After a quick
+        engineering design crash course we encourage them to get creative in how
+        they approach their unique missions.
+    </h2>
+    <div class="split_box">
+        <div class="box_split">
+            <div class="textbox">
+                <h1>Materi-yoked</h1>
+                <h2>Spring 2022<br>Material Identification</h2>
+                <p>Material Identification teams must lift the provided object entirely off of the ground. They must then detect it's weight and hardness.</p>
+            </div>
+        </div>
+        <div class="box_split">
+            <img src="/src/img/otv_materials.jpg" alt="elephant otv" height="100%" />
+        </div>
+    </div>
+    <h3>All teams must complete their mission and navigate an obstacle course.</h3><div class="split_box">
+        <div class="box_split">
+            <img src="/src/img/otv_fire.jpg" alt="elephant otv" height="100%" />
+        </div>
+        <div class="box_split">
+            <div class="textbox">
+                <h1>Lightning Mikequeen</h1>
+                <h2>Fall 2022<br>Fire Suppression</h2>
+                <p>Students tasked with fire suppression must detect the topography of a site and severity of the fire present. They must then suppress the flames.</p>
+            </div>
+        </div>
+    </div>
+    
+    <h3>We encourage our students to get creative when approaching mission challenges.</h3>
+    <div class="split_box">
+        <div class="box_split">
+            <div class="textbox">
+                <h1>Elephante</h1>
+                <h2>Spring 2023<br>Data Extraction</h2>
+                <p>The data extraction mission involves connecting to a data pylon, reading a duty cycle from the inside, and detecting the magnetism of an internal puck.</p>
+            </div>
+        </div>
+        <div class="box_split">
+            <img src="/src/img/otv_elephant.jpg"
+                alt="elephant otv"
+                height="100%"/>
+        </div>
+    </div>
+</div>
+
 <style>
+    .textbox h1 {
+        text-decoration: 2px #e21833 underline;
+        margin-top: 20px;
+        font-size: 45px;;
+    }
+    .textbox h2 {
+        margin-top: -25px;
+        line-height: 45px;
+    }
+    .textbox p {
+        margin-top: -20px;
+    }
     .split_box {
         margin: auto;
         width: 90%;
@@ -49,45 +111,6 @@
         font-weight: bold;
     }
     .textbox {
-        padding: 60px;
+        padding: 20px 50px;
     }
 </style>
-
-<div class="text">
-    <h1>See what our students can <span>do.</span></h1>
-    <h2>Every semester we challenge our new engineers to build a working autonomous vehicle in <span>one semester</span>. 
-        After a quick engineering design crash course we encourage them to get creative in how they 
-        approach their unique missions.</h2>
-    <div class="split_box">
-        <div class="box_split">
-            <div class="textbox">
-                <p>hello</p>
-            </div>
-        </div>
-        <div class="box_split">
-            <img src="/src/img/otv_elephant.jpg" alt="elephant otv" height=100%>
-        </div>
-    </div>
-    <h3>Interlude text... maybe some fun piece of info can go here owo</h3>
-    <div class="split_box">
-        <div class="box_split">
-            <img src="/src/img/otv_fire.jpg" alt="elephant otv" height=100%>
-        </div>
-        <div class="box_split">
-            <div class="textbox">
-                <p>hello</p>
-            </div>        
-        </div>
-    </div>
-    <h3>Interlude text... maybe some fun piece of info can go here owo</h3>
-    <div class="split_box">
-        <div class="box_split">
-            <div class="textbox">
-                <p>hello</p>
-            </div>        
-        </div>
-        <div class="box_split">
-            <img src="/src/img/otv_data.jpg" alt="elephant otv" height=100%>
-        </div>
-    </div>
-</div>
