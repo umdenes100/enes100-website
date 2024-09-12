@@ -31,19 +31,22 @@
         font-size: 50px;
     }
     .person {
-        width: 15%;
+        width: 20%;
         padding: 10px;
         border: 2px solid white;
         margin-bottom: 20px;
         margin-right: 30px;
         background-color: #0a131a;
+        text-align: center;
     }
     .bio {
+        text-align: left;
         padding: 10px;
     }
     img {
-        width: 100%;
+        width: 95%;
         border: 2px solid white;
+        margin-top: 5px;
     }
     h2 {
         font-weight: normal;
@@ -59,12 +62,12 @@
 
 <div class="text">
     <h1>Meet the <span>team</span>.</h1>
-    <h2>Our team works tirelessly to provide the <span>best possible</span> first year engineering experience. </h2>
+    <h2>Our team works tirelessly to provide the <span>best possible</span> first year engineering experience. We have a diverse mix of industry professionals, university professors, and student leaders who bring their <span>passion</span> for engineering and innovation into everything they <span>do</span>.</h2>
     <h3>Instructors</h3>
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Joseph Beaudoin<br>Section(s): 0502</div>
+            <div class="bio">Dr. Joseph Beaudoin<br>Section(s): 0502</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
@@ -108,7 +111,7 @@
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Daanish Maqbool<br>Section(s): 1201</div>
+            <div class="bio">Dr. Daanish Maqbool<br>Section(s): 1201</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
@@ -120,71 +123,71 @@
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Ayomide Allen<br>Section: 0401</div>
+            <div class="bio">Ayomide Allen<br>Major: Mechanical Engineering<br>Section: 0401</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Haroon Amanullah<br>Section: 1002</div>
+            <div class="bio">Haroon Amanullah<br>Major: Civil Engineering<br>Section: 1002</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Samuel Bentz<br>Section: 0601</div>
+            <div class="bio">Samuel Bentz<br>Major: Mechanical Engineering<br>Section: 0601</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Rita Booth<br>Section: 0801</div>
+            <div class="bio">Rita Booth<br>Major: Civil Engineering<br>Section: 0801</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Sabine Buccheri<br>Section: 1001</div>
+            <div class="bio">Sabine Buccheri<br>Major: Mechanical Engineering<br>Section: 1001</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Kevin Cheng<br>Section: 0302</div>
+            <div class="bio">Kevin Cheng<br>Major: Mechanical Engineering<br>Section: 0302</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Will Covington<br>Section: 0702</div>
+            <div class="bio">Will Covington<br>Major: Aerospace Engineering<br>Section: 0702</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Zoe Edwards<br>Section: 0602</div>
+            <div class="bio">Zoe Edwards<br>Major: Mechanical Engineering<br>Section: 0602</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Natalie Finkelstein<br>Section: 0701</div>
+            <div class="bio">Natalie Finkelstein<br>Major: Mechanical Engineering<br>Section: 0701</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Anna Fulton<br>Section: 0301</div>
+            <div class="bio">Anna Fulton<br>Major: Mechanical Engineering<br>Section: 0301</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Anushka Kakuskar<br>Section: 0402</div>
+            <div class="bio">Anushka Kakuskar<br>Major: Mechanical Engineering<br>Section: 0402</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Michael O'Neil<br>Section: 0802</div>
+            <div class="bio">Michael O'Neil<br>Major: Mechanical Engineering<br>Section: 0802</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Terrence Pierce<br>Section: 0502</div>
+            <div class="bio">Terrence Pierce<br>Major: Mechanical Engineering<br>Section: 0502</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Hannah Rasmussen<br>Section: 0501</div>
+            <div class="bio">Hannah Rasmussen<br>Major: Bioengineering<br>Section: 0501</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Tyler Rivenbark<br>Section: 1201</div>
+            <div class="bio">Tyler Rivenbark<br>Major: Aerospace Engineering<br>Section: 1201</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Stephen Snyder<br>Section: FC01</div>
+            <div class="bio">Stephen Snyder<br>Major: Mechanical Engineering<br>Section: FC01</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Adithya Sundar<br>Section: FC02</div>
+            <div class="bio">Adithya Sundar<br>Major: Aerospace Engineering<br>Section: FC02</div>
         </div>
     </div>
     <h3>Laboratory Teaching Fellows</h3>
@@ -192,39 +195,39 @@
     <div class="split_box">
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Muallim Cekic</div>
+            <div class="bio">Muallim Cekic<br>Major: Electrical Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Ann-Audrey Ezi</div>
+            <div class="bio">Ann-Audrey Ezi<br>Major: Computer Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Nam Facchetti</div>
+            <div class="bio">Nam Facchetti<br>Major: Mechanical Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Abi Guicheteau</div>
+            <div class="bio">Abi Guicheteau<br>Major: Electrical Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Anuraag Karunakaran</div>
+            <div class="bio">Anuraag Karunakaran<br>Major: Computer Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Forrest Milner</div>
+            <div class="bio">Forrest Milner<br>Major: Electrical Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Matthew Paul</div>
+            <div class="bio">Matthew Paul<br>Major: Mechanical Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Joshua Stone</div>
+            <div class="bio">Joshua Stone<br>Major: Computer Engineering</div>
         </div>
         <div class="person">
             <img src="/src/img/frown.jpg" alt=":(">
-            <div class="bio">Camille Wharff</div>
+            <div class="bio">Camille Wharff<br>Major: Computer Engineering</div>
         </div>
     </div>
 </div>
