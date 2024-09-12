@@ -159,7 +159,7 @@
                     </div>
                 </div>
             </li>
-            <!-- <li>
+            <li>
                 <div class="dropdown">
                     <button class="dropbtn">About Us</button>
                     <div class="dropdown-content">
@@ -168,7 +168,7 @@
                         <a href="/about/showcase">Student Showcase</a>
                     </div>
                 </div>
-            </li> -->
+            </li>
         </ul>
     </nav>
 </header>
