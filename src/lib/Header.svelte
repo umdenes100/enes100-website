@@ -42,7 +42,7 @@
         margin-top: 20px; /* margin: 20px was off */
         margin-left: 40px;
         float: left;
-        height: 50px;
+        height: 60px;
         width: auto; /* correct proportions to specified height */
         padding-top: 10px;
         padding-bottom: 20px;

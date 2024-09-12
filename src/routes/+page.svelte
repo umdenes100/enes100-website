@@ -7,7 +7,6 @@
 	display: flex;
 	flex-direction: column;
 	background-color: black;
-
     border-top: 5px solid rgba(226,24,51,1.00);
 }
 .home_boxes .row {
@@ -67,7 +66,7 @@ p {
 .home_content .quick_links a:hover {
 
 	color: black;
-	text-decoration: underline;
+	text-decoration: 2px underline;
 }
 .home_content .lab_status {
 	background-color: rgba(18,27,33,1.00);
@@ -81,7 +80,6 @@ p {
 	justify-content: space-around;
 	width: 70%;
 	color: white;
-
 	margin: auto;
 }
 .home_content .lab_status .lab_content .lab {
