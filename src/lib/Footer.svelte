@@ -51,7 +51,8 @@
 <!--        <a href="#">Directory</a>-->
 <!--        <div class="divider">|</div>-->
 <!--        <a href="#">Accessibility</a>-->
-<!--        <div class="divider">|</div>-->
+        <a href="https://eng.umd.edu/keystone">keystone</a>
+        <div class="divider">|</div>
         <a href="https://umd.edu">umd.edu</a>
     </div>
     <div class="copyright">&copy;2024 University of Maryland</div>
