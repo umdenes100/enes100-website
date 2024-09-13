@@ -21,11 +21,11 @@ Detailed steps for this process can be found [here](https://docs.google.com/docu
 ## Model Upload
 Click [here](https://enes100.umd.edu/uploadmodel) to upload a trained model.
 ## WIFI Cam CAD
-<a href="/img/WiFiCam%20Case%20(with%20camera).f3z" download>Download Cam Case with camera model</a>, best for placing in CAD.  
-<a href="/img/WiFiCamCASE.step" download>Download Cam Case as STEP file</a>, best for editing/customizing in CAD.  
+<a href="/img/WiFiCam%20Case%20(with%20camera).f3z" download>Download Cam Case with camera model</a>, best for placing in CAD.
+<a href="/img/WiFiCamCASE.step" download>Download Cam Case as STEP file</a>, best for editing/customizing in CAD.
 <a href="../img/WiFiCamCASE.stl" download>Download Cam Case as STL file</a>, best for 3D printing.<br><br>
-Below is an example of a possible mount to connect the camera. The hole is sized for an M4 screw.  
-<img src="/src/img/sample_mount.jpg" alt="no_pic" width=50%>
+Below is an example of a possible mount to connect the camera. The hole is sized for an M4 screw.
+<img src="/static/img/sample_mount.jpg" alt="no_pic" width=50%>
         </MarkdownContent>
     </div>
     </slot>

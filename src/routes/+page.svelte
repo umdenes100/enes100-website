@@ -6,7 +6,7 @@
 .home_boxes {
 	display: flex;
 	flex-direction: column;
-	background-image: url("/src/img/home_bkg.jpg");
+	background-image: url("/static/img/home_bkg.jpg");
 	background-size: 150%;
 	background-repeat: no-repeat;
 	padding: 40px 120px;
@@ -98,7 +98,7 @@ p {
 .home_content .lab_status {
 	background-color: rgba(18,27,33,1.00);
 	width: 60%;
-	background-image: url("/src/img/shell overlay repeating.svg");
+	background-image: url("/static/img/shell overlay repeating.svg");
 	background-size: 50%;
 	text-align: center;
 }
@@ -176,12 +176,12 @@ p {
                 </div>
             </div>
 			<script>
-				var d = new Date();
+				let d = new Date();
 				function lab_1116() {
-					var c = document.getElementById("current_1116");
-					var n = document.getElementById("next_1116");
-					var w = d.getDay();
-					var weekdays = [//1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
+					let c = document.getElementById("current_1116");
+					let n = document.getElementById("next_1116");
+					let w = d.getDay();
+					let weekdays = [//1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
 						["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 						["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 0, 0],
 						["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 2, 2, 0, 0],
@@ -190,30 +190,30 @@ p {
 						["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
 						["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 					];
-					var day = weekdays[w];
-					var time = d.getHours();
+					let day = weekdays[w];
+					let time = d.getHours();
 
-					if (day[time] == 2) {
+					if (day[time] === 2) {
 						c.innerHTML = "open";
-					} else if (day[time] == 1) {
+					} else if (day[time] === 1) {
 						c.innerHTML = "class";
 					} else {
 						c.innerHTML = "closed";
 					}
 
-					if (day[time + 1] == 2) {
+					if (day[time + 1] === 2) {
 						n.innerHTML = "open";
-					} else if (day[time + 1] == 1) {
+					} else if (day[time + 1] === 1) {
 						n.innerHTML = "class";
 					} else {
 						n.innerHTML = "closed";
 					}
 				}
 				function lab_1120() {
-					var c = document.getElementById("current_1120");
-					var n = document.getElementById("next_1120");
-					var w = d.getDay();
-					var weekdays = [//1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
+					let c = document.getElementById("current_1120");
+					let n = document.getElementById("next_1120");
+					let w = d.getDay();
+					let weekdays = [//1  2  3  4  5  6  7  8  9  10 11 N  1  2  3  4  5  6  7  8  9  10 11
 						["Sunday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 						["Monday",    0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
 						["Tuesday",   0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
@@ -222,27 +222,27 @@ p {
 						["Friday",    0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
 						["Saturday",  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 					];
-					var day = weekdays[w];
-					var time = d.getHours();
+					let day = weekdays[w];
+					let time = d.getHours();
 
-					if (day[time] == 2) {
+					if (day[time] === 2) {
 						c.innerHTML = "open";
-					} else if (day[time] == 1) {
+					} else if (day[time] === 1) {
 						c.innerHTML = "class";
 					} else {
 						c.innerHTML = "closed";
 					}
 
-					if (day[time + 1] == 2) {
+					if (day[time + 1] === 2) {
 						n.innerHTML = "open";
-					} else if (day[time + 1] == 1) {
+					} else if (day[time + 1] === 1) {
 						n.innerHTML = "class";
 					} else {
 						n.innerHTML = "closed";
 					}
 				}
 				window.onload = function() {
-					var t = document.getElementById("time");
+					let t = document.getElementById("time");
 					t.innerHTML = d.toLocaleString();
 					lab_1116();
 					lab_1120();
@@ -280,14 +280,14 @@ p {
 <div class="home_boxes">
     <div class="row">
 		<div class="row_text"><p>"This course was very challenging and required a large amount of hard work, but it was a good way to see what engineering is and what is required of a student who wants to become an engineer."</p></div>
-        <div class="row_stack"><img src="/src/img/grid_1.jpg" alt="kitty cat"><img src="/src/img/grid_2.jpg" alt="kitty cat"></div>
+        <div class="row_stack"><img src="/static/img/grid_1.jpg" alt="kitty cat"><img src="/static/img/grid_2.jpg" alt="kitty cat"></div>
         <div class="row_text"><p>"ENES100 was a great way to dip my toe into engineering and helped me figure out what I wanted to study. I love being an engineer, and this class was the start for me."</p></div>
     </div>
 	<h2>"I learned a LOT from this course and my teammates and I formed extremely strong bonds."</h2>
 	<div class="row">
-        <div class="row_image"><img src="/src/img/grid_3.jpg" alt="kitty cat" height=100%></div>
-		<div class="row_image"><img src="/src/img/grid_5.jpg" alt="kitty cat" height=100%></div>
-		<div class="row_image"><img src="/src/img/grid_4.jpg" alt="kitty cat" height=100%></div>
+        <div class="row_image"><img src="/static/img/grid_3.jpg" alt="kitty cat" height=100%></div>
+		<div class="row_image"><img src="/static/img/grid_5.jpg" alt="kitty cat" height=100%></div>
+		<div class="row_image"><img src="/static/img/grid_4.jpg" alt="kitty cat" height=100%></div>
     </div>
 </div>
 
