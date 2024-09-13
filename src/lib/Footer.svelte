@@ -24,6 +24,7 @@
         text-decoration: underline;
     }
 
+    /*noinspection CssUnusedSymbol*/
     .divider {
         display: inline-block;
         color: #FFFFFF;
@@ -47,11 +48,11 @@
 </style>
 <footer>
     <div class="footer_nav">
-        <a href="#">Directory</a>
-        <div class="divider">|</div>
-        <a href="#">Accessibility</a>
-        <div class="divider">|</div>
-        <a href="#">umd.edu</a>
+<!--        <a href="#">Directory</a>-->
+<!--        <div class="divider">|</div>-->
+<!--        <a href="#">Accessibility</a>-->
+<!--        <div class="divider">|</div>-->
+        <a href="https://umd.edu">umd.edu</a>
     </div>
     <div class="copyright">&copy;2024 University of Maryland</div>
 </footer>
