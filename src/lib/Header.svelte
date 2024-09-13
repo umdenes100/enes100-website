@@ -121,7 +121,7 @@
         <a href="https://umd.edu">UNIVERSITY OF MARYLAND</a>
     </div>
     <nav>
-        <a href="/"><img id="logo" src="/static/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>
+        <a href="/"><img id="logo" src="/img/keystone_logo.svg" alt="UMD_ENG_Ctr_Color_W.png"></a>
         <ul>
             <li>
                 <div class="dropdown">

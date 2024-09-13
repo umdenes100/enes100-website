@@ -15,12 +15,12 @@
             </div>
         </div>
         <div class="box_split">
-            <img src="/static/img/otv_materials.jpg" alt="elephant otv" height="100%" />
+            <img src="/img/otv_materials.jpg" alt="elephant otv" height="100%" />
         </div>
     </div>
     <h3>All teams must complete their mission and navigate an obstacle course.</h3><div class="split_box">
         <div class="box_split">
-            <img src="/static/img/otv_fire.jpg" alt="elephant otv" height="100%" />
+            <img src="/img/otv_fire.jpg" alt="elephant otv" height="100%" />
         </div>
         <div class="box_split">
             <div class="textbox">
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="box_split">
-            <img src="/static/img/otv_elephant.jpg"
+            <img src="/img/otv_elephant.jpg"
                 alt="elephant otv"
                 height="100%"/>
         </div>

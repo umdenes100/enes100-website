@@ -2,21 +2,21 @@
     font-family: 'Interstate';
     font-weight: normal;
     font-style: normal;
-    src: local('Interstate'), url("/static/img/Interstate-Regular.otf") format('opentype');
+    src: local('Interstate'), url("/img/Interstate-Regular.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Interstate';
     font-style: normal;
     font-weight: bold;
-    src: local('Interstate'), url("/static/img/Interstate-Bold.otf") format('opentype');
+    src: local('Interstate'), url("/img/Interstate-Bold.otf") format('opentype');
 }
 
 body {
     padding: 0;
     margin: 0;
     min-height: 100vh;
-    background-image: url("/static/img/home_3.jpg");
+    background-image: url("/img/home_3.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #121B21;
@@ -27,7 +27,7 @@ body {
 }
 
 .main_content {
-    background-image: url("/static/img/shell overlay repeating.svg");
+    background-image: url("/img/shell overlay repeating.svg");
     background-size: 60%;
     background-repeat: repeat;
     background-color: #121B21;

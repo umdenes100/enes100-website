@@ -6,7 +6,7 @@
 .home_boxes {
 	display: flex;
 	flex-direction: column;
-	background-image: url("/static/img/home_bkg.jpg");
+	background-image: url("/img/home_bkg.jpg");
 	background-size: 150%;
 	background-repeat: no-repeat;
 	padding: 40px 120px;
@@ -98,7 +98,7 @@ p {
 .home_content .lab_status {
 	background-color: rgba(18,27,33,1.00);
 	width: 60%;
-	background-image: url("/static/img/shell overlay repeating.svg");
+	background-image: url("/img/shell overlay repeating.svg");
 	background-size: 50%;
 	text-align: center;
 }
@@ -280,14 +280,14 @@ p {
 <div class="home_boxes">
     <div class="row">
 		<div class="row_text"><p>"This course was very challenging and required a large amount of hard work, but it was a good way to see what engineering is and what is required of a student who wants to become an engineer."</p></div>
-        <div class="row_stack"><img src="/static/img/grid_1.jpg" alt="kitty cat"><img src="/static/img/grid_2.jpg" alt="kitty cat"></div>
+        <div class="row_stack"><img src="/img/grid_1.jpg" alt="kitty cat"><img src="/img/grid_2.jpg" alt="kitty cat"></div>
         <div class="row_text"><p>"ENES100 was a great way to dip my toe into engineering and helped me figure out what I wanted to study. I love being an engineer, and this class was the start for me."</p></div>
     </div>
 	<h2>"I learned a LOT from this course and my teammates and I formed extremely strong bonds."</h2>
 	<div class="row">
-        <div class="row_image"><img src="/static/img/grid_3.jpg" alt="kitty cat" height=100%></div>
-		<div class="row_image"><img src="/static/img/grid_5.jpg" alt="kitty cat" height=100%></div>
-		<div class="row_image"><img src="/static/img/grid_4.jpg" alt="kitty cat" height=100%></div>
+        <div class="row_image"><img src="/img/grid_3.jpg" alt="kitty cat" height=100%></div>
+		<div class="row_image"><img src="/img/grid_5.jpg" alt="kitty cat" height=100%></div>
+		<div class="row_image"><img src="/img/grid_4.jpg" alt="kitty cat" height=100%></div>
     </div>
 </div>
 

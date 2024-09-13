@@ -16,11 +16,11 @@
 
 Navigational tanks created to supplement student coding curriculum in ENES100.
 
-<img src="/static/img/tank.jpg" alt="tank" width=50%>
+<img src="/img/tank.jpg" alt="tank" width=50%>
 
 The tank has swappable propulsion modules, including a few seen here:
 
-<img src="/static/img/tankswheels.jpg" alt="tank wheels" width=50%>
+<img src="/img/tankswheels.jpg" alt="tank wheels" width=50%>
 
 In order to remove the propulsion modules, remove the wheels by turning counter clockwise and then slide the module out.
 
