@@ -111,7 +111,7 @@
         justify-content: space-around;
     }
     .text {
-        padding: 5%;
+        padding: 2% 5%;
     }
     h1 {
         font-size: 50px;
