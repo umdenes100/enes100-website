@@ -10,49 +10,90 @@
         <div class="box_split">
             <div class="textbox">
                 <h1>Materi-yoked</h1>
-                <h2>Spring 2022<br>Material Identification</h2>
-                <p>Material Identification teams must lift the provided object entirely off of the ground. They must then detect it's weight and hardness.</p>
+                <h2>Spring 2022<br />Material Identification</h2>
+                <p>
+                    Material Identification teams must lift the provided object
+                    entirely off of the ground. They must then detect it's
+                    weight and hardness.
+                </p>
             </div>
         </div>
         <div class="box_split">
-            <img src="/img/otv_materials.jpg" alt="elephant otv" height="100%" />
+            <img src="/img/otv_materials.jpg" alt="elephant otv" />
         </div>
     </div>
-    <h3>All teams must complete their mission and navigate an obstacle course.</h3><div class="split_box">
+    <h3>
+        All teams must complete their mission and navigate an obstacle course.
+    </h3>
+    <div class="split_box">
         <div class="box_split">
-            <img src="/img/otv_fire.jpg" alt="elephant otv" height="100%" />
+            <img src="/img/otv_fire.jpg" alt="elephant otv" />
         </div>
         <div class="box_split">
             <div class="textbox">
                 <h1>Lightning Mikequeen</h1>
-                <h2>Fall 2022<br>Fire Suppression</h2>
-                <p>Students tasked with fire suppression must detect the topography of a site and severity of the fire present. They must then suppress the flames.</p>
+                <h2>Fall 2022<br />Fire Suppression</h2>
+                <p>
+                    Students tasked with fire suppression must detect the
+                    topography of a site and severity of the fire present. They
+                    must then suppress the flames.
+                </p>
             </div>
         </div>
     </div>
 
-    <h3>We encourage our students to get creative when approaching mission challenges.</h3>
+    <h3>
+        We encourage our students to get creative when approaching mission
+        challenges.
+    </h3>
     <div class="split_box">
         <div class="box_split">
             <div class="textbox">
                 <h1>Elephante</h1>
-                <h2>Spring 2023<br>Data Extraction</h2>
-                <p>The data extraction mission involves connecting to a data pylon, reading a duty cycle from the inside, and detecting the magnetism of an internal puck.</p>
+                <h2>Spring 2023<br />Data Extraction</h2>
+                <p>
+                    The data extraction mission involves connecting to a data
+                    pylon, reading a duty cycle from the inside, and detecting
+                    the magnetism of an internal puck.
+                </p>
             </div>
         </div>
         <div class="box_split">
-            <img src="/img/otv_elephant.jpg"
-                alt="elephant otv"
-                height="100%"/>
+            <img src="/img/otv_elephant.jpg" alt="elephant otv" />
         </div>
     </div>
 </div>
 
 <style>
+    @media (max-width: 1200px) {
+        .split_box {
+            flex-direction: column;
+        }
+        .box_split {
+            width: 100%;
+            background-color: white;
+            overflow: hidden;
+            height: 100%;
+            padding: 5%;
+        }
+    }
+    @media (min-width: 1201px) {
+        .split_box {
+            flex-direction: row;
+        }
+        .box_split {
+            width: 43%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            outline: 2px solid white;
+            outline-offset: 20px;
+            overflow: hidden;
+        }
+    }
     .textbox h1 {
         text-decoration: 2px #e21833 underline;
         margin-top: 20px;
-        font-size: 45px;;
+        font-size: 45px;
     }
     .textbox h2 {
         margin-top: -25px;
@@ -69,20 +110,13 @@
         padding-top: 25px;
         padding-bottom: 30px;
         color: black;
+        align-items: center;
     }
-    .box_split {
-        width: 43%;
-        aspect-ratio: 1/1;
-        background-color: white;
-        outline: 2px solid white;
-        outline-offset: 20px;
-        overflow: hidden;
+    .box_split img {
+        width: 100%;
     }
     .text {
-        padding-top: 35px;
-        padding-bottom: 50px;
-        padding-right: 90px;
-        padding-left: 90px;
+        padding: 5%;
     }
     h1 {
         font-size: 50px;

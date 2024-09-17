@@ -737,7 +737,7 @@
     }
 
     .page_title {
-        padding-left: 100px;
+        padding-left: 10%;
         padding-right: 100px;
         padding-bottom: 80px;
         color: white;
