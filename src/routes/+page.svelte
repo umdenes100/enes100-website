@@ -259,15 +259,9 @@
                 <li>
                     <a href="/tools/visionsystem">Vision System</a>
                 </li>
-                <!-- <li>
-                    <a href="/tools/machinelearning">Machine Learning</a>
-                </li> -->
                 <li>
-                    <a href="/documentation/tank_guide">Tank Guide</a>
+                    <a href="/tools/machinelearning">Machine Learning</a>
                 </li>
-                <!-- <li>
-                    <a href="/about/team">Instructional Team</a>
-                </li> -->
                 <li>
                     <a href="/documentation/enes100/">Enes100 Library</a>
                 </li>
