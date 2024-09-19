@@ -78,12 +78,14 @@ The following code will allow you to connect to the vision system, and prints a 
 #include "Tank.h"
 
 void setup() {'{'}
-//This function connects the tank to the vision system. The TX and RX pins of the tanks are 52 and 50 respectively.
+//This function connects the tank to the vision system. The TX and RX pins of the tanks 
+//are 52 and 50 respectively.
 Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 52, 50);
 
 delay(200);
 
-Enes100.println("Sucessfully connected to the Vision System"); // print some text in Serial Monitor
+//print some text in Serial Monitor
+Enes100.println("Sucessfully connected to the Vision System");
 }
 ```
 

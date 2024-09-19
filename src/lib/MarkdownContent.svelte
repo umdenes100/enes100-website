@@ -25,6 +25,7 @@
     .MarkdownContent {
         /* todo */
         /*color: black;*/
+        overflow: scroll;
     }
 
     :global(.MarkdownContent table) {
