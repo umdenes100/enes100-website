@@ -19,7 +19,7 @@
         <a href="#demo">Product Demonstration</a>
     </div>
     <MarkdownContent>
-# Enes100ArduinoLibrary
+# Enes100 Arduino Library
 
 An Arduino library for use in the ENES100 course to allow Arduino boards to communicate with the ENES100 Vision System
 via ESP8266 Wi-Fi modules.

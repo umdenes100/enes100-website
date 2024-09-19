@@ -1,4 +1,10 @@
 <style>
+    @media (max-width: 1034px) {
+        .sidebar {
+            display: none;
+            visibility: hidden;
+        }
+    }
     .sidebar {
         width: 200px;
         background-color: rgba(226, 24, 51, 0.5);
@@ -31,11 +37,11 @@
     }
 
     .main {
-        margin: 40px 80px;
+        margin: 4% 8%;
         border: 2px solid white;
         height: 100%;
         background-color: #121B21;
-        padding: 10px 40px 20px 40px;
+        padding: 1% 4% 2%;
         width: 100%;
     }
 </style>
