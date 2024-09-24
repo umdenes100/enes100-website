@@ -36,7 +36,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Kevin Chiu<br />Section(s): 1002<br /><a
+                Dr. Kevin Chiu<br />Section(s): 1002<br /><a
                     href="mailto:knchiu@umd.edu">knchiu@umd.edu</a
                 >
             </div>
@@ -109,7 +109,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Jarred Young<br />Section(s): 1001<br /><a
+                Dr. Jarred Young<br />Section(s): 1001<br /><a
                     href="mailto:jyoung11@umd.edu">jyoung11@umd.edu</a
                 >
             </div>
