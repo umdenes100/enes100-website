@@ -129,7 +129,8 @@
                     <div class="dropdown-content">
                         <a href="/tools/machinelearning">Machine Learning</a>
                         <a href="/tools/simulator">Simulator</a>
-                        <a href="http://192.168.1.2:8080/">Vision System</a>
+<!--                        <a href="http://192.168.1.2:8080/">Vision System</a>-->
+                        <a href="/tools/visionsystem">Vision System</a>
                     </div>
                 </div>
             </li>
