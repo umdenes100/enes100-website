@@ -36,7 +36,7 @@ Failure to do this may cause file conflicts, and it is not guaranteed that the l
 
 ## Setup <a id="setup"> </a>
 
-Communication with the Vision System is done using ESP8266 WiFi-enabled microcontrollers. Wi-Fi modules are available
+Communication with the Vision System is done using ESP8266 WiFi microcontrollers. Wi-Fi modules are available
 for
 checkout through a Teaching Fellow. The Wi-Fi module has 4 pins:
 
