@@ -28,8 +28,8 @@ In order to remove the propulsion modules, remove the wheels by turning counter 
 ## Prerequesites <a id="prereqs"> </a>
 
 1. Have Arduino installed on your computer. The download link can be found [here](https://www.arduino.cc/en/software)
-2. Download the ENES 100 library [here](https://enes100.umd.edu/libraries/enes100)
-3. Download the Tank library [here](https://enes100.umd.edu/libraries/tank)
+2. Download the ENES 100 library [here](https://github.com/umdenes100/ENES100ArduinoLibrary/archive/master.zip)
+3. Download the Tank library [here](https://github.com/umdenes100/TankArduinoLibrary/archive/master.zip)
 
 ## Programming the Tank <a id="programming"> </a>
 
@@ -78,7 +78,7 @@ The following code will allow you to connect to the vision system, and prints a 
 #include "Tank.h"
 
 void setup() {'{'}
-//This function connects the tank to the vision system. The TX and RX pins of the tanks 
+//This function connects the tank to the vision system. The TX and RX pins of the tanks
 //are 52 and 50 respectively.
 Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 52, 50);
 
