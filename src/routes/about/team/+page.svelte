@@ -194,7 +194,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Anushka Kakuskar<br />Major: Mechanical Engineering<br
+                Anushka Kaluskar<br />Major: Mechanical Engineering<br
                 />Section: 0402
             </div>
         </div>
