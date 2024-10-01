@@ -25,7 +25,7 @@ An Arduino library for use in the ENES100 course to allow Arduino boards to comm
 via ESP8266 Wi-Fi modules.
 
 ## Download and Installation <a id="download"> </a>
-### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/master.zip">Click to Download</a>  
+### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/master.zip">Click to Download</a>
 To download this library, click the above link. Make sure the file is unzipped and move it
 to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The
 most current version of Arduino IDE can be downloaded from
@@ -230,8 +230,6 @@ Valid calls for **WATER**:
 * `Enes100.mission(DEPTH, i);` *i is in mm*
 * `Enes100.mission(WATER_TYPE, FRESH_UNPOLLUTED);`
 * `Enes100.mission(WATER_TYPE, FRESH_POLLUTED);`
-* `Enes100.mission(WATER_TYPE, SALT_UNPOLLUTED);`
-* `Enes100.mission(WATER_TYPE, SALT_POLLUTED);`
 
 Valid calls for **SEED**:
 
