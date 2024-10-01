@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"marked": "^14.0.0",
-		"@universityofmaryland/utilityheader": "1.0.7"
+		"firebase": "^10.14.0"
 	},
 	"type": "module"
 }

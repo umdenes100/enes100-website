@@ -2,6 +2,7 @@
     font-family: 'Interstate';
     font-weight: normal;
     font-style: normal;
+    /*noinspection CssUnknownTarget*/
     src: local('Interstate'), url("/img/Interstate-Regular.otf") format('opentype');
 }
 
@@ -9,18 +10,21 @@
     font-family: 'Interstate';
     font-style: normal;
     font-weight: bold;
+    /*noinspection CssUnknownTarget*/
     src: local('Interstate'), url("/img/Interstate-Bold.otf") format('opentype');
 }
 
 @media (max-width: 320px) {
-body {
-    background-image: url("/img/shell overlay repeating.svg");
-    background-repeat: repeat-y;
-}
+    body {
+        /*noinspection CssUnknownTarget*/
+        background-image: url("/img/shell overlay repeating.svg");
+        background-repeat: repeat-y;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 860px) {
     body {
+        /*noinspection CssUnknownTarget*/
         background-image: url("/img/shell overlay repeating.svg");
         background-repeat: repeat-y;
     }
@@ -28,14 +32,16 @@ body {
 
 @media (min-width: 861px) and (max-width: 1000px) {
     body {
+        /*noinspection CssUnknownTarget*/
         background-image: url("/img/home_3.jpg");
     }
 }
 
 @media (min-width: 1001px) {
-body {
-    background-image: url("/img/home_3.jpg");
-}
+    body {
+        /*noinspection CssUnknownTarget*/
+        background-image: url("/img/home_3.jpg");
+    }
 }
 
 body {
@@ -51,6 +57,7 @@ body {
 }
 
 .main_content {
+    /*noinspection CssUnknownTarget*/
     background-image: url("/img/shell overlay repeating.svg");
     background-size: 60%;
     background-repeat: repeat;
