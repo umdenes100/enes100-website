@@ -246,15 +246,17 @@ or
 The ESPCAM will be mounted to your OTV and act as your wifi module, with the added capabilities of camera vision. Note, this is not the overhead vision system above the arena - this is a
 development board provided that has a camera on it that will put on your otv.
 
-### int Enes100.MLGetPrediction()<a id="ml_pred"> </a>
+### int Enes100.MLGetPrediction(int index)<a id="ml_pred"> </a>
 
-Sends current image from the ESPCAM to the Vision System to get processed by your team's machine learning model. Models must have been uploaded to the [ENES100 Model
-Uploader](https://enes100.umd.edu/uploadmodel) beforehand to use this function. The function uses your team name (from the Enes100.begin() statement) to find your model. As such, **make sure
+Sends current image from the ESPCAM to the Vision System to get processed by your team's machine learning model. Read more [here](https://enes100.umd.edu/tools/machinelearning/).
+The function uses your team name (from the Enes100.begin() statement) to find your model. As such, **make sure
 your team name matches the model name exactly**.
 
+The index should be the index chosen when uploading the model - which is any positive number you choose. The index is used to differentiate between multiple models uploaded by the same team.
+
 Example:
-If your ML model contained the categories: **Thumbs Up**, **Thumbs Down**, **Thumb Sideways** in an array in that order,
-calling `Enes100.MLGetPrediction()` would return `0` if **Thumbs Up** is predicted, `1` if **Thumbs Down** is predicted, and `2` if **Thumb Sideways** is predicted.
+If your ML model at index 1 contained the categories: **Thumbs Up**, **Thumbs Down**, **Thumb Sideways** in an array in that order,
+calling `Enes100.MLGetPrediction(1)` would return `0` if **Thumbs Up** is predicted, `1` if **Thumbs Down** is predicted, and `2` if **Thumb Sideways** is predicted.
 
 ## Example Code and Debugging<a id="example"> </a>
 
