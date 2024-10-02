@@ -22,7 +22,7 @@ As the name suggests, the Tanks serve two purposes in ENES100:
 The Tank Arduino library is used to control both the simulator Tanks and the physical Tanks. Using the library, you can control the Tank's motors and pull data from it's sensors.
 
 ## Download and Installation <a id="download"> </a>
-### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/master.zip">Click to Download</a>  
+### <a href="https://github.com/umdenes100/TankArduinoLibrary/archive/master.zip">Click to Download</a>
 To download this library, click the above link. Make sure the file is unzipped and move it to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The most current version of Arduino IDE can be downloaded from the [Arduino website](https://www.arduino.cc/en/Main/Software).
 
 * If this does not work, you can extract the library inside the Arduino IDE (Sketch->Include Library->Add .ZIP Library...).
