@@ -201,7 +201,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Michael O'Neil<br />Major: Mechanical Engineering<br />Section:
+                Michael O'Neill<br />Major: Mechanical Engineering<br />Section:
                 0802
             </div>
         </div>
