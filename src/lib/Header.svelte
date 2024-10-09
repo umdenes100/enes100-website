@@ -168,6 +168,7 @@
                         <a href="/about">About the Course</a>
                         <a href="/about/team">Instructional Team</a>
                         <a href="/about/showcase">Student Showcase</a>
+                        <!-- <a href="/about/technologies">Technologies</a> -->
                     </div>
                 </div>
             </li>
