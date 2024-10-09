@@ -139,7 +139,7 @@
                     <button class="dropbtn">Labs</button>
                     <div class="dropdown-content">
                         <a href="/labs/schedule">Schedule</a>
-                        <!-- <a href="/labs/store">School Store</a> -->
+                        <a href="/labs/store">School Store</a>
                         <!-- <a href="/labs/toolcheck">Tool Check</a> -->
                         <!-- <a href="/labs/maintenance">Maintenance Form</a> -->
                     </div>
