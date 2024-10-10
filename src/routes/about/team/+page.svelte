@@ -12,7 +12,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Dr. Joseph Beaudoin<br />Section(s): 0502<br /><a
+                Dr. Brian Beaudoin<br />Section(s): 0502<br /><a
                     href="mailto:beaudoin@umd.edu">beaudoin@umd.edu</a
                 >
             </div>
@@ -44,7 +44,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Dr. Aris Cleanthous<br />Section(s): 0301<br /><a
+                Aris Cleanthous<br />Section(s): 0301<br /><a
                     href="mailto:acleanth@umd.edu">acleanth@umd.edu</a
                 >
             </div>
