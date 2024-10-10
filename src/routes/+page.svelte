@@ -509,9 +509,9 @@
         .home_content .lab_status {
             width: 100%;
         }
-        .home_content .quick_links h1 {
+        /* .home_content .quick_links h1 {
             padding-left: 5%;
-        }
+        } */
         .home_content .lab_status .lab_content {
             flex-direction: column;
         }
@@ -531,9 +531,9 @@
         .home_content .lab_status {
             width: 100%;
         }
-        .home_content .quick_links h1 {
+        /* .home_content .quick_links h1 {
             padding-left: 5%;
-        }
+        } */
         .home_content .lab_status .lab_content {
             flex-direction: column;
         }
