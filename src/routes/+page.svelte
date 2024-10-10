@@ -412,7 +412,7 @@
     <div class="home_content">
         <div class="lab_status">
             <div class="header">
-                LAB STATUS - {new Date().toLocaleString()}
+                <div>LAB STATUS - {new Date().toLocaleString()}</div>
             </div>
             <div class="lab_content">
                 <div class="lab">
@@ -430,8 +430,12 @@
             </div>
         </div>
         <div class="quick_links">
+            <div class="content">
             <h2>Open Lab Spirit Days</h2>
-            <h4>Show your ENES100 spirit by participating in open lab themes every Friday during build phase!</h4>
+            <h4>
+                Show your ENES100 spirit by participating in open lab themes
+                every Friday during build phase!
+            </h4>
             <ul>
                 <li><b>10/18 - Vacation Day: Hawaiian shirts</b></li>
                 <!-- <li>10/25 - some theme</li>
@@ -455,6 +459,7 @@
                     <a href="/documentation/faq/">Frequently Asked Questions</a>
                 </li>
             </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -677,6 +682,11 @@
         padding-top: 10px;
     }
 
+    .home_content .quick_links .content {
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+
     .home_content .quick_links h2 {
         color: black;
     }
@@ -715,6 +725,8 @@
     }
 
     .home_content .lab_status .lab_content {
+        animation-duration: 2s;
+        animation-name: slidein;
         display: flex;
         justify-content: space-around;
         width: 70%;
@@ -751,7 +763,14 @@
         font-weight: bold;
     }
 
+    .home_content .lab_status .header div {
+        animation-name: slidein;
+        animation-duration: 2s;
+    }
+
     .page_title {
+        animation-duration: 1s;
+        animation-name: slidein;
         padding-left: 6%;
         padding-right: 50px;
         padding-bottom: 20px;
@@ -769,5 +788,20 @@
         margin-top: -40px;
         margin-bottom: -10px;
         font-size: 40px;
+    }
+    @keyframes slidein {
+        0% {
+            translate: 0 15vh;
+            opacity: 0;
+        }
+
+        50% {
+            translate: 0 15vh;
+            opacity: 0;
+        }
+
+        100% {
+            translate: 0 0;
+        }
     }
 </style>
