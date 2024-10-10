@@ -430,17 +430,24 @@
             </div>
         </div>
         <div class="quick_links">
-            <h1>Quick Links</h1>
+            <h2>Open Lab Spirit Days</h2>
+            <h4>Show your ENES100 spirit by participating in open lab themes every Friday during build phase!</h4>
+            <ul>
+                <li><b>10/18 - Vacation Day: Hawaiian shirts</b></li>
+                <!-- <li>10/25 - some theme</li>
+                <li>11/1 - USA day: Red, White, and Blue</li> -->
+            </ul>
+            <h2>Quick Links</h2>
             <ul>
                 <li>
                     <a href="/tools/simulator">Simulator</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/tools/visionsystem">Vision System</a>
                 </li>
                 <li>
                     <a href="/tools/machinelearning">Machine Learning</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="/documentation/enes100/">Enes100 Library</a>
                 </li>
@@ -665,16 +672,24 @@
         background-color: white;
         border-top: 5px solid rgba(226, 24, 51, 1);
         padding-left: 40px;
+        padding-right: 20px;
         padding-bottom: 20px;
         padding-top: 10px;
     }
 
-    .home_content .quick_links h1 {
+    .home_content .quick_links h2 {
         color: black;
+    }
+    .home_content .quick_links h4 {
+        color: black;
+        font-size: 15px;
+        font-weight: normal;
     }
 
     .home_content .quick_links ul {
         margin-top: -10px;
+        color: black;
+        font-size: 15px;
     }
 
     .home_content .quick_links li {
@@ -684,7 +699,7 @@
     .home_content .quick_links a {
         color: black;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .home_content .quick_links a:hover {
@@ -737,9 +752,9 @@
     }
 
     .page_title {
-        padding-left: 10%;
-        padding-right: 100px;
-        padding-bottom: 80px;
+        padding-left: 6%;
+        padding-right: 50px;
+        padding-bottom: 20px;
         color: white;
         font-weight: bold;
     }
