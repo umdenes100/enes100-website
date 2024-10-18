@@ -438,9 +438,10 @@
             </h4>
             <ul>
                 <li><b>10/18 - Vacation Day: Hawaiian shirts</b></li>
-                <!-- <li>10/25 - some theme</li>
-                <li>11/1 - USA day: Red, White, and Blue</li> -->
+                <li>10/25 - Pajama Day: Self explanatory</li>
+                <!-- <li>11/1 - USA day: Red, White, and Blue</li> -->
             </ul>
+            <h4>All attire must be lab appropriate.</h4>
             <h2>Quick Links</h2>
             <ul>
                 <li>
@@ -678,8 +679,8 @@
         border-top: 5px solid rgba(226, 24, 51, 1);
         padding-left: 40px;
         padding-right: 20px;
-        padding-bottom: 20px;
-        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
 
     .home_content .quick_links .content {
@@ -694,10 +695,11 @@
         color: black;
         font-size: 15px;
         font-weight: normal;
+        margin-top: -10px;
     }
 
     .home_content .quick_links ul {
-        margin-top: -10px;
+        margin-top: -15px;
         color: black;
         font-size: 15px;
     }
