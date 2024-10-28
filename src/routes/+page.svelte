@@ -437,9 +437,8 @@
                 every Friday during build phase!
             </h4>
             <ul>
-                <li><b>10/25 - Pajama Day: Self explanatory</b></li>
-                <li>11/1 - USA Day: Wear red, white, and blue</li>
-                <!-- <li>11/1 - USA day: Red, White, and Blue</li> -->
+                <li><b>11/1 - USA Day: Wear red, white, and blue</b></li>
+                <!-- <li>11/8 - TBD</li> -->
             </ul>
             <h4>All attire must be lab appropriate.</h4>
             <h2>Quick Links</h2>
