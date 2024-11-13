@@ -10,9 +10,9 @@
         <MarkdownContent>
 # Machine Learning Information and Links
 ## <span style="color: red">Machine Learning Update 11/12/2024</span>
-A new version of cameras are available for students. These new cameras are not capable of data collection.
-(They will not create a wifi network wificam-%d). They are more reliable. Please as your UTF to contact Forrest for
-how to swap out your camera. You will recieve a new black camera but not a new green PCB.
+A new version of cameras are available for students who have completed their model training. These new cameras are not capable of data collection.
+(They will not create a wifi network wificam-%d). They are more reliable as wifi Modules. Please ask your UTF to contact Forrest for
+how to swap out your camera once you have finished data collection and have trained your model.
 
 ### Notes on <span style="color: red">NEW CAMERAS ONLY:</span>
 NEW WifiCams have a new LED blinking system to give you more information about debugging the system.
