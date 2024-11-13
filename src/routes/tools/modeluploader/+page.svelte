@@ -71,9 +71,9 @@
         </label>
         <label for="modelindex">
             Model index<br>
-            <small> Each team is allowed as many models as needed. Use a unique index (positive integer) for each model you wish to use.
+            <small> Each team is allowed as many models as needed. Use a unique index (positive integer between 0 and 255) for each model you wish to use.
             </small>
-            <input type="number" id="modelindex" placeholder="Model Index" bind:value={modelIndex}
+            <input type="number" id="modelindex" placeholder="Model Index" bind:value={modelIndex} min={0} max={255}
                    aria-invalid={modelIndex <= 0}>
         </label>
         <small>The .pth file downloaded from your training run in the jupyter notebook.</small>
