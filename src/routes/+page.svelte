@@ -437,8 +437,8 @@
                 every Friday during build phase!
             </h4>
             <ul>
-                <li><b>11/1 - USA Day: Wear red, white, and blue</b></li>
-                <!-- <li>11/8 - TBD</li> -->
+                <li><b>11/22 - Thanksgiving Theme: Open to interpretation</b></li>
+                <li><b>12/6 - Dewalt Day: Wear Black and Yellow</b></li>
             </ul>
             <h4>All attire must be lab appropriate.</h4>
             <h2>Quick Links</h2>
