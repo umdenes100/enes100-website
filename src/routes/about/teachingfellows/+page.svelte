@@ -9,8 +9,8 @@
         receive the
         <span>best learning experience</span> during their early, formative stages.
     </h2>
-    <div class="split_box">
-        <div class="box_split_left">
+    <!-- <div class="split_box"> -->
+        <!-- <div class="box_split_left"> -->
         <h3>Undergraduate Teaching Fellows</h3>
         <p>
             ENES100 Undergraduate Teaching Fellows (UTFs) are assigned to work
@@ -106,8 +106,8 @@
                 references for employment or graduate school
             </li>
         </ul>
-    </div>
-    <div class="box_split_right">
+    <!-- </div> -->
+    <!-- <div class="box_split_right"> -->
         <h3>Laboratory Teaching Fellows</h3>
         <p>
             Laboratory Teaching Fellows (LTFs) are responsible for assisting
@@ -225,9 +225,9 @@
             the labs, providing demonstrations, and assisting with the
             instruction of content such as Arduino programming.
         </p>
-    </div>
-    </div>
-    <p><b>How to apply</b></p>
+    <!-- </div> -->
+    <!-- </div> -->
+    <h3>How to apply</h3>
     <p>
         Applicants should fill out the <a
             href="https://docs.google.com/forms/d/1e-47LIOmgC6V2rCjVMKW2sq_ilgRwcAyzIulAUCdWjA/edit"
