@@ -170,6 +170,7 @@
                         <a href="/about/team">Instructional Team</a>
                         <a href="/about/showcase">Student Showcase</a>
                         <!-- <a href="/about/technologies">Technologies</a> -->
+                        <a href="/about/teachingfellows">Become a TF</a>
                     </div>
                 </div>
             </li>

@@ -19,7 +19,7 @@
     h1 {
         font-size: 50px;
     }
-    h2 {
+    /* h2 {
         font-weight: normal;
         font-size: 30px;
     }
@@ -41,5 +41,5 @@
     h2 span {
         text-decoration: 2px underline #ffd200;
         font-weight: bold;
-    }
+    } */
 </style>
