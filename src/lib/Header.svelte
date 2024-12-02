@@ -158,7 +158,7 @@
                             <a href="/documentation/tank">- Tank.h Library</a>
                             <a href="/documentation/tank_guide">- Guide</a>
                         </div>
-                        <a href="https://drive.google.com/drive/u/1/folders/1R99I7EBXbnalCymHS44RMTUMO7uZh9jD">Missions / Arena</a>
+                        <a href="https://drive.google.com/drive/u/1/folders/1R99I7EBXbnalCymHS44RMTUMO7uZh9jD" target="_blank">Missions / Arena</a>
                     </div>
                 </div>
             </li>
