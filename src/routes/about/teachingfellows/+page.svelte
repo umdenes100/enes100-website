@@ -250,7 +250,7 @@
 
 <style>
     @media (max-width: 1200px) {
-        .split_box {
+        /* .split_box {
             flex-direction: column;
         }
         .box_split_left {
@@ -258,7 +258,7 @@
         }
         .box_split_right {
             width: 100%;
-        }
+        } */
         /* .split_box img {
             outline: 2px solid white;
             outline-offset: 20px;
@@ -270,7 +270,7 @@
         } */
     }
     @media (min-width: 1201px) {
-        .split_box {
+        /* .split_box {
             flex-direction: row;
         }
         .box_split_left {
@@ -280,15 +280,15 @@
         .box_split_right {
             width: 50%;
             padding-left: 80px;
-        }
+        } */
     }
-    .split_box {
+    /* .split_box {
         display: flex;
         padding-top: 25px;
         padding-bottom: 30px;
         align-items: top;
         justify-content: space-around;
-    }
+    } */
     .text {
         padding: 2% 5%;
     }

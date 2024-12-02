@@ -437,7 +437,6 @@
                 every Friday during build phase!
             </h4>
             <ul>
-                <li><b>11/22 - Thanksgiving Theme: Open to interpretation</b></li>
                 <li><b>12/6 - Dewalt Day: Wear Black and Yellow</b></li>
             </ul>
             <h4>All attire must be lab appropriate.</h4>
