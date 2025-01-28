@@ -237,7 +237,7 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                John Paulenich<br />Major: Computer Engineering
+                John Paulenich<br />Major: Electrical Engineering
             </div>
         </div>
         <div class="person">
