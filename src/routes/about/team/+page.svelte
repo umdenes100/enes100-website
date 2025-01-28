@@ -82,6 +82,15 @@
             </div>
         </div>
     </div>
+    <h3>Graduate Teaching Assistant</h3>
+    <div class="split_box">
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Matthew Paul
+            </div>
+        </div>
+    </div>
     <h3>Undergraduate Teaching Fellows</h3>
     <h4>
         UTFs are the backbone of our classrooms. They each provide direct
