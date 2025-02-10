@@ -70,7 +70,7 @@
         display: none;
         position: absolute;
         background-color: #121b21;
-        min-width: 160px;
+        min-width: 180px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         z-index: 1;
         border: 1px solid white;
@@ -150,7 +150,8 @@
                 <div class="dropdown">
                     <button class="dropbtn">Documentation</button>
                     <div class="dropdown-content">
-                        <a href="/documentation/enes100">Enes100.h Library</a>
+                        <a href="/documentation/arduino">Arduino Library</a>
+                        <!-- <a href="/documentation/micropython">Micropython Library</a> -->
                         <a href="/documentation/examples">Examples</a>
                         <a href="/documentation/faq">FAQs</a>
                         <a href="/documentation/tank_guide">Tanks</a>

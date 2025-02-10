@@ -431,7 +431,7 @@
         </div>
         <div class="quick_links">
             <div class="content">
-            <h2>Open Lab Spirit Days</h2>
+            <!-- <h2>Open Lab Spirit Days</h2>
             <h4>
                 Show your ENES100 spirit by participating in open lab themes
                 every Friday during build phase!
@@ -439,25 +439,27 @@
             <ul>
                 <li><b>12/6 - Dewalt Day: Wear Black and Yellow</b></li>
             </ul>
-            <h4>All attire must be lab appropriate.</h4>
+            <h4>All attire must be lab appropriate.</h4> -->
             <h2>Quick Links</h2>
             <ul>
                 <li>
                     <a href="/tools/simulator">Simulator</a>
                 </li>
-                <!-- <li>
+                <li>
                     <a href="/tools/visionsystem">Vision System</a>
                 </li>
                 <li>
                     <a href="/tools/machinelearning">Machine Learning</a>
-                </li> -->
+                </li>
                 <li>
-                    <a href="/documentation/enes100/">Enes100 Library</a>
+                    <a href="/documentation/arduino/">Enes100 Arduino Library</a>
                 </li>
                 <li>
                     <a href="/documentation/faq/">Frequently Asked Questions</a>
                 </li>
             </ul>
+            <h2>Announcements</h2>
+            <h4>None for now!</h4>
             </div>
         </div>
     </div>
