@@ -151,7 +151,7 @@
                     <button class="dropbtn">Documentation</button>
                     <div class="dropdown-content">
                         <a href="/documentation/arduino">Arduino Library</a>
-                        <!-- <a href="/documentation/micropython">Micropython Library</a> -->
+                        <a href="/documentation/micropython">Micropython Library</a>
                         <a href="/documentation/examples">Examples</a>
                         <a href="/documentation/faq">FAQs</a>
                         <a href="/documentation/tank_guide">Tanks</a>
