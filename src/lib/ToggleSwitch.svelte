@@ -5,7 +5,7 @@
     // and this example by Scott O'hara https://codepen.io/scottohara/pen/zLZwNv
 
 
-    export let label;
+    export let label = '';
     export let design = 'inner label'
     export let options = [];
     export let fontSize = 16;
@@ -60,7 +60,6 @@
              aria-labelledby={`label-${uniqueID}`}
              style="font-size:{fontSize}px"
              id={`group-${uniqueID}`}>
-            <div class='legend' id={`label-${uniqueID}`}>{label}</div>
             {#each options as option}
                 <input type="radio" id={`${option}-${uniqueID}`} value={option} bind:group={value}>
                 <label for={`${option}-${uniqueID}`}>
