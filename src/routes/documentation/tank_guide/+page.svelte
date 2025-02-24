@@ -61,7 +61,7 @@ Tank.turnOffMotors();
 #include "Tank.h"
 void setup() {'{'}
 Tank.begin();
-Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 52, 50);
+Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 1116, 52, 50);
 }
 void loop() {'{'}
 // Will print to vision system!
@@ -80,7 +80,7 @@ The following code will allow you to connect to the vision system, and prints a 
 void setup() {'{'}
 //This function connects the tank to the vision system. The TX and RX pins of the tanks
 //are 52 and 50 respectively.
-Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 52, 50);
+Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 1116, 52, 50);
 
 delay(200);
 

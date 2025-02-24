@@ -8,6 +8,12 @@
         const elem = document.getElementById('markdownElement');
         if (!elem) return;
         const text = elem.innerHTML;
+        // todo use marked-highlight (https://www.npmjs.com/package/marked-highlight) and highlight.js (https://www.npmjs.com/package/highlight.js) to highlight cpp.
+        // something like:
+        // import hljs from 'highlight.js/lib/core';
+        // import javascript from 'highlight.js/lib/languages/javascript';
+        // hljs.registerLanguage('javascript', javascript);
+        // but for cpp
         markdownContent = await marked(text);
     });
 
