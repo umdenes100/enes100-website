@@ -130,8 +130,8 @@ Valid calls for **WATER**:
 - `enes100.mission('WATER_TYPE', 'FRESH_POLLUTED')`
 
 Valid calls for **SEED**:
-- `enes100.mission('PERCENTAGE', i)` i is a percentage
-- `enes100.mission('LOCATION', Coordinate(x, y))` where cord is a Coordinate object
+- `enes100.mission('LOCATION', plot)` where plot is a single character A, B, C, or D
+
 
 ## Product Demonstration Procedures <a id="demo"> </a>
 
