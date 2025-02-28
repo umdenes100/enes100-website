@@ -69,7 +69,7 @@ ENES100**, or add it manually by typing
 
 Format:
 
-```Enes100.begin(const char* teamName, byte teamType, int markerId, int wifiModuleTX, int wifiModuleRX)```
+```Enes100.begin(const char* teamName, byte teamType, int markerId, int roomNumber, int wifiModuleTX, int wifiModuleRX)```
 
 Initializes the ENES100 library and establishes communication with the Vision System.
 
@@ -77,10 +77,12 @@ The `wifiModuleTX` and `wifiModuleRX` described below refer to the digital pins 
 __Rx__ of the
 __Wi-Fi module__.
 
+
 * teamName: Name of the team that will show up in the Vision System
 * teamType: Type of mission your team is running.
 * Valid Mission Types: `CRASH_SITE`, `DATA`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
 * markerID: ID of your Aruco Marker
+* roomNumber: Number of the room you are in. Only allowed options are 1120 and 1116.
 * wifiModuleTX: Digital Pin that will be connected to the __Tx pin on the Wi-Fi module__.
 * wifiModuleRX: Digital Pin that will be connected to the __Rx pin on the Wi-Fi module__.
 
@@ -96,24 +98,13 @@ will find those same pins broken.</small>
 - Romeo V1 - Same as Uno
 - Romeo V2 - Same as Leonardo
 
-#### **NOTE**: Want to call begin multiple times?
-
-There are some of you who will wish to use begin in combination with the isConnected method to 'reconnect' if needed.
-<b> Here is your warning.</b> The begin method allocates some resources with new/delete to allow calling the
-SoftwareSerial constructor in the begin method instead of in the Enes100 object constructor (the constructor not being
-student facing). You may call begin multiple times, and the resources should be freed and reallocated (untested, no
-guarantees). You should consider the dangers of heap fragmentation.
-
-My opinion and experience - the connection is rarely dropped - and if so usually because of power regulation issues.
-Reconnect code is not needed. KISS.
-
 #### Example
 
 ```arduino
 void setup() {'{'}
 //Connect digital pin 8 to the Tx pin of the wifi module.
 //Connect digital pin 9 to the Rx pin of the wifi module.
-Enes100.begin("It's lit", FIRE, 3, 8, 9);
+Enes100.begin("It's lit", FIRE, 3, 1120, 8, 9);
 
 // Some other setup code...
 }
@@ -238,6 +229,12 @@ Valid calls for **SEED**:
 <br/>
 or
 * `Enes100.mission(LOCATION, Coordinate(x, y));` *x and y are floats in millimeters*
+
+### byte Enes100.state()
+returns:
+0x00: Arduino is connected to the WiFi Module but the WiFi Module is not connected to WiFi or the Vision System.
+0x01: Arduino is connected to the WiFi Module and the WiFi Module is connected to WiFi and the Vision System.
+ANY OTHER VALUE: The WiFi Module is not connected to the Arduino.
 
 ## Machine Learning Functions
 

@@ -47,7 +47,7 @@ You can now use the Enes100 package.
 
 ## Usage 
 
-`from Enes100 import enes100`
+`from enes100 import enes100`
 
 To use the library, you have to direct the compiler to include it in your code. Add it manually by typing (or copying) the above line at the very top of your file.
 
