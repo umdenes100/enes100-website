@@ -9,24 +9,15 @@
         <div class="text">
         <MarkdownContent>
 # Machine Learning Information and Links
-## <span style="color: red">Machine Learning Update 11/12/2024</span>
-A new version of cameras are available for students who have completed their model training. These new cameras are not capable of data collection.
-(They will not create a wifi network wificam-%d). They are more reliable as wifi Modules. Please ask your UTF to contact Forrest for
-how to swap out your camera once you have finished data collection and have trained your model.
+## <span style="color: red">Machine Learning Update 4/7/2025</span>
+The machine learning cameras ignore the room argument in enes100 begin. You must set the switch position correctly in order to connect the cam.
 
-### Notes on <span style="color: red">NEW CAMERAS ONLY:</span>
-NEW WifiCams have a new LED blinking system to give you more information about debugging the system.
+To test a cam:
+Power with 5V and GND from an arduino.
+Look on Vision System. You should see a message like "New Wi-Fi Cam connected, waiting for begin"
+If not, try removing power, switching the switch, and adding power.
 
-- Single blip - Setup complete, camera successfully initialized.
-- Triple blip - connected to wifi network / vision system
-
-Error Conditions:
-- Infinite blinking (1s on, 1s off) - This means the CAM is connected to wifi but not connect to vision system. Probably you need to restart the vision system. Make sure the switch is in the right position.
-- Agressive Sawtooth (pulsing) that repeats 2x a second - CAMERA initialization ERROR. This happened every once and a while for me. You must restart, it could also possibly be a broken camera.
-- NO LIGHT ON AT ALL - If you see a single blip and then NO other blips and , this means it was unable to connect to the wifi network. Ensure correct switch position and reset power.
-
-Success Conditions:
- - Solid light on indicates it has connected to the vision system. Not seeing it on the vision system? Maybe it connected to the other room's vision system. Ensure correct switch position. If this light is solid on, it means that at one point it SUCESSFULLY CONNECTED to *A* vision system for some amount of time.
+As always, please ask a UTF or LTF for help if you are stuck or having trouble!
 
 ## Procedure Summary
 Please read the detailed steps for this process [here](https://docs.google.com/document/d/e/2PACX-1vQ62vc19j6C2-0Kt96RCXP47GEOVDUF8kx1D0DLjhxCqnHA-1scFjtmLmQ8KGbFA4QTX7Vno-3M_Wva/pub).
