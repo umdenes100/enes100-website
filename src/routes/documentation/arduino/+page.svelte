@@ -73,6 +73,8 @@ Format:
 
 Initializes the ENES100 library and establishes communication with the Vision System.
 
+*not using an Arduino Uno? See pin limitations below.*
+
 The `wifiModuleTX` and `wifiModuleRX` described below refer to the digital pins that will be connected to the __Tx__ and
 __Rx__ of the
 __Wi-Fi module__.
@@ -82,7 +84,7 @@ __Wi-Fi module__.
 * teamType: Type of mission your team is running.
 * Valid Mission Types: `CRASH_SITE`, `DATA`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
 * markerID: ID of your Aruco Marker
-* roomNumber: Number of the room you are in. Only allowed options are 1120 and 1116.
+* roomNumber: Number of the room you are in. Only allowed options are 1120 and 1116. Ignored on cams (use switch)
 * wifiModuleTX: Digital Pin that will be connected to the __Tx pin on the Wi-Fi module__.
 * wifiModuleRX: Digital Pin that will be connected to the __Rx pin on the Wi-Fi module__.
 
