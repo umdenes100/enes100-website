@@ -20,6 +20,7 @@
         background-image: url("/img/shell overlay repeating.svg");
         background-repeat: repeat-y;
     }
+
     iframe {
         height: 50vh;
     }
@@ -31,6 +32,7 @@
         background-image: url("/img/shell overlay repeating.svg");
         background-repeat: repeat-y;
     }
+
     iframe {
         height: 100vh;
     }
@@ -41,6 +43,7 @@
         /*noinspection CssUnknownTarget*/
         background-image: url("/img/home_3.jpg");
     }
+
     iframe {
         height: 100vh;
     }
@@ -51,6 +54,7 @@
         /*noinspection CssUnknownTarget*/
         background-image: url("/img/home_3.jpg");
     }
+
     iframe {
         height: 100vh;
     }
@@ -134,4 +138,81 @@ details div {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+/* lab display styling */
+.left {
+    position: absolute;
+    left: 0;
+    background-color: #121b21;
+    width: 20vw;
+    height: 96vh;
+    padding: 2vh 2vw;
+    color: white;
+    border-right: 1vw solid rgba(255, 210, 0, 1);
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 75vw;
+    height: 100vh;
+    background-color: #121b21;
+    background-image: url("/img/shell overlay repeating.svg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right iframe {
+    height: 100%;
+}
+
+.slides {
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding: 0;
+    margin: 0;
+}
+
+.misc {
+    margin: 5%;
+    border: 2px solid white;
+    background-color: #121b21;
+    color: white;
+    padding: 2%;
+    height: auto;
+}
+
+.staff {
+    background-color: #202020;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 1vw;
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 0.5vw;
+}
+
+#currentStaff,
+#upcomingStaff {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
 }
