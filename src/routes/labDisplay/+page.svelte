@@ -156,17 +156,16 @@
                         [],
                     );
                     let upHTML = ``;
-                    if (upOutput.length == 0) {
+                    for (const staff of upOutput) {
+                        if (!isObjectInArray(currOutput, staff)) {
+                            upHTML =
+                                upHTML +
+                                `<div class=\"staff\"><h4>${staff.name}</h4><h5>${staff.time}</h5></div>`;
+                        }
+                    }
+                    if (upHTML == ``) {
                         upHTML =
                             upHTML + '<div class="staff"><h4>None</h4></div>';
-                    } else {
-                        for (const staff of upOutput) {
-                            if (!isObjectInArray(currOutput, staff)) {
-                                upHTML =
-                                    upHTML +
-                                    `<div class=\"staff\"><h4>${staff.name}</h4><h5>${staff.time}</h5></div>`;
-                            }
-                        }
                     }
                     // @ts-ignore
                     document.getElementById("upcomingStaff").innerHTML = upHTML;
@@ -224,10 +223,10 @@
 
 <style>
     h1 {
-    text-align: center;
-}
+        text-align: center;
+    }
 
-h3 {
-    margin: 5px;
-}
+    h3 {
+        margin: 5px;
+    }
 </style>
