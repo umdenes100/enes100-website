@@ -221,3 +221,9 @@
         <h3>Misc Info</h3>
     </div> -->
 </div>
+
+<style>
+    h1 {
+    text-align: center;
+}
+</style>
