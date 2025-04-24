@@ -201,18 +201,10 @@ details div {
     flex-wrap: wrap;
 }
 
-h3 {
+.left h4 {
     margin: 5px;
 }
 
-h4 {
+.left h5 {
     margin: 5px;
-}
-
-h5 {
-    margin: 5px;
-}
-
-h1 {
-    text-align: center;
 }

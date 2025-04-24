@@ -226,4 +226,8 @@
     h1 {
     text-align: center;
 }
+
+h3 {
+    margin: 5px;
+}
 </style>
