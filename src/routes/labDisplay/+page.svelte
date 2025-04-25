@@ -184,7 +184,7 @@
             });
         }
         console.log("bello");
-        setInterval(listUpcomingEvents, 5000);
+        setInterval(listUpcomingEvents, 20000);
         listUpcomingEvents();
     });
 </script>
@@ -224,9 +224,13 @@
 <style>
     h1 {
         text-align: center;
+        font-size: xxx-large;
     }
-
+    h2 {
+        font-size: xx-large;
+    }
     h3 {
         margin: 5px;
+        font-size: x-large;
     }
 </style>
