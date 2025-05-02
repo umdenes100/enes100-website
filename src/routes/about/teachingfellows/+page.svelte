@@ -230,9 +230,9 @@
     <h3>How to apply</h3>
     <p>
         Applicants should fill out the <a
-            href="https://docs.google.com/forms/d/1e-47LIOmgC6V2rCjVMKW2sq_ilgRwcAyzIulAUCdWjA/edit"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe4N0jJV0Sx91k4urw7d1EwBegAuqsohdQM6SuvIXz1VB0lKw/viewform"
             >online application</a
-        > <b>and</b> email their resume, unofficial transcript, and spring 2025 class
+        > <b>and</b> email their resume, unofficial transcript, and fall 2025 class
         schedule to Mrs. Nelpe Wachsman, the Program Manager for Keystone.
     </p>
     <p>
@@ -242,8 +242,8 @@
     </p>
     <p>
         <b
-            >SPRING 2025 APPLICATION IS NOW OPEN<br />All TF Applications are
-            due January 2nd, 2025.</b
+            >FALL 2025 APPLICATION IS NOW OPEN<br />All TF Applications are
+            due June 2nd, 2025.</b
         >
     </p>
 </div>
