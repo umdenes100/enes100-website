@@ -12,78 +12,102 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Brian Beaudoin<br />Section(s): 0401<br />
+                Ali Akbarian<br />Section(s): 1102<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Michelle Bensi<br />Section(s): 0101<br />
+                Ted Baker<br />Section(s): 0201<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Rick Blanton<br />Section(s): 0602<br />
+                Dani Barker<br />Section(s): 0601, 1001<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Kevin Chiu<br />Section(s): 0601, 0801<br />
+                Rick Blanton<br />Section(s): 0302<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Aris Cleanthous<br />Section(s): 0201<br />
+                Ethan Burbridge<br />Section(s): 1101<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Joshua Cocker<br />Section(s): 0701<br />
+                Kevin Chiu<br />Section(s): 0602, 0702, 1201, FC02<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                John Cumings<br />Section(s): 0202<br />
+                Josh Cocker<br />Section(s): 0701<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Catherine Hamel<br />Section(s): 0102, 0302<br />
+                Mike Galczynski<br />Section(s): FC01<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                David Kriesberg<br />Section(s): 0501<br />
+                Akshary Kandakumar<br />Section(s): 1202<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Daanish Maqbool<br />Section(s): 1001<br />
+                Amy Karlsson<br />Section(s): 0801<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Alisa Morss Clyne<br />Section(s): 0402<br />
+                David Kriesberg<br />Section(s): 0802<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Peter Sunderland<br />Section(s): 0301<br />
+                Isabel Lloyd<br />Section(s): 0401<br />
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Daanish Maqbool<br />Section(s): 1002<br />
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Kevin Martz<br />Section(s): 0502<br />
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Peter Sunderland<br />Section(s): 0501<br />
             </div>
         </div>
     </div>
     <h3>Graduate Teaching Assistant</h3>
     <div class="split_box">
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Nam Facchetti
+            </div>
+        </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
@@ -101,99 +125,146 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Haroon Amanullah<br />Major: Civil Engineering<br />Section:
-                0301
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Samuel Bentz<br />Major: Mechanical Engineering<br />Section:
-                0801
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sabine Buccheri<br />Major: Mechanical Engineering<br />Section:
-                0601
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Will Covington<br />Major: Aerospace Engineering<br />Section:
-                0401
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Zoe Edwards<br />Major: Mechanical Engineering<br />Section:
-                0701
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Natalie Finkelstein<br />Major: Mechanical Engineering<br
-                />Section: 0302
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Anushka Kaluskar<br />Major: Mechanical Engineering<br
-                />Section: 0102
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Michael O'Neill<br />Major: Mechanical Engineering<br />Section:
-                0501
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Terrence Pierce<br />Major: Mechanical Engineering<br />Section:
-                0101
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Tyler Rivenbark<br />Major: Aerospace Engineering<br />Section:
-                0201
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Stephen Snyder<br />Major: Mechanical Engineering<br />Section:
-                0202
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Joshua Stone<br />Major: Computer Engineering<br />Section:
-                1001
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Adithya Sundar<br />Major: Aerospace Engineering<br />Section:
+                Leeam Berman<br />Section:
                 0402
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Ryan Vacek<br />Major: Fire Protection Engineering<br />Section:
+                Sabine Buccheri<br />Section:
+                0401
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Beatriz Dias de Sousa<br />Section:
+                0702
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sara Durborow<br />Section: 1101
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sean Eby<br />Section:
+                0801
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Natalie Finkelstein<br />Section: 0601
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Anushka Kaluskar<br
+                />Section: 0301
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sara Kamili<br />Section:
+                0502
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Talha Khan<br />Section:
+                1201
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Aaron Mengesha<br />Section:
+                FC02
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Daniel Peloquin<br />Section:
                 0602
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Terrence Pierce<br />Section:
+                0201
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Kaylee Plecas<br />Section:
+                0501
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Deepika Pun<br />Section:
+                1202
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sophie Scherz<br />Section:
+                0302
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Andrew Schwartzman<br />Section:
+                1002
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Stephen Snyder<br />Section:
+                1102
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Ryan Vacek<br />Section:
+                FC01
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Caleb Vu<br />Section:
+                0802
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Maggie Yan<br />Section:
+                0701
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sophi Zeiler<br />Section:
+                1001
             </div>
         </div>
     </div>
@@ -207,43 +278,55 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Ann-Audrey Ezi<br />Major: Computer Engineering
+                Emily Cleveland
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Nam Facchetti<br />Major: Mechanical Engineering
+                Maggie Crooks
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Abi Guicheteau<br />Major: Electrical Engineering
+                Zoe Edwards
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Anuraag Karunakaran<br />Major: Computer Engineering
+                Ann-Audrey Ezi
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Forrest Milner<br />Major: Electrical Engineering
+                Anuraag Karunakaran
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                John Paulenich<br />Major: Electrical Engineering
+                Larson Ozbun
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Camille Wharff<br />Major: Computer Engineering
+                John Paulenich
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudbow.jpg" alt=":(" />
+            <div class="bio">
+                Lara Tran
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudbow.jpg" alt=":(" />
+            <div class="bio">
+                Camille Wharff
             </div>
         </div>
     </div>
