@@ -60,7 +60,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Akshary Kandakumar<br />Section(s): 1202<br />
+                Akshay Kandakumar<br />Section(s): 1202<br />
             </div>
         </div>
         <div class="person">
