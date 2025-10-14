@@ -43,11 +43,11 @@ Each mission team has a budget of 50 School Store Silver coins. The base stock l
 | Small Wheels                 | $4             | None           |
 | Wheels Caster                | $3             | 2              |
 | Omni Wheels                  | $6             | None           |
-| Wood Sheet	               | $5             | None           |
-| PLA Sheet	                   | $5             | None           |
-| Acrylic Sheet	               | $5             | None           |
+| Wood Sheet*	               | $3             | None           |
+| PLA Sheet 	               | $5             | None           |
+| Acrylic Sheet*               | $5             | None           |
 
-(Note: Wood and Acrylic Sheets cost real money and the cost will not be deducted to the account. Please notify your instructor or TA if purchasing) 
+*(Note: Wood and Acrylic Sheets cost real money and the cost will not be deducted to the account. Please notify your instructor or TA if purchasing) 
 Since the parts here have been used by previous ENES100 teams, there are no guarantees that School Store Batteries or Arduinos work. After purchasing, try to get soldered/wired as soon as possible to test them. If they are faulty or fried, please return to the School Store to replace them within 5 calendar days. If your team fries an Arduino, you can buy another one, but remember, your team may only buy up to 3 Arduino unos from the School Store for the semester. An arduino that is faulty or fried upon purchasing from the School Store does not count toward the 3 arduino uno and/or 1 arduino mega limit.
 
 Other mission specific and less common parts such as sensors, voltage regulators, and miscellaneous hardware will be available for less than $3, and prices for these items can be checked on the School Store Cart each semester.
