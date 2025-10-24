@@ -188,14 +188,10 @@ like `LENGTH` for Crash Site teams or `MATERIAL_TYPE` for Material Identificatio
 
 For the valid mission calls below, the value `i` will denote an integer value.
 
-Valid calls for **CRASH_SITE**:
+Valid calls for **HYDROGEN**:
 
-* `Enes100.mission(LENGTH, i);` *i is in millimeters*
-* `Enes100.mission(HEIGHT, i);` *i is in millimeters*
-* `Enes100.mission(DIRECTION, NORMAL_X);` *the normal of the exposed panels points in the positive and negative x
-direction*
-* `Enes100.mission(DIRECTION, NORMAL_Y);` *the normal of the exposed panels points in the positive and negative y
-direction*
+* `Enes100.mission(LED_COLOR, COLOR);` *COLOR options are WHITE, RED, YELLOW, GREEN, and BLUE*
+* `Enes100.mission(VOLTAGE_OUTPUT, VOLTAGE_3);` * VOLTAGE options are VOLTAGE_1 through VOLTAGE_5*
 
 Valid calls for **DATA**:
 
