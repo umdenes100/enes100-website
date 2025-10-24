@@ -209,7 +209,7 @@
     <div class="slides">
         <iframe
             title="todo"
-            src="https://docs.google.com/presentation/d/e/2PACX-1vQshpQrN-5ifpcAwfHRhPMokFbLqfxT7rOuIk1xMZsF1lrTIUK7oz9AnRLKkW95pN6V0R0P1ehdI1f9/embed?start=true&loop=true&delayms=3000&rm=minimal"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQshpQrN-5ifpcAwfHRhPMokFbLqfxT7rOuIk1xMZsF1lrTIUK7oz9AnRLKkW95pN6V0R0P1ehdI1f9/embed?start=true&loop=true&delayms=15000&rm=minimal"
             frameborder="0"
             width="100%"
             height="100%"
