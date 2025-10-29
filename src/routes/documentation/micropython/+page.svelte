@@ -100,11 +100,9 @@ All the definitions defined in the enes100 library correlate to an integer. To s
 
 *For some mission calls below, the value i will denote an integer value. In that case, i should be an int NOT a str.
 
-Valid calls for **CRASH_SITE**:
-- `enes100.mission('LENGTH', i)` i is in millimeters
-- `enes100.mission('HEIGHT', i)` i is in millimeters
-- `enes100.mission('DIRECTION', 'NORMAL_X')` the normal of the exposed panels points in the positive and negative x direction
-- `enes100.mission('DIRECTION', 'NORMAL_Y')` the normal of the exposed panels points in the positive and negative y direction
+Valid calls for **HYDROGEN**:
+* `enes100.mission('LED_COLOR', 'COLOR');` *COLOR options are WHITE, RED, YELLOW, GREEN, and BLUE*
+* `enes100.mission('VOLTAGE_OUTPUT', 'VOLTAGE_3');` * VOLTAGE options are VOLTAGE_1 through VOLTAGE_5*
 
 Valid calls for **DATA**:
 - `enes100.mission('CYCLE', i)` i is the duty cycle percent (ex. 10, 30, 50, 70, 90)
