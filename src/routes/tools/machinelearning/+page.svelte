@@ -9,12 +9,15 @@
         <div class="text">
         <MarkdownContent>
 # Machine Learning Information and Links
-## <span style="color: red">Machine Learning Update 4/7/2025</span>
-The machine learning cameras ignore the room argument in enes100 begin. You must set the switch position correctly in order to connect the cam.
+## Important Note
+The machine learning cameras use the switch on the side to toggle between training and VS connection modes. 
+- Switch DOWN for training mode.
+- Switch UP for Vision System connection mode.
+
 
 To test a cam:
 Power with 5V and GND from an arduino.
-Look on Vision System. You should see a message like "New Wi-Fi Cam connected, waiting for begin"
+Look on your list of available networks. You should see a network called "WiFiCam_XXX" where XXX are the numbers on your cam (found on a sticker on the back of the camera board).
 If not, try removing power, switching the switch, and adding power.
 
 As always, please ask a UTF or LTF for help if you are stuck or having trouble!
@@ -27,6 +30,9 @@ Please read the detailed steps for this process [here](https://docs.google.com/d
 4. Train a model on Google Colab using [this notebook](https://colab.research.google.com/drive/1UgAg3rmqENqiPOPe5mAHOpDjTshxs0hI?usp=sharing&authuser=1).
 5. Upload the model. (See model upload below)
 6. Connect the WiFi Cam to your Arduino and request predictions from your model!
+    - If you get a "model not found" error (prediction returns 257), double check that you uploaded the model correctly.
+    - If you're not seeing your cam on the Vision System, double check that the switch is in the UP position.
+    
 ## Model Upload
 Click [here](https://enes100.umd.edu/tools/modeluploader) to upload a trained model.
 ## WIFI Cam CAD
