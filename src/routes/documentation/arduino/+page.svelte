@@ -222,7 +222,7 @@ Valid calls for **WATER**:
 
 Valid calls for **SEED**:
 
-* `Enes100.mission(LOCATION, plot);` where plot is a single character A, B, C, or D*
+* `Enes100.mission(LOCATION, plot);` where plot is "BOTH" "NEITHER" "ADJACENT" or "DIAGONAL" for plantable substrate.*
 
 ### byte Enes100.state()
 returns:
