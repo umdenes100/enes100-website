@@ -12,91 +12,67 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Ali Akbarian<br />Section(s): 1102<br />
+                Ted Baker<br />Section(s): 0402<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Ted Baker<br />Section(s): 0201<br />
+                Dani Barker<br />Section(s): 0202, 0502, 0601<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Dani Barker<br />Section(s): 0601, 1001<br />
+                Michelle Bensi<br />Section(s): 0102<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Rick Blanton<br />Section(s): 0302<br />
+                Rick Blanton<br />Section(s): 0602<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Ethan Burbridge<br />Section(s): 1101<br />
+                Kevin Chiu<br />Section(s): 0701<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Kevin Chiu<br />Section(s): 0602, 0702, 1201, FC02<br />
+                John Cumings<br />Section(s): 0201<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Josh Cocker<br />Section(s): 0701<br />
+                David Kriesberg<br />Section(s): 0401<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Mike Galczynski<br />Section(s): FC01<br />
+                Wesley Lawson<br />Section(s): 0101<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Akshay Kandakumar<br />Section(s): 1202<br />
+                Daanish Maqbool<br />Section(s): 0801<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Amy Karlsson<br />Section(s): 0801<br />
+                Kevin Martz<br />Section(s): 0301<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                David Kriesberg<br />Section(s): 0802<br />
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Isabel Lloyd<br />Section(s): 0401<br />
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Daanish Maqbool<br />Section(s): 1002<br />
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Kevin Martz<br />Section(s): 0502<br />
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Peter Sunderland<br />Section(s): 0501<br />
+                Andres Rubiano<br />Section(s): 0302, 0501<br />
             </div>
         </div>
     </div>
@@ -126,145 +102,96 @@
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Leeam Berman<br />Section:
-                0402
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sabine Buccheri<br />Section:
-                0401
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Beatriz Dias de Sousa<br />Section:
-                0702
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sara Durborow<br />Section: 1101
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sean Eby<br />Section:
-                0801
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Natalie Finkelstein<br />Section: 0601
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Anushka Kaluskar<br
-                />Section: 0301
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sara Kamili<br />Section:
                 0502
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Talha Khan<br />Section:
-                1201
+                Sara Durborow<br />Section:
+                0402
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Aaron Mengesha<br />Section:
-                FC02
+                Sean Eby<br />Section:
+                0202
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Sara Kamili<br />Section: 0301
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Talha Khan<br />Section:
+                0801
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Aaron Mengesha<br />Section: 0101
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+                Michael O'Neill<br
+                />Section: 0401
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Daniel Peloquin<br />Section:
-                0602
+                0102
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Terrence Pierce<br />Section:
-                0201
+                0602
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Kaylee Plecas<br />Section:
-                0501
+                0601
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Deepika Pun<br />Section:
-                1202
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Sophie Scherz<br />Section:
-                0302
+                0201
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Andrew Schwartzman<br />Section:
-                1002
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Stephen Snyder<br />Section:
-                1102
+                0501
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
                 Ryan Vacek<br />Section:
-                FC01
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Caleb Vu<br />Section:
-                0802
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
-            <div class="bio">
-                Maggie Yan<br />Section:
                 0701
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sophi Zeiler<br />Section:
-                1001
+                Maggie Yan<br />Section:
+                0302
             </div>
         </div>
     </div>
@@ -302,12 +229,6 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Anuraag Karunakaran
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
                 Larson Ozbun
             </div>
         </div>
@@ -320,13 +241,19 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
+                Stephen Snyder
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudbow.jpg" alt=":(" />
+            <div class="bio">
                 Lara Tran
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Camille Wharff
+                Sophi Zeiler
             </div>
         </div>
     </div>
