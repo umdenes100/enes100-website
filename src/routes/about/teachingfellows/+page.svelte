@@ -258,9 +258,9 @@
     </p>
     <p>
         <b
-            >SPRING 2026 APPLICATION IS NOW OPEN<br />All TF Applications are
-            due January 2nd, 2026.</b
-        >
+            >SPRING 2026 ENES100 TF APPLICATION IS NOW CLOSED
+            <!-- <br />All TF Applications are
+            due January 2nd, 2026.</b> -->
     </p>
 </div>
 
