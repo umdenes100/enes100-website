@@ -36,10 +36,10 @@
 
     .text {
         background-color: #121B21;
-        padding: 10px 40px 5%;
+        padding: 40px 60px;
         border: 2px solid white;
         width: 60%;
-        height: 38%;
+        height: fit;
         margin: 40px auto;
     }
 </style>
