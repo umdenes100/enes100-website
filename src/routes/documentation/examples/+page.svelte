@@ -197,3 +197,13 @@
     {/if}
     </details>
 </div>
+
+<div class="text">
+    <h1>Resources</h1>
+    <details>
+        <summary>Electronics Component Dictionary</summary>
+        <div>
+            <a href="https://docs.google.com/document/d/1c7elWwmh8kBvo-qvT56EC4_SwRcK-pHCnGiUHWNeLxY/edit?usp=sharing">https://docs.google.com/document/d/1c7elWwmh8kBvo-qvT56EC4_SwRcK-pHCnGiUHWNeLxY/edit?usp=sharing</a>
+        </div>
+    </details>
+</div>
