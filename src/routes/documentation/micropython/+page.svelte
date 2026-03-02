@@ -38,7 +38,7 @@ In this section, you’ll learn how to flash MicroPython firmware on your boards
 5. To make sure that the installation was successful, type **help()** into the shell. You should receive a message.
 
 ## Package Download and Installation <a id="package"> </a>
-### <a href="https://github.com/umdenes100/enes100-micropython/archive/main.zip">Click to Download</a>
+### <a href="https://github.com/umdenes100/enes100-micropython/archive/new-system.zip">Click to Download</a>
 In this section, you will download the package and upload it to your microcontroller through Thonny IDE. 
 Note: If you are using the ML cameras, navigate to the sidebar to the ML section and follow those instructions.
 1) To download the package, click the above link. No need to unzip the file.
