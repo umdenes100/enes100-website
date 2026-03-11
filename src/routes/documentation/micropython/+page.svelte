@@ -9,8 +9,8 @@
         <a href="#thonny">Thonny IDE and Microcontroller Setup</a>
         <a href="#package">Package Download and Installation</a>
         <a href="#begin">Enes100.begin()</a>
-        <a href="#update">Enes100.x and similar</a>
-        <a href="#connect">Enes100.is_connected()</a>
+        <a href="#update">Enes100.getX() and similar</a>
+        <a href="#connect">Enes100.isConnected()</a>
         <a href="#print">Enes100.print()</a>
         <a href="#mission">Enes100.mission()</a>
         <a href="#ML_camera">Machine Learning</a>
