@@ -82,7 +82,7 @@ __Wi-Fi module__.
 
 * teamName: Name of the team that will show up in the Vision System
 * teamType: Type of mission your team is running.
-* Valid Mission Types: `CRASH_SITE`, `DATA`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
+* Valid Mission Types: `DATA`, `HYDROGEN`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
 * markerID: ID of your Aruco Marker
 * roomNumber: Number of the room you are in. Only allowed options are 1120 and 1116. Ignored on cams (use switch)
 * wifiModuleTX: Digital Pin that will be connected to the __Tx pin on the Wi-Fi module__.
@@ -131,7 +131,7 @@ These values can be queried by calling the following functions:
 Enes100.get variants will make sure you get the latest data available to you about your OTV's location. The first time
 getX is
 called, X, Y, theta and visibility are queried and cached. Subsequent calls return from the cache, so there
-is no performance gain to saving the function response to a variable.
+is no performance gain to saving the function response to a variable. However, should you want to save the value to a variable, you should declare that variable as a float.
 
 ### Enes100.isConnected()<a id="isConnected"> </a>
 

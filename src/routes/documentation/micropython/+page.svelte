@@ -8,11 +8,11 @@
     <div slot="sidebar">
         <a href="#thonny">Thonny IDE and Microcontroller Setup</a>
         <a href="#package">Package Download and Installation</a>
-        <a href="#begin">enes100.begin()</a>
-        <a href="#update">enes100.x and similar</a>
-        <a href="#connect">enes100.is_connected()</a>
-        <a href="#print">enes100.print()</a>
-        <a href="#mission">enes100.mission()</a>
+        <a href="#begin">Enes100.begin()</a>
+        <a href="#update">Enes100.x and similar</a>
+        <a href="#connect">Enes100.is_connected()</a>
+        <a href="#print">Enes100.print()</a>
+        <a href="#mission">Enes100.mission()</a>
         <a href="#ML_camera">Machine Learning</a>
         <a href="#demo">Product Demonstration</a>
         
@@ -34,38 +34,37 @@ In this section, you’ll learn how to flash MicroPython firmware on your boards
 1. Connect your ESP32 board to your computer.
 2. Open Thonny IDE. Go to **Tools > Options > Interpreter**.
 3. Select the interpreter you want to use accordingly to the board you’re using and select the COM port your board is connected to. Finally, click on the link **Install or update firmware(esptool)**.
-4. Next, select **ESP32** as the Micropython family, **Espressif - ESP32 / WROOM** as the variant, and **1.24.1** as the version. Then, click install.
+4. Next, select **ESP32** as the Micropython family, **Espressif - ESP32 / WROOM** as the variant, and then select the latest version. Then, click install.
 5. To make sure that the installation was successful, type **help()** into the shell. You should receive a message.
 
 ## Package Download and Installation <a id="package"> </a>
 ### <a href="https://github.com/umdenes100/enes100-micropython/archive/new-system.zip">Click to Download</a>
 In this section, you will download the package and upload it to your microcontroller through Thonny IDE. 
-Note: If you are using the ML cameras, navigate to the sidebar to the ML section and follow those instructions.
 1) To download the package, click the above link. No need to unzip the file.
 2) Open Thonny and navigate to **Tools > Manage packages...**
 3) Using **Install from local file**, find the file on your computer and upload it to your device.
 
-You can now use the Enes100 package.
+You should now be able to import the package in your code and use it to communicate with the Vision System.
 
 ## Usage 
 
-`from enes100 import enes100`
+`from enes100 import Enes100`
 
 To use the library, you have to direct the compiler to include it in your code. Add it manually by typing (or copying) the above line at the very top of your file.
 
-### enes100.begin() <a id="begin"> </a>
+### Enes100.begin() <a id="begin"> </a>
 
-`enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int)`
+`Enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int)`
 
 Initializes the enes100 library and establishes communication with the Vision System.
 
 - team_name: Name of the team that will show up in the Vision System
 - team_type: Type of mission your team is running.
-    - Valid Mission Types: `'HYDROGEN'`, `'DATA'`, `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
+    - Valid Mission Types: `'DATA'`, `'HYDROGEN'`, `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
 - aruco_id: ID of your Aruco Marker
-- room_num: The number of the classroom in which you are located (1116 or 1120)
+- room_num: The number of the classroom in which you are located (1116, 1120, or 1201)
 
-### enes100.x and similar <a id="update"> </a>
+### Enes100.getX() and similar <a id="update"> </a>
 
 The Aruco Marker has 4 values
 - x: x-coordinate of the Aruco Marker (from 0.0 to 4.0), -1 if aruco is not visible
@@ -74,25 +73,25 @@ The Aruco Marker has 4 values
 - visibility: whether the ArUco marker is visible (true or false)
 
 These values can be queried by using the following commands:
-- `enes100.x`
-- `enes100.y`
-- `enes100.theta`
-- `enes100.is_visible`
+- `enes100.getX()`
+- `enes100.getY()`
+- `enes100.getTheta()`
+- `enes100.isVisible()`
 
-enes100.x variants will make sure you get the latest data available to you about your OTV's location. There is no need to save these as a separate variable.
+Enes100.get() variants will make sure you get the latest data available to you about your OTV's location. There is no need to save these as a separate variable.
 
-### enes100.is_connected() <a id="connect"> </a>
-`enes100.is_connected()`
+### Enes100.is_connected() <a id="connect"> </a>
+`Enes100.is_connected()`
 
-Returns true if the ESP32 is connected to the Vision System, false otherwise. Note: enes100.begin will not return until this function is true.
+Returns true if the ESP32 is connected to the Vision System, false otherwise. Note: Enes100.begin() will not return until this function is true.
 
-### enes100.print() <a id="print"> </a>
-`enes100.print(message: str)`
+### Enes100.print() <a id="print"> </a>
+`Enes100.print(message: str)`
 
 Sends a message to the vision system with a new line. Any messages sent after will be printed in a new line.
 
-### enes100.mission() <a id="mission"> </a>
-`enes100.mission(type: str, message: str*)`
+### Enes100.mission() <a id="mission"> </a>
+`Enes100.mission(type: str, message: str*)`
 
 Sends value for a mission objective.
 - type: what type of mission call you are sending
@@ -130,29 +129,21 @@ Valid calls for **WATER**:
 - `enes100.mission('WATER_TYPE', 'FRESH_POLLUTED')`
 
 Valid calls for **SEED**:
-- `enes100.mission('LOCATION', plot)` where plot is a single character A, B, C, or D
+* `Enes100.mission(LOCATION, plot);` where plot is "BOTH" "NEITHER" "ADJACENT" or "DIAGONAL" for plantable substrate.*
 
 
 ## Machine Learning <a id="ML_camera"> </a>
 ### About
-The ESPCAM will be mounted to your OTV and act as your wifi module, with the added capabilities of camera vision. Note, this is not the overhead vision system above the arena - this is a development board provided that has a camera on it that will put on your otv.
-
-The machine learning cameras use a different library to connect to the Vision System. Follow the instructions below to download and install the package.
-### <a href="https://github.com/umdenes100/enes100-micropython/archive/refs/heads/ml-branch.zip">Click to Download</a>
-1) To download the package, click the above link. No need to unzip the file.
-2) Open Thonny and navigate to **Tools > Manage packages...**
-3) Using **Install from local file**, find the file on your computer and upload it to your device.
-
-You can now use the Enes100ml package.
+The ESPCAM will be mounted to your OTV and act as your wifi module, with the added capabilities of camera vision. 
+Note, this is not the overhead vision system above the arena - this is a separate development board (provided by staff) that has a camera and can be used for machine learning applications. 
+You will use the camera to take pictures and send them to the Vision System to be processed by your team's machine learning model. 
 
 ## Usage 
 
-`from enes100ml import enes100`
+To use the ML camera you will use the same begin statement as the standard Enes100 library, but with two additional parameters for the tx and rx pins that connect to the camera. The rest of the functions in the library will work as normal, but there are some additional functions for machine learning capabilities.
 
-To use the library, you have to direct the compiler to include it in your code. Add it manually by typing (or copying) the above line at the very top of your file.
-There is one function that is different from the standard enes100 library and one additional function to get predictions from your model:
-### enes100.begin() <a id="begin"> </a>
-`enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int, tx_pin: int, rx_pin: int)`
+### Enes100.begin() <a id="begin"> </a>
+`Enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int, tx_pin: int, rx_pin: int)`
 
 Initializes the enes100 library and establishes communication with the Vision System.
 
@@ -160,12 +151,12 @@ Initializes the enes100 library and establishes communication with the Vision Sy
 - team_type: Type of mission your team is running.
     - Valid Mission Types: `'HYDROGEN'`, `'DATA'`, `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
 - aruco_id: ID of your Aruco Marker
-- room_num: The number of the classroom in which you are located (1116 or 1120)
+- room_num: The number of the classroom in which you are located (1116, 1120 or 1201)
 - tx_pin: The GPIO pin number connected to the TX pin of the camera
 - rx_pin: The GPIO pin number connected to the RX pin of the camera
 
-### enes100.ml_get_prediction() <a id="get_prediction"> </a>
-`enes100.ml_get_prediction(model_index: int)`
+### Enes100.MLGetPrediction() <a id="get_prediction"> </a>
+`Enes100.MLGetPrediction(model_index: int)`
 
 Sends current image from the ESPCAM to the Vision System to get processed by your team's machine learning model. Read more [here](https://enes100.umd.edu/tools/machinelearning/).
 The function uses your team name (from the Enes100.begin() statement) to find your model. As such, **make sure
@@ -177,7 +168,6 @@ Example:
 If your ML model at index 1 contained the categories: **Thumbs Up**, **Thumbs Down**, **Thumb Sideways** in an array in that order,
 calling `Enes100.MLGetPrediction(1)` would return `0` if **Thumbs Up** is predicted, `1` if **Thumbs Down** is predicted, and `2` if **Thumb Sideways** is predicted.
 
-The remaining functions and usage are the same as the standard enes100 library.
 ## Product Demonstration Procedures <a id="demo"> </a>
 
 During the product demonstration, messages sent using print() and println() will not be shown on the Vision System console. You should use the mission calls to send results.
