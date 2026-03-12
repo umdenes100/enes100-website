@@ -44,7 +44,7 @@ Each mission team has a budget of 50 School Store Silver coins. The base stock l
 | Wheels Caster                | $3             | 2              |
 | Omni Wheels                  | $6             | None           |
 | Wood Sheet*	               | $3             | None           |
-| PLA Sheet 	               | $5             | None           |
+| PLA Sheet 	               | $2             | None           |
 | Acrylic Sheet*               | $5             | None           |
 
 *(Note: Wood and Acrylic Sheets cost real money and the cost will not be deducted to the account. Please notify your instructor or TA if purchasing) 
