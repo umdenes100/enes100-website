@@ -80,8 +80,8 @@ These values can be queried by using the following commands:
 
 Enes100.get() variants will make sure you get the latest data available to you about your OTV's location. There is no need to save these as a separate variable.
 
-### Enes100.is_connected() <a id="connect"> </a>
-`Enes100.is_connected()`
+### Enes100.isConnected() <a id="connect"> </a>
+`Enes100.isConnected()`
 
 Returns true if the ESP32 is connected to the Vision System, false otherwise. Note: Enes100.begin() will not return until this function is true.
 
