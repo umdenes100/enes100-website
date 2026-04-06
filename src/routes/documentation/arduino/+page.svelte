@@ -26,8 +26,8 @@ via ESP8266 Wi-Fi modules.
 
 ## Download and Installation <a id="download"> </a>
 ### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/refs/tags/V6.0.0.zip">Click to Download v6.0.0 (Updated as of 3/11/2026)</a>
-### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/refs/tags/V6.0.1.zip">Click to Download v6.0.1 (Updated as of 3/30/2026)</a>
-- You only need to download v6.0.1 if you are using ML
+### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/refs/tags/V6.1.0.zip">Click to Download v6.1.0 (Updated as of 3/30/2026)</a>
+- You only need to download v6.1.0 if you are using ML
 
 To download this library, click the above link. Make sure the file is unzipped and move it
 to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The
