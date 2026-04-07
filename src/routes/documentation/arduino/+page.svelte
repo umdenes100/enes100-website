@@ -86,7 +86,7 @@ __Wi-Fi module__.
 * teamType: Type of mission your team is running.
 * Valid Mission Types: `DATA`, `HYDROGEN`, `MATERIAL`, `FIRE`, `WATER`, `SEED`
 * markerID: ID of your Aruco Marker
-* roomNumber: Number of the room you are in. Only allowed options are 1120 and 1116. Ignored on cams (use switch)
+* roomNumber: Number of the room you are in. Only allowed options are 1116, 1120, or 1201. Ignored on cams (use switch)
 * wifiModuleTX: Digital Pin that will be connected to the __Tx pin on the Wi-Fi module__.
 * wifiModuleRX: Digital Pin that will be connected to the __Rx pin on the Wi-Fi module__.
 
