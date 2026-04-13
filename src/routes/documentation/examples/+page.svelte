@@ -13,7 +13,7 @@
         <ToggleSwitch bind:value={language} design="multi" options={['Arduino C++', 'MicroPython']} fontSize={20}></ToggleSwitch>
     </div>
     <details>
-        <summary>Initializing the Wifi Module and Updating the Location</summary>
+        <summary>Connecting to the Vision System and Updating the Location</summary>
         {#if language === 'MicroPython'}
             <div>
                 This example and mission specific ones can also be found in the
@@ -27,7 +27,6 @@
         Enes100.begin("Testing123", "DATA", 205, 1116)
         Enes100.print("Connected!")
         
-        # There is no get function in the MicroPython package... the location vars are automatically updated.
         # Enes100.getX() -> your x coordinate. 0-4, in meters, -1 if aruco is not visible
         # Enes100.getY() -> your y coordinate. 0-2, in meters, -1 if aruco is not visible
         # Enes100.getTheta() -> your theta. -pi to pi, in radians, -1 if aruco is not visible
