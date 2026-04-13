@@ -21,18 +21,18 @@
             
             <pre><code>
     # simple function to test communication with the Vision System
-    from enes100 import enes100
+    from enes100 import Enes100
     def simple_test():
         # Team Name, Mission Type, Aruco ID, Room Num
-        enes100.begin("Name pending...", "DATA", 205, 1116)
-        enes100.println("Connected!")
+        Enes100.begin("Testing123", "DATA", 205, 1116)
+        Enes100.print("Connected!")
         
         # There is no get function in the MicroPython package... the location vars are automatically updated.
-        # enes100.x -> your x coordinate. 0-4, in meters, -1 if aruco is not visible
-        # enes100.y -> your y coordinate. 0-2, in meters, -1 if aruco is not visible
-        # enes100.theta -> your theta. -pi to pi, in radians, -1 if aruco is not visible
-        while enes100.is_visible:
-            enes100.print(f"We are at &lbrace;enes100.x=&rbrace; &lbrace;enes100.y=&rbrace; &lbrace;enes100.theta=&rbrace;")
+        # Enes100.getX() -> your x coordinate. 0-4, in meters, -1 if aruco is not visible
+        # Enes100.getY() -> your y coordinate. 0-2, in meters, -1 if aruco is not visible
+        # Enes100.getTheta() -> your theta. -pi to pi, in radians, -1 if aruco is not visible
+        while enes100.isVisible():
+            Enes100.print(f"We are at &lbrace;enes100.x=&rbrace; &lbrace;enes100.y=&rbrace; &lbrace;enes100.theta=&rbrace;")
 
     simple_test()
             </code></pre>
