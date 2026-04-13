@@ -102,31 +102,31 @@ All the definitions defined in the enes100 library correlate to an integer. To s
 *For some mission calls below, the value i will denote an integer value. In that case, i should be an int NOT a str.
 
 Valid calls for **HYDROGEN**:
-- `enes100.mission('LED_COLOR', 'COLOR');` *COLOR options are WHITE, RED, YELLOW, GREEN, and BLUE*
-- `enes100.mission('VOLTAGE_OUTPUT', 'VOLTAGE_3');` * VOLTAGE options are VOLTAGE_1 through VOLTAGE_5*
+- `enes100.mission(LED_COLOR, COLOR);` *COLOR options are WHITE, RED, YELLOW, GREEN, and BLUE*
+- `enes100.mission(VOLTAGE_OUTPUT, VOLTAGE_3);` * VOLTAGE options are VOLTAGE_1 through VOLTAGE_5*
 
 Valid calls for **DATA**:
-- `enes100.mission('CYCLE', i)` i is the duty cycle percent (ex. 10, 30, 50, 70, 90)
-- `enes100.mission('MAGNETISM', 'MAGNETIC')`
-- `enes100.mission('MAGNETISM', 'NOT_MAGNETIC')`
+- `enes100.mission(CYCLE, i)` i is the duty cycle percent (ex. 10, 30, 50, 70, 90)
+- `enes100.mission(MAGNETISM, MAGNETIC)`
+- `enes100.mission(MAGNETISM, NOT_MAGNETIC)`
 
 Valid calls for **MATERIAL**:
-- `enes100.mission('WEIGHT', 'HEAVY')`
-- `enes100.mission('WEIGHT', 'MEDIUM')`
-- `enes100.mission('WEIGHT', 'LIGHT')`
-- `enes100.mission('MATERIAL_TYPE', 'FOAM')`
-- `enes100.mission('MATERIAL_TYPE', 'PLASTIC')`
+- `enes100.mission(WEIGHT, HEAVY)`
+- `enes100.mission(WEIGHT, MEDIUM)`
+- `enes100.mission(WEIGHT, LIGHT)`
+- `enes100.mission(MATERIAL_TYPE, FOAM)`
+- `enes100.mission(MATERIAL_TYPE, PLASTIC)`
 
 Valid calls for **FIRE**:
-- `enes100.mission('NUM_CANDLES', i)` i is an integer (0, 1, 2, 3, 4, 5)
-- `enes100.mission('TOPOGRAPHY', 'TOP_A')`
-- `enes100.mission('TOPOGRAPHY', 'TOP_B')`
-- `enes100.mission('TOPOGRAPHY', 'TOP_C')`
+- `enes100.mission(NUM_CANDLES, i)` i is an integer (0, 1, 2, 3, 4, 5)
+- `enes100.mission(TOPOGRAPHY, TOP_A)`
+- `enes100.mission(TOPOGRAPHY, TOP_B)`
+- `enes100.mission(TOPOGRAPHY, TOP_C)`
 
 Valid calls for **WATER**:
-- `enes100.mission('DEPTH', i)` i is in mm
-- `enes100.mission('WATER_TYPE', 'FRESH_UNPOLLUTED')`
-- `enes100.mission('WATER_TYPE', 'FRESH_POLLUTED')`
+- `enes100.mission(DEPTH, i)` i is in mm
+- `enes100.mission(WATER_TYPE, FRESH_UNPOLLUTED)`
+- `enes100.mission(WATER_TYPE, FRESH_POLLUTED)`
 
 Valid calls for **SEED**:
 * `Enes100.mission(LOCATION, plot);` where plot is "BOTH" "NEITHER" "ADJACENT" or "DIAGONAL" for plantable substrate.*
@@ -143,7 +143,7 @@ You will use the camera to take pictures and send them to the Vision System to b
 To use the ML camera you will use the same begin statement as the standard Enes100 library, but with two additional parameters for the tx and rx pins that connect to the camera. The rest of the functions in the library will work as normal, but there are some additional functions for machine learning capabilities.
 
 ### Enes100.begin() <a id="begin"> </a>
-`Enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int, tx_pin: int, rx_pin: int)`
+`Enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int, rx_pin: int, tx_pin: int)`
 
 Initializes the enes100 library and establishes communication with the Vision System.
 
@@ -152,8 +152,8 @@ Initializes the enes100 library and establishes communication with the Vision Sy
     - Valid Mission Types: `'HYDROGEN'`, `'DATA'`, `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
 - aruco_id: ID of your Aruco Marker
 - room_num: The number of the classroom in which you are located (1116, 1120 or 1201)
-- tx_pin: The GPIO pin number connected to the TX pin of the camera
 - rx_pin: The GPIO pin number connected to the RX pin of the camera
+- tx_pin: The GPIO pin number connected to the TX pin of the camera
 
 ### Enes100.MLGetPrediction() <a id="get_prediction"> </a>
 `Enes100.MLGetPrediction(model_index: int)`
