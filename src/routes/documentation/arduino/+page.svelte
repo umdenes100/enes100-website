@@ -57,6 +57,7 @@ Allowed Pins:
 A15 (69)
 Students have had difficulty with the Mega. <small>Some students have a certain set of pins work while other students
 will find those same pins broken.</small>
+- ELEGOO Mega - 10, 11
 - Leonardo - 8, 9, 10, 11, 14, 15, 16.
 - Romeo V1 - Same as Uno
 - Romeo V2 - Same as Leonardo
