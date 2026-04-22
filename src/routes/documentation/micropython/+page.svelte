@@ -145,7 +145,8 @@ To use the ML camera you will use the same begin statement as the standard Enes1
 ### Enes100.begin() <a id="begin"> </a>
 `Enes100.begin(team_name: str, team_type: str, aruco_id: int, room_num: int, rx_pin: int, tx_pin: int)`
 
-Initializes the enes100 library and establishes communication with the Vision System.
+Initializes the Enes100 library and establishes communication with the Vision System.
+
 RX/TX pin choices: 13, 14, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33. 16/17 tends to be most reliable.
 
 - team_name: Name of the team that will show up in the Vision System
