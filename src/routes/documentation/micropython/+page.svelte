@@ -147,7 +147,7 @@ To use the ML camera you will use the same begin statement as the standard Enes1
 
 Initializes the Enes100 library and establishes communication with the Vision System.
 
-RX/TX pin choices: 13, 14, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33. 16/17 tends to be most reliable.
+RX/TX pin choices: 16, 17, 18, 19, 25, 26, 27, 32, 33. 16/17 tends to be most reliable. You should not use the pins labelled TX or RX on the board, as those are reserved for your serial monitor/REPL.
 
 - team_name: Name of the team that will show up in the Vision System
 - team_type: Type of mission your team is running.
