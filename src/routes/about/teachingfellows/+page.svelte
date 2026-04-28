@@ -37,7 +37,10 @@
         </li>
         <li>
             Other responsibilities as assigned by the ENES100
-            instructorsMaintain records of student attendance and progress
+            instructors
+        </li>
+        <li>
+            Maintain records of student attendance and progress
         </li>
         <li>
             Under the supervision of the instructor, plan and teach one or two
@@ -247,8 +250,8 @@
     <h3>How to apply</h3>
     <p>
         Applicants should fill out the <a
-            href="https://forms.gle/tDn9zqQMgKUfbKkL7">online application</a
-        > <b>and</b> email their resume, unofficial transcript, and spring 2026 class
+            href="https://eng.umd.edu/keystone/resources/teaching-fellows">online application</a
+        > <b>and</b> email their resume, unofficial transcript, and class
         schedule to Mrs. Nelpe Wachsman, the Program Manager for Keystone.
     </p>
     <p>
@@ -256,12 +259,12 @@
             href="mailto: nwachsma@umd.edu">email</a
         > Mrs. Wachsman.
     </p>
-    <p>
+    <!-- <p>
         <b
             >SPRING 2026 ENES100 TF APPLICATION IS NOW CLOSED
-            <!-- <br />All TF Applications are
-            due January 2nd, 2026.</b> -->
-    </p>
+            <br />All TF Applications are
+            due January 2nd, 2026.</b>
+    </p> -->
 </div>
 
 <style>
