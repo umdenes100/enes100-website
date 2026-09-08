@@ -12,25 +12,26 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Ted Baker<br />Section(s): 0402<br />
+                Ted Baker<br />Section(s): 0201<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Dani Barker<br />Section(s): 0602, 0701, 0803<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Dani Barker<br />Section(s): 0202, 0502, 0601<br />
+                Brian Beaudoin<br />Section(s): 0302<br />
             </div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Michelle Bensi<br />Section(s): 0102<br />
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Rick Blanton<br />Section(s): 0602<br />
+                Richard Blaton<br />Section(s): 0702<br />
             </div>
         </div>
         <div class="person">
