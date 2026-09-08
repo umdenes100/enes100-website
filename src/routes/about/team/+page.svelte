@@ -7,8 +7,12 @@
         <span>passion</span>
         for engineering and innovation into everything they <span>do</span>.
     </h2>
+<!-- --------------------------------------------------------------------------------------- -->
     <h3>Instructors</h3>
     <div class="split_box">
+
+        <!-- Person Cards: with image, name, section -->
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
@@ -19,7 +23,7 @@
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Dani Barker<br />Section(s): 0602, 0701, 0803<br />
+                Danielle Barker<br />Section(s): 0602, 0701, 0803<br />
             </div>
         </div>
         <div class="person">
@@ -28,57 +32,111 @@
                 Brian Beaudoin<br />Section(s): 0302<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Richard Blaton<br />Section(s): 0702<br />
+                Richard Blanton<br />Section(s): 0702<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Kevin Chiu<br />Section(s): 0701<br />
+                Kevin Calabro<br />Section(s): 0503<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                John Cumings<br />Section(s): 0201<br />
+                Nicholas Chiu<br />Section(s): 1101, FC01<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                David Kriesberg<br />Section(s): 0401<br />
+                Joshua Cocker<br />Section(s): 0603, FC03<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Wesley Lawson<br />Section(s): 0101<br />
+                Michael Galczynski<br />Section(s): 0403, 1002<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Daanish Maqbool<br />Section(s): 0801<br />
+                Akshay Kandakumar<br />Section(s): FC02<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Kevin Martz<br />Section(s): 0301<br />
+                Amy Karlsson<br />Section(s): 0401<br />
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
-                Andres Rubiano<br />Section(s): 0302, 0501<br />
+                Sahil Kochar<br />Section(s): 0301, 0501<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                David Kriesberg<br />Section(s): 0802<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Abisola Kusimo<br />Section(s): 1102<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Isabel Lloyd<br />Section(s): 0402<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Kevin Martz<br />Section(s): 0502<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Brian Palmer<br />Section(s): 0801<br />
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudo.jpg" alt=":(" />
+            <div class="bio">
+                Peter Sunderland<br />Section(s): 0601<br />
             </div>
         </div>
     </div>
+ <!-- --------------------------------------------------------------------------------------- -->
     <h3>Graduate Teaching Assistant</h3>
     <div class="split_box">
+
+        <!-- Person Cards: with image, name-->
+
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
             <div class="bio">
@@ -92,6 +150,7 @@
             </div>
         </div>
     </div>
+<!-- --------------------------------------------------------------------------------------- -->
     <h3>Undergraduate Teaching Fellows</h3>
     <h4>
         UTFs are the backbone of our classrooms. They each provide direct
@@ -99,33 +158,35 @@
         the course.
     </h4>
     <div class="split_box">
+
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Leeam Berman<br />Section:
-                0502
+                Leeam Berman<br />Section:0501
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sara Durborow<br />Section:
-                0402
+                Sabine Buccheri<br />Section: FC01
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sean Eby<br />Section:
-                0202
+                Kieran Denver<br />Section:0201
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sara Kamili<br />Section: 0301
+                Beatriz Dias de Sousa<br />Section: 0602
             </div>
         </div>
+
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
