@@ -157,6 +157,8 @@
         support to one instructor and their students for the entire duration of
         the course.
     </h4>
+
+ <!-- Person Cards: with image, name, section-->
     <div class="split_box">
 
         <div class="person">
@@ -190,84 +192,141 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Talha Khan<br />Section:
-                0801
+                Sara Durborow<br />Section: 0301
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Aaron Mengesha<br />Section: 0101
+                David Fayemiwo<br />Section: 1101
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Michael O'Neill<br
-                />Section: 0401
+                Abigail Hein<br/>Section: 0803
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Daniel Peloquin<br />Section:
-                0102
+                Sara Kamili<br />Section:FC02
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Terrence Pierce<br />Section:
-                0602
+                Talha Khan<br />Section: 0302
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Kaylee Plecas<br />Section:
-                0601
+                Michael Ladyzhensky<br />Section:0403
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Deepika Pun<br />Section:
-                0201
+                Jared Lee<br />Section:0503
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Andrew Schwartzman<br />Section:
-                0501
+                Timothy Lindstrom<br />Section:FC03
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Ryan Vacek<br />Section:
-                0701
+                Aaron Mengesha<br />Section:0702
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Maggie Yan<br />Section:
-                0302
+               Cullen Moriarty<br />Section:0802
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Michael O'Neill<br />Section:0701
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Kaylee Plecas<br />Section:0601
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Deepika Pun<br />Section:0401
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               James Roberts<br />Section:0603
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Andrew Schwartzman<br />Section:0801
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Katherine Wanner<br />Section:1002
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Garrett Wilson<br />Section:1102
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Maggie Yan<br />Section:0502
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudsnow.jpg" alt=":(" />
+            <div class="bio">
+               Sophie Ziler<br />Section:0402
             </div>
         </div>
     </div>
+
+<!-- --------------------------------------------------------------------------------------- -->
     <h3>Laboratory Teaching Fellows</h3>
     <h4>
         LTFs work behind the scenes to maintain our course technologies and
         develop new ones. They also offer technical support to students and
         instructors throughout the semester.
     </h4>
+
+ <!-- Person Cards: with image, name-->
     <div class="split_box">
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Emily Cleveland
+                Raveena Ananth
             </div>
         </div>
         <div class="person">
@@ -285,13 +344,25 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Ann-Audrey Ezi
+                Fariha Firoz
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Larson Ozbun
+                Shreeya Gupta
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudbow.jpg" alt=":(" />
+            <div class="bio">
+                Colin Irwin 
+            </div>
+        </div>
+        <div class="person">
+            <img src="/img/testudbow.jpg" alt=":(" />
+            <div class="bio">
+                Nipun Maisheri
             </div>
         </div>
         <div class="person">
@@ -303,25 +374,19 @@
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Stephen Snyder
+                Larson Ozbun
             </div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
             <div class="bio">
-                Lara Tran
-            </div>
-        </div>
-        <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Sophi Zeiler
+                Gabriel Teather
             </div>
         </div>
     </div>
     <p>*Images are not currently representative of team members.</p>
 </div>
-
+<!-- --------------------------------------------------------------------------------------- -->
 <style>
     @media (max-width: 520px) {
         .person {
