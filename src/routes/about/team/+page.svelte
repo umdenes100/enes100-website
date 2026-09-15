@@ -7,10 +7,9 @@
         <span>passion</span>
         for engineering and innovation into everything they <span>do</span>.
     </h2>
-<!-- --------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------- -->
     <h3>Instructors</h3>
     <div class="split_box">
-
         <!-- Person Cards: with image, name, section -->
 
         <div class="person">
@@ -131,26 +130,21 @@
             </div>
         </div>
     </div>
- <!-- --------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------- -->
     <h3>Graduate Teaching Assistant</h3>
     <div class="split_box">
-
         <!-- Person Cards: with image, name-->
 
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Nam Facchetti
-            </div>
+            <div class="bio">Nam Facchetti</div>
         </div>
         <div class="person">
             <img src="/img/testudo.jpg" alt=":(" />
-            <div class="bio">
-                Matthew Paul
-            </div>
+            <div class="bio">Matthew Paul</div>
         </div>
     </div>
-<!-- --------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------- -->
     <h3>Undergraduate Teaching Fellows</h3>
     <h4>
         UTFs are the backbone of our classrooms. They each provide direct
@@ -158,9 +152,8 @@
         the course.
     </h4>
 
- <!-- Person Cards: with image, name, section-->
+    <!-- Person Cards: with image, name, section-->
     <div class="split_box">
-
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
@@ -204,7 +197,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Abigail Hein<br/>Section: 0803
+                Abigail Hein<br />Section: 0803
             </div>
         </div>
         <div class="person">
@@ -246,74 +239,74 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Cullen Moriarty<br />Section:0802
+                Cullen Moriarty<br />Section:0802
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Michael O'Neill<br />Section:0701
+                Michael O'Neill<br />Section:0701
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Kaylee Plecas<br />Section:0601
+                Kaylee Plecas<br />Section:0601
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Deepika Pun<br />Section:0401
+                Deepika Pun<br />Section:0401
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               James Roberts<br />Section:0603
+                James Roberts<br />Section:0603
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Andrew Schwartzman<br />Section:0801
+                Andrew Schwartzman<br />Section:0801
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Katherine Wanner<br />Section:1002
+                Katherine Wanner<br />Section:1002
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Garrett Wilson<br />Section:1102
+                Garrett Wilson<br />Section:1102
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Maggie Yan<br />Section:0502
+                Maggie Yan<br />Section:0502
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-               Sophie Ziler<br />Section:0402
+                Sophie Ziler<br />Section:0402
             </div>
         </div>
     </div>
 
-<!-- --------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------- -->
     <h3>Laboratory Teaching Fellows</h3>
     <h4>
         LTFs work behind the scenes to maintain our course technologies and
@@ -321,93 +314,54 @@
         instructors throughout the semester.
     </h4>
 
- <!-- Person Cards: with image, name-->
+    <!-- Person Cards: with image, name-->
     <div class="split_box">
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Raveena Ananth
-            </div>
+            <div class="bio">Raveena Ananth</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Maggie Crooks
-            </div>
+            <div class="bio">Maggie Crooks</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Zoe Edwards
-            </div>
+            <div class="bio">Zoe Edwards</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Fariha Firoz
-            </div>
+            <div class="bio">Fariha Firoz</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Shreeya Gupta
-            </div>
+            <div class="bio">Shreeya Gupta</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Colin Irwin 
-            </div>
+            <div class="bio">Colin Irwin</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Nipun Maisheri
-            </div>
+            <div class="bio">Nipun Maisheri</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                John Paulenich
-            </div>
+            <div class="bio">John Paulenich</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Larson Ozbun
-            </div>
+            <div class="bio">Larson Ozbun</div>
         </div>
         <div class="person">
             <img src="/img/testudbow.jpg" alt=":(" />
-            <div class="bio">
-                Gabriel Teather
-            </div>
+            <div class="bio">Gabriel Teather</div>
         </div>
     </div>
     <p>*Images are not currently representative of team members.</p>
 </div>
+
 <!-- --------------------------------------------------------------------------------------- -->
 <style>
-    @media (max-width: 520px) {
-        .person {
-            width: 80%;
-        }
-    }
-    @media (min-width: 521px) and (max-width: 831px) {
-        .person {
-            width: 40%;
-        }
-    }
-    @media (min-width: 832px) and (max-width: 1349px) {
-        .person {
-            width: 25%;
-        }
-    }
-    @media (min-width: 1350px) {
-        .person {
-            width: 20%;
-        }
-    }
     h1 span {
         color: #ffd200;
     }
@@ -416,50 +370,61 @@
         font-weight: bold;
     }
     .split_box {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .person {
+        box-sizing: border-box;
         display: flex;
-        padding-top: 25px;
-        padding-bottom: 30px;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        border: 2px solid white;
+        background-color: #0a131a;
+        text-align: center;
+        height: 100%;
+    }
+
+    img {
+        width: 100%;
+        box-sizing: border-box;
+        aspect-ratio: 1.1 / 1.2;
+        object-fit: cover;
+        border: 2px solid white;
+        margin-top: 5px;
     }
     .text {
         padding: 2% 5%;
     }
     h3 {
+        clear: both;
         font-weight: normal;
         font-size: 30px;
-        margin: auto;
+        margin: 35px 0 15px 0;
         color: #ffd200;
         text-decoration: underline 2px white;
+    }
+    h4 {
+        font-weight: normal;
+        margin: 10px 0 15px 0;
     }
     h1 {
         font-size: 50px;
     }
-    .person {
-        padding: 10px;
-        border: 2px solid white;
-        margin-bottom: 2%;
-        margin-right: 2%;
-        background-color: #0a131a;
-        text-align: center;
-    }
+
     .bio {
         text-align: left;
-        padding: 10px;
+        padding: 10px 5px 5px 5px;
     }
-    img {
-        width: 95%;
-        border: 2px solid white;
-        margin-top: 5px;
-    }
+
     h2 {
         font-weight: normal;
         font-size: 30px;
     }
-    /* a {
-        color: white;
-    }
-    a:hover {
-        color: #ffd200;
-    } */
 </style>

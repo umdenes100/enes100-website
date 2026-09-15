@@ -10,7 +10,7 @@
 </svelte:head>
 
 {#if $page.url.pathname != "/labDisplay/"}
-    <div style="display: flex; flex-direction: column; height: 100vh">
+    <div style="display: flex; flex-direction: column; min-height: 100vh">
         <Header />
         <slot></slot>
         <Footer />
