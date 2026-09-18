@@ -301,7 +301,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sophie Ziler<br />Section:0402
+                Sophi Ziler<br />Section:0402
             </div>
         </div>
     </div>
