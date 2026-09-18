@@ -136,7 +136,7 @@
         <!-- Person Cards: with image, name-->
 
         <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Nam.png" alt=":(" />
             <div class="bio">Nam Facchetti</div>
         </div>
         <div class="person">
@@ -201,13 +201,13 @@
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Sara Kamili.png" alt=":(" />
             <div class="bio">
                 Sara Kamili<br />Section:FC02
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Talha.png" alt=":(" />
             <div class="bio">
                 Talha Khan<br />Section: 0302
             </div>
@@ -237,14 +237,14 @@
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Cullen Moriarty.png" alt=":(" />
             <div class="bio">
                 Cullen Moriarty<br />Section:0802
             </div>
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Michael O'Neill.png" alt=":(" />
             <div class="bio">
                 Michael O'Neill<br />Section:0701
             </div>
@@ -279,7 +279,7 @@
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Katherine Wanner.png" alt=":(" />
             <div class="bio">
                 Katherine Wanner<br />Section:1002
             </div>
@@ -293,7 +293,7 @@
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Maggie Yan.png" alt=":(" />
             <div class="bio">
                 Maggie Yan<br />Section:0502
             </div>
@@ -321,19 +321,19 @@
             <div class="bio">Raveena Ananth</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Maggie Crooks.png" alt=":(" />
             <div class="bio">Maggie Crooks</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Zoe Edwards.png" alt=":(" />
             <div class="bio">Zoe Edwards</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Fariha.png" alt=":(" />
             <div class="bio">Fariha Firoz</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Shreeya Gupta.png" alt=":(" />
             <div class="bio">Shreeya Gupta</div>
         </div>
         <div class="person">
@@ -353,11 +353,11 @@
             <div class="bio">Larson Ozbun</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Gabriel Teather.png" alt=":(" />
             <div class="bio">Gabriel Teather</div>
         </div>
     </div>
-    <p>*Images are not currently representative of team members.</p>
+    <p>*Images are not currently representative of team members completely.</p>
 </div>
 
 <!-- --------------------------------------------------------------------------------------- -->
