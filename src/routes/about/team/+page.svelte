@@ -157,7 +157,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Leeam Berman<br />Section:0501
+                Leeam Berman<br />Section: 0501
             </div>
         </div>
 
@@ -171,7 +171,7 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Kieran Denver<br />Section:0201
+                Kieran Denver<br />Section: 0201
             </div>
         </div>
 
@@ -203,7 +203,7 @@
         <div class="person">
             <img src="/img/Enes Pictures/Sara Kamili.png" alt=":(" />
             <div class="bio">
-                Sara Kamili<br />Section:FC02
+                Sara Kamili<br />Section: FC02
             </div>
         </div>
         <div class="person">
@@ -215,93 +215,93 @@
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Michael Ladyzhensky<br />Section:0403
+                Michael Ladyzhensky<br />Section: 0403
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Jared Lee<br />Section:0503
+                Jared Lee<br />Section: 0503
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Timothy Lindstrom<br />Section:FC03
+                Timothy Lindstrom<br />Section: FC03
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Aaron Mengesha<br />Section:0702
+                Aaron Mengesha<br />Section: 0702
             </div>
         </div>
         <div class="person">
             <img src="/img/Enes Pictures/Cullen Moriarty.png" alt=":(" />
             <div class="bio">
-                Cullen Moriarty<br />Section:0802
+                Cullen Moriarty<br />Section: 0802
             </div>
         </div>
 
         <div class="person">
             <img src="/img/Enes Pictures/Michael O'Neill.png" alt=":(" />
             <div class="bio">
-                Michael O'Neill<br />Section:0701
+                Michael O'Neill<br />Section: 0701
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Kaylee Plecas<br />Section:0601
+                Kaylee Plecas<br />Section: 0601
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Deepika Pun<br />Section:0401
+                Deepika Pun<br />Section: 0401
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                James Roberts<br />Section:0603
+                James Roberts<br />Section: 0603
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Andrew Schwartzman<br />Section:0801
+                Andrew Schwartzman<br />Section: 0801
             </div>
         </div>
 
         <div class="person">
             <img src="/img/Enes Pictures/Katherine Wanner.png" alt=":(" />
             <div class="bio">
-                Katherine Wanner<br />Section:1002
+                Katherine Wanner<br />Section: 1002
             </div>
         </div>
 
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Garrett Wilson<br />Section:1102
+                Garrett Wilson<br />Section: 1102
             </div>
         </div>
 
         <div class="person">
             <img src="/img/Enes Pictures/Maggie Yan.png" alt=":(" />
             <div class="bio">
-                Maggie Yan<br />Section:0502
+                Maggie Yan<br />Section: 0502
             </div>
         </div>
         <div class="person">
             <img src="/img/testudsnow.jpg" alt=":(" />
             <div class="bio">
-                Sophi Zeiler<br />Section:0402
+                Sophi Zeiler<br />Section: 0402
             </div>
         </div>
     </div>
