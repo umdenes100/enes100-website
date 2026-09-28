@@ -25,8 +25,7 @@ An Arduino library for use in the ENES100 course to allow Arduino boards to comm
 via ESP8266 Wi-Fi modules.
 
 ## Download and Installation <a id="download"> </a>
-### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/refs/tags/v6.1.0.zip">Click to Download v6.1.0 (Updated as of 4/6/2026)</a>
-- If you are using the ML cams, you will ***need*** to update to v6.1.0.
+### <a href="https://github.com/umdenes100/ENES100ArduinoLibrary/archive/refs/tags/v6.2.4.zip">Click to Download v6.2.4 (Updated as of 9/24/2026)</a>
 
 To download this library, click the above link. Make sure the file is unzipped and move it
 to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The
@@ -38,7 +37,9 @@ Failure to do this may cause file conflicts, and it is not guaranteed that the l
 
 ## Setup <a id="setup"> </a>
 
-Communication with the Vision System is done using ESP8266 WiFi microcontrollers. Wi-Fi modules are available
+Communication with the Vision System using Arduino Uno R4 WiFi is done with the onboard wifi capability.
+
+Communication with the Vision System using Arduino Uno nonwifi capable boards are done using ESP8266 WiFi microcontrollers. Wi-Fi modules are available
 for
 checkout through a Teaching Fellow. The Wi-Fi module has 4 pins:
 
