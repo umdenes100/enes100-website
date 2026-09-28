@@ -183,13 +183,13 @@
         </div>
 
         <div class="person">
-            <img src="/img/Enes Pictures/sara1.png" alt=":(" />
+            <img src="/img/Enes Pictures/Sara Durborow.png" alt=":(" />
             <div class="bio">
                 Sara Durborow<br />Section: 0301
             </div>
         </div>
         <div class="person">
-            <img src="/img/Enes Pictures/david1.png" alt=":(" />
+            <img src="/img/Enes Pictures/David Fayemiwo .png" alt=":(" />
             <div class="bio">
                 David Fayemiwo<br />Section: 1101
             </div>
