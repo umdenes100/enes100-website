@@ -136,11 +136,17 @@
         <!-- Person Cards: with image, name-->
 
         <div class="person">
-            <img src="/img/Enes Pictures/Nam.png" alt=":(" />
+            <img
+                src="/img/Enes Pictures/Screenshot 2026-09-22 093556.png"
+                alt=":("
+            />
             <div class="bio">Nam Facchetti</div>
         </div>
         <div class="person">
-            <img src="/img/testudo.jpg" alt=":(" />
+            <img
+                src="/img/Enes Pictures/Screenshot 2026-09-22 093602.png"
+                alt=":("
+            />
             <div class="bio">Matthew Paul</div>
         </div>
     </div>
@@ -183,19 +189,19 @@
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/sara1.png" alt=":(" />
             <div class="bio">
                 Sara Durborow<br />Section: 0301
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/david1.png" alt=":(" />
             <div class="bio">
                 David Fayemiwo<br />Section: 1101
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Abigail Hein.png" alt=":(" />
             <div class="bio">
                 Abigail Hein<br />Section: 0803
             </div>
@@ -213,29 +219,30 @@
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Michael Ladyzhensky.png" alt=":(" />
             <div class="bio">
                 Michael Ladyzhensky<br />Section:0403
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Jared Lee.png" alt=":(" />
             <div class="bio">
                 Jared Lee<br />Section:0503
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Timothy Lindstrom.png" alt=":(" />
             <div class="bio">
                 Timothy Lindstrom<br />Section:FC03
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Aaron Mengesha.png" alt=":(" />
             <div class="bio">
                 Aaron Mengesha<br />Section:0702
             </div>
         </div>
+
         <div class="person">
             <img src="/img/Enes Pictures/Cullen Moriarty.png" alt=":(" />
             <div class="bio">
@@ -251,28 +258,28 @@
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Kaylee Plecas.png" alt=":(" />
             <div class="bio">
                 Kaylee Plecas<br />Section:0601
             </div>
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Deepika Pun.png" alt=":(" />
             <div class="bio">
                 Deepika Pun<br />Section:0401
             </div>
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/James Roberts.png" alt=":(" />
             <div class="bio">
                 James Roberts<br />Section:0603
             </div>
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Andrew Schwartzman .png" alt=":(" />
             <div class="bio">
                 Andrew Schwartzman<br />Section:0801
             </div>
@@ -286,7 +293,7 @@
         </div>
 
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Garrett Wilson.png" alt=":(" />
             <div class="bio">
                 Garrett Wilson<br />Section:1102
             </div>
@@ -299,7 +306,7 @@
             </div>
         </div>
         <div class="person">
-            <img src="/img/testudsnow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Sophi Zeiler.png" alt=":(" />
             <div class="bio">
                 Sophi Zeiler<br />Section:0402
             </div>
@@ -317,7 +324,7 @@
     <!-- Person Cards: with image, name-->
     <div class="split_box">
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Raveena Ananth.png" alt=":(" />
             <div class="bio">Raveena Ananth</div>
         </div>
         <div class="person">
@@ -337,19 +344,19 @@
             <div class="bio">Shreeya Gupta</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Colin Irwin.png" alt=":(" />
             <div class="bio">Colin Irwin</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Nipun Maisheri.png" alt=":(" />
             <div class="bio">Nipun Maisheri</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/John.png" alt=":(" />
             <div class="bio">John Paulenich</div>
         </div>
         <div class="person">
-            <img src="/img/testudbow.jpg" alt=":(" />
+            <img src="/img/Enes Pictures/Larson Ozbun.png" alt=":(" />
             <div class="bio">Larson Ozbun</div>
         </div>
         <div class="person">
