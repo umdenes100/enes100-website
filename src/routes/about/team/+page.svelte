@@ -136,17 +136,11 @@
         <!-- Person Cards: with image, name-->
 
         <div class="person">
-            <img
-                src="/img/Enes Pictures/Screenshot 2026-09-22 093556.png"
-                alt=":("
-            />
+            <img src="/static/img/Enes Pictures/Nam.png" alt=":(" />
             <div class="bio">Nam Facchetti</div>
         </div>
         <div class="person">
-            <img
-                src="/img/Enes Pictures/Screenshot 2026-09-22 093602.png"
-                alt=":("
-            />
+            <img src="/static/img/Enes Pictures/Matthew Paul.png" alt=":(" />
             <div class="bio">Matthew Paul</div>
         </div>
     </div>
