@@ -74,9 +74,11 @@ ENES100**, or add it manually by typing
 Format:
 
 Arduino R4:
+
 ```Enes100.begin(const char* teamName, byte teamType, int markerId, int roomNumber)```
 
 All other Arduinos:
+
 ```Enes100.begin(const char* teamName, byte teamType, int markerId, int roomNumber, int wifiModuleTX, int wifiModuleRX)```
 
 Initializes the ENES100 library and establishes communication with the Vision System.
