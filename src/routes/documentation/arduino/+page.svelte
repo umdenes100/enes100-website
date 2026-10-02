@@ -35,7 +35,7 @@ the [Arduino website](https://www.arduino.cc/en/Main/Software).
 **If you have an older version of the library on your computer, you _must_ delete it before adding a newer version.**
 Failure to do this may cause file conflicts, and it is not guaranteed that the library will work properly.
 
-## Setup <a id="setup"> </a>
+## Setup (WiFi Module Setup Only, not needed for Arduino WiFi R4)<a id="setup"> </a>
 
 Communication with the Vision System using Arduino Uno R4 WiFi is done with the onboard wifi capability.
 
@@ -73,6 +73,10 @@ ENES100**, or add it manually by typing
 
 Format:
 
+Arduino R4:
+```Enes100.begin(const char* teamName, byte teamType, int markerId, int roomNumber)```
+
+All other Arduinos:
 ```Enes100.begin(const char* teamName, byte teamType, int markerId, int roomNumber, int wifiModuleTX, int wifiModuleRX)```
 
 Initializes the ENES100 library and establishes communication with the Vision System.
@@ -104,7 +108,16 @@ will find those same pins broken.</small>
 - Romeo V1 - Same as Uno
 - Romeo V2 - Same as Leonardo
 
-#### Example
+#### Example Arduino R4
+
+```arduino
+void setup() {'{'}
+Enes100.begin("It's lit", FIRE, 3, 1120);
+
+// Some other setup code...
+}
+```
+#### Example other Arduinos and Wifi Modules
 
 ```arduino
 void setup() {'{'}
