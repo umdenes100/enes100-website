@@ -443,7 +443,10 @@
             <h2>Quick Links</h2>
             <ul>
                 <li>
-                    <a href="/tools/simulator">Simulator</a>
+                    <a href="/tools/simulator">Arduino Simulator</a>
+                </li>
+                <li>
+                    <a href="/tools/micropythonsimulator">MicroPython Simulator</a>
                 </li>
                 <li>
                     <a href="/tools/visionsystem">Vision System</a>
