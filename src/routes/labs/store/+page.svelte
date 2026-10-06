@@ -13,6 +13,9 @@ Welcome to the ENES100 School Store, your one-stop shop for commonly-used OTV ha
 Click [here](https://enes100.umd.edu/labs/store/checkout) to facilitate sales.
 ## Budget, Available Products, and Pricing
 Each mission team has a budget of 50 Shells. Shells are shown with the shell logo below. Wood and acrylic sheets are paid for separately in dollars. The base stock list and their respective prices can be found below:
+
+**NOTE:** On the first day of the build phase, each team may spend a maximum of 30 Shells. This helps ensure all teams have a fair opportunity to obtain the resources they need.
+
 | Product                     | Price           | Per-team limit |
 | :---------------------------| :-------------- | :------------- |
 | Arduino Uno                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 8             | 3              |
