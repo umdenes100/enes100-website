@@ -1,4 +1,5 @@
 <script>
+    import {base} from "$app/paths";
     import MarkdownContent from "$lib/MarkdownContent.svelte";
 </script>
 
@@ -11,47 +12,50 @@ Welcome to the ENES100 School Store, your one-stop shop for commonly-used OTV ha
 ## For Instructors
 Click [here](https://enes100.umd.edu/labs/store/checkout) to facilitate sales.
 ## Budget, Available Products, and Pricing
-Each mission team has a budget of 50 School Store Silver coins. The base stock list and their respective prices can be found below:
+Each mission team has a budget of 50 Shells. Shells are shown with the shell logo below. Wood and acrylic sheets are paid for separately in dollars. The base stock list and their respective prices can be found below:
+
+**NOTE:** On the first day of the build phase, each team may spend a maximum of 30 Shells. This helps ensure all teams have a fair opportunity to obtain the resources they need.
+
 | Product                     | Price           | Per-team limit |
 | :---------------------------| :-------------- | :------------- |
-| Arduino Uno                  | $8             | 3              |
-| Arduino Mega/Romeo           | $20            | 1              |
-| Breadboard                   | $1             | None           |
-| Motor Hubs                   | $4             | None           |
-| Motor Driver                 | $3             | None           |
-| Ultrasonic Sensor            | $1             | None           |
-| Servos                       | $3             | None           |
-| Motor                        | $23            | None           |
-| Touch Sensor                 | $2             | None           |
-| Transistor                   | $2             | None           |
-| Water Sensor                 | $2             | None           |
-| Flame Sensor                 | $2             | None           |
-| Color Sensor                 | $2             | None           |
-| Pressure Sensor              | $2             | None           |
-| Potentiometer                | $2             | None           |
-| Relays                       | $2             | None           |
-| Limit Switches               | $2             | None           |
-| Voltage Regulator            | $2             | None           |
-| Spacers/Risers               | $2             | None           |
-| Springs/Balloons             | $2             | None           |
-| Tubing/Pipes                 | $2             | None           |
-| Pumps/Fans                   | $2             | None           |
-| Safety Switches              | $3             | None           |
-| Tamiya Connectors            | $4             | None           |
-| Batteries                    | $15            | 1              |
-| Wheels                       | $6             | None           |
-| Small Wheels                 | $4             | None           |
-| Wheels Caster                | $3             | 2              |
-| Omni Wheels                  | $6             | None           |
+| Arduino Uno                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 8             | 3              |
+| Arduino Mega/Romeo           | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 20            | 1              |
+| Breadboard                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
+| Motor Hubs                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
+| Motor Driver                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
+| Ultrasonic Sensor            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
+| Servos                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
+| Motor                        | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per motor | None           |
+| Touch Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Transistor                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Water Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Flame Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Color Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Pressure Sensor              | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Potentiometer                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Relays                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Limit Switches               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Voltage Regulator            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Spacers/Risers               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Springs/Balloons             | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Tubing/Pipes                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Pumps/Fans                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| Safety Switches              | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
+| Tamiya Connectors            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
+| Batteries                    | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 15            | 1              |
+| Wheels                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4 per wheel | None           |
+| Small Wheels                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | None           |
+| Wheels Caster                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | 2              |
+| Omni Wheels                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per wheel | None           |
 | Wood Sheet*	               | $3             | None           |
-| PLA Sheet 	               | $2             | None           |
+| PLA Sheet 	               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Acrylic Sheet*               | $5             | None           |
 
-*(Note: Wood and Acrylic Sheets cost real money and the cost will not be deducted to the account. Please notify your instructor or TA if purchasing) 
+*(Note: Wood and Acrylic Sheets cost US dollars and will not be deducted from your Shells balance. Please notify your instructor or TA if purchasing)
 
 Since the parts here have been used by previous ENES100 teams, there are no guarantees that School Store Batteries or Arduinos work. After purchasing, try to get soldered/wired as soon as possible to test them. If they are faulty or fried, please return to the School Store to replace them within 5 calendar days. If your team fries an Arduino, you can buy another one, but remember, your team may only buy up to 3 Arduino unos from the School Store for the semester. An arduino that is faulty or fried upon purchasing from the School Store does not count toward the 3 arduino uno and/or 1 arduino mega limit.
 
-Other mission specific and less common parts such as sensors, voltage regulators, and miscellaneous hardware will be available for less than $3, and prices for these items can be checked on the School Store Cart each semester.
+Other mission specific and less common parts such as sensors, voltage regulators, and miscellaneous hardware will be available for less than <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3, and prices for these items can be checked on the School Store Cart each semester.
 
 ## Procedure
 When you would like to purchase a part from the school store, please talk to a UTF or an LTF on duty. Students may not use the school store application. (check out / purchase).
@@ -60,3 +64,12 @@ When you would like to purchase a part from the school store, please talk to a U
 </MarkdownContent>
     </div>
 </div>
+
+<style>
+    :global(.main_content .shell-icon) {
+        width: 1em;
+        height: 1.25em;
+        object-fit: contain;
+        vertical-align: middle;
+    }
+</style>
