@@ -25,7 +25,7 @@ Each mission team has a budget of 50 Shells. Shells are shown with the shell log
 | Motor Driver                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
 | Ultrasonic Sensor            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
 | Servos                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
-| Motor                        | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 23            | None           |
+| Motor                        | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per motor | None           |
 | Touch Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Transistor                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Water Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
@@ -43,10 +43,10 @@ Each mission team has a budget of 50 Shells. Shells are shown with the shell log
 | Safety Switches              | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
 | Tamiya Connectors            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
 | Batteries                    | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 15            | 1              |
-| Wheels                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 6             | None           |
-| Small Wheels                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
-| Wheels Caster                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | 2              |
-| Omni Wheels                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 6             | None           |
+| Wheels                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4 per wheel | None           |
+| Small Wheels                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | None           |
+| Wheels Caster                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | 2              |
+| Omni Wheels                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per wheel | None           |
 | Wood Sheet*	               | $3             | None           |
 | PLA Sheet 	               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Acrylic Sheet*               | $5             | None           |
