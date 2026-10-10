@@ -8,7 +8,7 @@
         <div class="text">
         <MarkdownContent>
 # School Store Information
-Welcome to the ENES100 School Store, your one-stop shop for commonly-used OTV hardware! The School Store is open during normal staffed ENES100 hours (i.e., your section’s time and open lab hours) and will be located in the middle of the two labs, JMP 1120 and 1116. The School Store was created to make the OTV project more sustainable while saving you money. The Keystone department has collected and saved hundreds of OTV parts from past ENES100 teams that are now available for you to “purchase”. At the end of the semester, you will return the parts to the School Store for future teams to use.
+Welcome to the ENES100 School Store, your one-stop shop for commonly-used OTV hardware! The School Store is open during normal staffed ENES100 hours (i.e., your section’s time and open lab hours) and will be located in JMP 1201. The School Store was created to make the OTV project more sustainable while saving you money. The Keystone department has collected and saved hundreds of OTV parts from past ENES100 teams that are now available for you to “purchase”. At the end of the semester, you will return the parts to the School Store for future teams to use.
 ## For Instructors
 Click [here](https://enes100.umd.edu/labs/store/checkout) to facilitate sales.
 ## Budget, Available Products, and Pricing
