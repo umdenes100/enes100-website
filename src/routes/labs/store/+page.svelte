@@ -12,13 +12,14 @@ Welcome to the ENES100 School Store, your one-stop shop for commonly-used OTV ha
 ## For Instructors
 Click [here](https://enes100.umd.edu/labs/store/checkout) to facilitate sales.
 ## Budget, Available Products, and Pricing
-Each mission team has a budget of 50 Shells. Shells are shown with the shell logo below. Wood sheets are paid for separately in dollars. The base stock list and their respective prices can be found below:
+Each mission team has a budget of 50 Shells. Shells are shown with the shell logo below. Wood sheets and Arduino Uno R4 WiFi boards are paid for separately in US dollars. The base stock list and their respective prices can be found below:
 
 **NOTE:** On the first day of the build phase, each team may spend a maximum of 30 Shells. This helps ensure all teams have a fair opportunity to obtain the resources they need.
 
 | Product                     | Price           | Per-team limit |
 | :---------------------------| :-------------- | :------------- |
-| Arduino Uno                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 8             | 3              |
+| Arduino Uno R3               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 8             | 3              |
+| Arduino Uno R4 WiFi          | $14*           | —              |
 | Arduino Mega/Romeo           | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 20            | 1              |
 | Breadboard                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
 | Motor Hubs                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
@@ -42,17 +43,17 @@ Each mission team has a budget of 50 Shells. Shells are shown with the shell log
 | Pumps/Fans                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Safety Switches              | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
 | Tamiya Connectors            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
-| Batteries                    | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 15            | 1              |
+| 6V - 12V NiMh Batteries       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 15            | 1              |
 | Wheels                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4 per wheel | None           |
 | Small Wheels                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | None           |
 | Wheels Caster                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3 per wheel | 2              |
 | Omni Wheels                  | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per wheel | None           |
-| Wood Sheet*	               | $3             | None           |
+| Wood Sheet	               | $3*            | None           |
 | PLA Sheet 	               | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 
-*(Note: Wood Sheets cost US dollars and will not be deducted from your Shells balance. Please notify your instructor or TA if purchasing)
+*Wood sheets and Arduino Uno R4 WiFi boards are purchased with real cash (US dollars), not Shells. Both can be purchased in JMP2108 from Mrs. Nelpe Wachsman, Monday–Friday, 9am–4pm.
 
-Since the parts here have been used by previous ENES100 teams, there are no guarantees that School Store Batteries or Arduinos work. After purchasing, try to get soldered/wired as soon as possible to test them. If they are faulty or fried, please return to the School Store to replace them within 5 calendar days. If your team fries an Arduino, you can buy another one, but remember, your team may only buy up to 3 Arduino unos from the School Store for the semester. An arduino that is faulty or fried upon purchasing from the School Store does not count toward the 3 arduino uno and/or 1 arduino mega limit.
+Since the parts here have been used by previous ENES100 teams, there are no guarantees that School Store Batteries or Arduinos work. After purchasing, try to get soldered/wired as soon as possible to test them. If they are faulty or fried, please return to the School Store to replace them within 5 calendar days. If your team fries an Arduino, you can buy another one, but remember, your team may only buy up to 3 Arduino Uno R3 boards from the School Store for the semester. An arduino that is faulty or fried upon purchasing from the School Store does not count toward the 3 Arduino Uno R3 and/or 1 arduino mega limit.
 
 Other mission specific and less common parts such as sensors, voltage regulators, and miscellaneous hardware will be available for less than <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3, and prices for these items can be checked on the School Store Cart each semester.
 
