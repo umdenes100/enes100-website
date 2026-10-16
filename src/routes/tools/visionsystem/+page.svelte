@@ -59,7 +59,7 @@
                     <button>1120</button>
                 </a>
                 <a href="http://lx-enes100-5.eng.umd.edu:8080/" class="vslink">
-                    <button>1201/1215</button>
+                    <button>1201</button>
                 </a>
             </div>
         </div>
