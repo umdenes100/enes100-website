@@ -24,13 +24,13 @@ Each mission team has a budget of 50 Shells. Shells are shown with the shell log
 | Breadboard                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
 | Motor Hubs                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 4             | None           |
 | Motor Driver                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
-| Ultrasonic Sensor            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
+| HC-SR04 Ultrasonic Sensor            | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 1             | None           |
 | Servos                       | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 3             | None           |
 | Motor                        | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 5 per motor | None           |
-| Touch Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| KY-036 Metal Touch Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Transistor                   | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Water Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
-| Flame Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
+| KY-026 Flame Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Color Sensor                 | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Pressure Sensor              | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
 | Potentiometer                | <img class="shell-icon" src="{base}/images/umd_shell.png" alt="Shells" width="16" height="20"> 2             | None           |
