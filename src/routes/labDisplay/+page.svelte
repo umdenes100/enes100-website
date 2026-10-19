@@ -81,8 +81,8 @@
                                 const endMins = new Date(
                                     event.end.dateTime,
                                 ).getMinutes();
-                                const start = `${startHour > 12 ? startHour - 12 : startHour}:${startMins < 10 ? "0" + startMins : startMins} ${startHour > 12 ? "PM" : "AM"}`;
-                                const end = `${endHour > 12 ? endHour - 12 : endHour}:${endMins < 10 ? "0" + endMins : endMins} ${endHour > 12 ? "PM" : "AM"}`;
+                                const start = `${startHour > 12 ? startHour - 12 : startHour}:${startMins < 10 ? "0" + startMins : startMins} ${startHour >= 12 ? "PM" : "AM"}`;
+                                const end = `${endHour > 12 ? endHour - 12 : endHour}:${endMins < 10 ? "0" + endMins : endMins} ${endHour >= 12 ? "PM" : "AM"}`;
                                 const time = `${start} - ${end}`;
                                 selections.push({
                                     name: event.summary,
@@ -144,8 +144,8 @@
                                     const endMins = new Date(
                                         event.end.dateTime,
                                     ).getMinutes();
-                                    const start = `${startHour > 12 ? startHour - 12 : startHour}:${startMins < 10 ? "0" + startMins : startMins} ${startHour > 12 ? "PM" : "AM"}`;
-                                    const end = `${endHour > 12 ? endHour - 12 : endHour}:${endMins < 10 ? "0" + endMins : endMins} ${endHour > 12 ? "PM" : "AM"}`;
+                                    const start = `${startHour > 12 ? startHour - 12 : startHour}:${startMins < 10 ? "0" + startMins : startMins} ${startHour >= 12 ? "PM" : "AM"}`;
+                                    const end = `${endHour > 12 ? endHour - 12 : endHour}:${endMins < 10 ? "0" + endMins : endMins} ${endHour >= 12 ? "PM" : "AM"}`;
                                     const time = `${start} - ${end}`;
                                     selections.push({
                                         name: event.summary,
