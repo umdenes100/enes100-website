@@ -11,12 +11,12 @@
             let hours = now.getHours();
             let minutes = now.getMinutes();
             let ampmTag = "AM";
-
-            if (hours > 12) {
-                hours = hours - 12;
-            }
+            
             if (hours >= 12) {
                 ampmTag = "PM";
+            }
+            if (hours > 12) {
+                hours = hours - 12;
             }
             let mins =
                 minutes < 10 ? "0" + minutes.toString() : minutes.toString();
